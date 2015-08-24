@@ -27,9 +27,9 @@ This page contains remarks about the different MiBand firmware version tested wi
 
 
 ## 1.0.10.11
-* __activity recognition__: testing just begun, basics work
-* __connection__: testing just begun, basics work
-* __battery life__: testing just begun, basics work
+* __activity recognition__: seems to be working well, the "band not worn" detection looks good
+* __connection__: no remarks
+* __battery life__: no remarks
 
 <!--
 Template for each firmware:

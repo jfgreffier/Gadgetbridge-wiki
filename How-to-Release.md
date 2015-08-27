@@ -7,3 +7,4 @@
 5. Make sure it builds and testcases succeed
 6. Push the changes
 7. Tag the version and push the tag
+8. Party!

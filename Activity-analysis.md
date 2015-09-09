@@ -15,3 +15,5 @@ Vincent T. van Hees, Ulf Ekelund
 Novel daily energy expenditure estimation by using objective activity type classification: where do we go from here?
 http://jap.physiology.org/content/jap/107/3/639.full.pdf 
 
+
+Fitbit blog: https://blog.fitbit.com/246/

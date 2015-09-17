@@ -28,21 +28,25 @@ This page contains remarks about the different MiBand firmware version tested wi
 * __activity recognition__: no remarks
 * __connection__: no remarks
 * __battery life__: no remarks
+* __gadgedbridge fw installer nr.__: 16779779
 
 ## 1.0.10.6
 * __activity recognition__: no remarks
 * __connection__: no remarks
 * __battery life__: no remarks
+* __gadgedbridge fw installer nr.__: 16779782
 
 ## 1.0.10.11
 * __activity recognition__: seems to be working well, the "band not worn" detection looks good
 * __connection__: no remarks
 * __battery life__: no remarks
+* __gadgedbridge fw installer nr.__: 16779787
 
 ## 1.0.10.14
 * __activity recognition__: no remarks
 * __connection__: Connecting and synchronizing seems to be slightly faster and more reliable than with previous firmware versions.
 * __battery life__: no remarks
+* __gadgedbridge fw installer nr.__: 16779790
 
 <!--
 Template for each firmware:
@@ -51,5 +55,6 @@ Template for each firmware:
 * __activity recognition__: 
 * __connection__: 
 * __battery life__: 
+* __gadgedbridge fw installer nr.__: 
 
 -->

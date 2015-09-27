@@ -5,7 +5,7 @@ Making phone calls from the list of recent calls works, did not find out how to 
 ### Ventoo
 Works, no known issues
 ### [Canvas for Pebble](https://play.google.com/store/apps/details?id=com.pennas.pebblecanvas)
-Does not work. Complains about `Pebble not connected`. (see #130) One can manually install the pbw from `/sdcard0/Android/data/com.pennas.pebblecanvas/files/`.
+Does not work. Complains about `Pebble not connected`. [#130](../issues/130) One can manually install the pbw from `/sdcard0/Android/data/com.pennas.pebblecanvas/files/`.
 ### [Push to Pebble](https://play.google.com/store/apps/details?id=com.mohammadag.pushtopebble)
-Does not Work. Complains about `No Pebble Connected or Pebble app not installed`. (see #130)
+Does not Work. Complains about `No Pebble Connected or Pebble app not installed`. [#130](../issues/130)
 

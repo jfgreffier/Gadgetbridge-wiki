@@ -44,7 +44,7 @@ This page contains remarks about the different MiBand firmware version tested wi
 
 ## 1.0.10.14
 * __activity recognition__: no remarks
-* __connection__: Connecting and synchronizing seems to be slightly faster and more reliable than with previous firmware versions. However, for notifications the vibration feature does not work.
+* __connection__: Connecting and synchronizing seems to be slightly faster and more reliable than with previous firmware versions. However, for notifications the vibration feature does not work with Gadgetbridge versions prior to 0.6.2.
 * __battery life__: no remarks
 * __gadgedbridge fw installer nr.__: 16779790
 

@@ -51,14 +51,14 @@ This page contains remarks about the different MiBand firmware version tested wi
 # Firmware 5.15.* (Mi Band 1S with white LEDs)
 
 ## 5.15.7.2
-* __alarms_: do not work
+* __alarms__: do not work
 * __activity recognition__: ?
 * __connection__: ?
 * __battery life__: ?
 * __gadgedbridge fw installer nr.__: ?
+
 <!--
 Template for each firmware:
-
 ## 1.0.
 * __activity recognition__: 
 * __connection__: 

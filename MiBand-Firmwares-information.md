@@ -48,7 +48,7 @@ This page contains remarks about the different MiBand firmware version tested wi
 * __battery life__: no remarks
 * __gadgedbridge fw installer nr.__: 16779790
 
-# Firmware 5.15.* (Mi Band 1S with white LEDs)
+# Firmware 5.15.* (Mi Band 1A with white LEDs)
 
 ## 5.15.7.2
 * __alarms__: do not work

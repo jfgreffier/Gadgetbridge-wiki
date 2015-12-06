@@ -15,6 +15,8 @@ Based on our tests the following should be possible:
 
 **YOUR RECOVERY WILL BE UPDATED TO A BETA VERSION**
 
+**DO NOT DOWNGRADE AFTERWARDS, IT MAY BRICK YOUR WATCH**
+
 **IF YOU STILL PLAN TO CONTINUE DO THIS**
 
 1. Flash the migration firmware (eg. 3.x-migration_v1_5_v3.8-beta6.pbz) and **wait till the Pebble reboots, ignoring errors if any** 

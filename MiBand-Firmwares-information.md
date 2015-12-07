@@ -50,6 +50,24 @@ This page contains remarks about the different MiBand firmware version tested wi
 
 # Firmware 5.15.* (Mi Band 1A with white LEDs)
 
+From *firmware 5.15.7.29 up*, notifications do not to work anymore.
+Might be fixed by using a different API again.
+
+## 5.15.7.2
+* __alarms__: do not work
+* __activity recognition__: ?
+* __connection__: ?
+* __battery life__: ?
+* __gadgedbridge fw installer nr.__: ?
+
+## 5.15.7.14 (recommended for Mi 1A)
+* __alarms__: work
+* __notifications__: work
+* __activity recognition__: not tested, yet
+* __connection__: works
+* __battery life__: ?
+* __gadgedbridge fw installer nr.__: 84870926
+
 ## 5.15.7.2
 * __alarms__: do not work
 * __activity recognition__: ?
@@ -60,6 +78,8 @@ This page contains remarks about the different MiBand firmware version tested wi
 <!--
 Template for each firmware:
 ## 1.0.
+* __alarms__:
+* __notifications__:
 * __activity recognition__: 
 * __connection__: 
 * __battery life__: 

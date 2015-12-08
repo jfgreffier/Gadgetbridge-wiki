@@ -53,7 +53,7 @@ This page contains remarks about the different Mi Band firmware version tested w
 ## From 5.15.7.29 upwards, notifications do not work anymore.
 Might be fixed by using a different API again.
 
-## 5.15.7.14 (recommended for Mi 1A)
+## 5.15.7.14 (recommended for Mi 1A) (MiFit 1.5.912-1539)
 * __alarms__: work
 * __notifications__: work
 * __activity recognition__: not tested, yet

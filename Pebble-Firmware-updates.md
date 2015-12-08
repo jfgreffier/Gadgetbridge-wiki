@@ -19,7 +19,7 @@ Based on our tests the following should be possible:
 
 **IF YOU STILL PLAN TO CONTINUE DO THIS**
 
-1. Flash the migration firmware (eg. 3.x-migration_v1_5_v3.8-beta6.pbz) and **wait till the Pebble reboots, ignoring errors if any** 
+1. Flash the migration firmware (tested 3.x-migration_v1_5_v3.8-beta6.pbz, 3.x-migration_v1_5_v3.8-mig9.pbz also available) and **wait till the Pebble reboots, ignoring errors if any** 
 2. The pebble will start in a 3.x recovery, flash the real firmware from there (eg. Pebble-3.8-beta9-v1_5.pbz)
 
 **NOTE: Install firmware files from .pbz files by selecting them from a file manager and opening them in Gadgetbridge's App/FW Installer**

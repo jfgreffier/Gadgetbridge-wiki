@@ -2,7 +2,7 @@ This page contains remarks about the different Mi Band firmware version tested w
 
 # Firmware 1.0.9.*
 
-## 1.0.9.3
+## 1.0.9.3 (Mi Band 1, coloured LEDs)
 * __activity recognition__: works well, but it doesn't seems to recognize any sleep outside of "night hours".
 * __connection__: no remarks
 * __battery life__: no remarks
@@ -24,7 +24,7 @@ This page contains remarks about the different Mi Band firmware version tested w
 
 # Firmware 1.0.10.*
 
-## 1.0.10.3
+## 1.0.10.3 (Mi Band 1, coloured LEDs)
 * __activity recognition__: no remarks
 * __connection__: no remarks
 * __battery life__: no remarks

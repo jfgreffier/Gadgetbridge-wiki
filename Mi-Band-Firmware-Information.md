@@ -56,9 +56,9 @@ Might be fixed by using a different API again.
 ## 5.15.7.14 (recommended for Mi 1A) (MiFit 1.5.912-1539)
 * __alarms__: work
 * __notifications__: work
-* __activity recognition__: not tested, yet
+* __activity recognition__: works
 * __connection__: works
-* __battery life__: ?
+* __battery life__: good
 * __gadgedbridge fw installer nr.__: 84870926
 
 ## 5.15.7.2

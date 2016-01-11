@@ -4,6 +4,7 @@ Based on our tests the following should be possible:
 
 * Up or downgrade from any 1.x/2.x firmware to any 1.x/2.x firmware.
 * Up or downgrade from 3.x to any 3.x.
+* Upgrade von 2.x to 3.x via migration firmware
 
 **WARNING: IF YOU WANT TO UPDATE YOUR OG PEBBLE FROM 2.x TO 3.x, READ THIS**
 

@@ -1,4 +1,4 @@
-# Short Introduction to Gadgetbridge's Source Code:
+# Short Introduction to Gadgetbridge's Source Code
 ## Important Classes
 - [PebbleSupport] (https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/java/nodomain/freeyourgadget/gadgetbridge/service/devices/pebble/PebbleSupport.java) (see class hierarchy)
 - [PebbleProtocol] (https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/java/nodomain/freeyourgadget/gadgetbridge/service/devices/pebble/PebbleProtocol.java) (pebble communication protocol)
@@ -10,6 +10,11 @@
 - [GBDevice] (https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/java/nodomain/freeyourgadget/gadgetbridge/impl/GBDevice.java) (generic, device-unspecific)
 - [DeviceCoordinator] (https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/java/nodomain/freeyourgadget/gadgetbridge/devices/DeviceCoordinator.java) (see class hierarchy)
 - [ControlCenter] (https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/java/nodomain/freeyourgadget/gadgetbridge/activities/ControlCenter.java) (main activity)
+
+## Overview
+![Overview UML Component Diagram](https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/assets/devintro.png)
+
+All the details about the communication/protocol with a concrete device (Pebble, Mi Band, ...) is inside the "Concrete Device Impl." component, that is, the concrete implementations of the DeviceSupport interface. Only the DeviceCommunicationService has access to those -- clients (typically Activities) talk to the DeviceService interface in order to communicate with the devices.
 
 ### Extracting CSV Data from the SQLite Database
 

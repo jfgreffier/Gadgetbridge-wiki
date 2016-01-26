@@ -1,6 +1,16 @@
-Placeholder for developer documentation.
+# Short Introduction to Gadgetbridge's Source Code:
+## Important Classes
+- PebbleSupport (see class hierarchy)
+- PebbleIOThread
+- MiBandSupport (see class hierarchy)
+- BtLEQueue (communication queue for Bluetooth LE devices)
+- DeviceCommunicationService (Android service channeling the communication with devices)
+- DeviceService ("client side API" of DeviceCommunicationService, see GBApplication#deviceService())
+- GBDevice (generic, device-unspecific)
+- DeviceCoordinator (see class hierarchy)
+- ControlCenter (main activity)
 
-### Extracting csv data from the sqlite database
+### Extracting CSV Data from the SQLite Database
 
 ```
 $ sqlite3 ActivityDatabase <<!

@@ -17,14 +17,14 @@ The pebble watch sends datalog packets at random intervals to its bluetooth peer
 ## Datalog sessions
 
 Pebble applications may send datalog messages, but must register/open a session beforehand. The session contains the information about:
-* an id
+* an id (assigned by the Pebble OS)
 * the application UUID (NB: for system apps it's 0)
-* a "tag"
+* a "tag" (chosen by the pebble app)
 * the size of each item in the message (NB: a single datalog message *may* contain more items!)
-* an "itemtype"
+* an "itemtype" (signed/unsigned integer or byte array)
 
 After opening a session, further messages may be sent that contain the actual data to be transferred. These contain:
-* an id (used to relate this message to the corresponding session
+* an id (used to relate this message to the corresponding session)
 * number of items left
 * a CRC
 * payload (datalog message content)
@@ -39,7 +39,7 @@ Pebble Health - despite having its own UUID - sends the datalog message using UU
 
 ## Steps data payload
 
-The 99 bytes of the item contain some metadata and information about 15 minutes of activity, several packets are usually sent in one message when the watch wasn't connected for some time to gadgetbridge; while connected, it was observed that each message contains only one packet and is sent every 15 minutes. Items may be concatenated within the same datalog message.
+The 99 bytes of the item contain some metadata and information about 15 minutes of activity, several packets are usually sent in one message when the watch wasn't connected for some time to Gadgetbridge; while connected, it was observed that each message contains only one packet and is sent every 15 minutes. Items may be concatenated within the same datalog message.
 
 ### Metadata
 
@@ -71,3 +71,5 @@ _In the case of sleep data an item contains a single record._ Its content are:
 * __an integer__ (four bytes) with a timestamp, probably the __last__ minute of "bed time"
 * __a short__ (two bytes) with the number of seconds of deep sleep
 
+# Analytics Datalog
+All Pebble models before Firmware 3.8 already used three different datalog sessions coming from UUID 0 (tag ids 78,79 and 80). The original python libpebble suggested these were analytics and the Gadgetbridge developers also believe so. We will continue to discard these messages and no effort has been made to analyze the contents of these binary data packets.

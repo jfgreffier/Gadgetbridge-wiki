@@ -48,6 +48,17 @@ This page contains remarks about the different Mi Band firmware version tested w
 * __battery life__: no remarks
 * __gadgedbridge fw installer nr.__: 16779790
 
+# Firmware 4.19 (Mi Band 1s)
+
+
+## 4.15.11.19
+* __alarms__: ?
+* __notifications__: work
+* __activity recognition__: does not work (likely due to change of data format for transmitting heart rate sensor data.)
+* __connection__: works
+* __battery life__: ?
+* __gadgedbridge fw installer nr.__: ?
+
 # Firmware 5.15.* (Mi Band 1A with white LEDs)
 
 ## From 5.15.7.29 upwards, notifications do not work anymore.

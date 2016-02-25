@@ -20,3 +20,5 @@ Fitbit blog: https://blog.fitbit.com/246/
 
 Actigraphy even with pulse oximetry has very limited ability to accurately  Eg r = 0.15 for a more elaborate device than any supported by Gadgetbridge vs in lab sleep study:
 https://www.ncbi.nlm.nih.gov/pubmed/15382839
+Though better in this systematic analysis: 
+JAMA Otolaryngol Head Neck Surg. 2013;139(12):1343-1350. doi:10.1001/jamaoto.2013.5338. pubmedID: 24158564 

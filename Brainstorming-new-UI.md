@@ -7,3 +7,6 @@
    * SOLUTION: A fragment that tells them they should add a device
 * use a snackbar instead of the notifications when possible (e.g. syncronization progress)
 
+* One annoyance with close devices is several require a paid subscriptions to get the raw activity data as a flat file to analyze yourself.  
+ * proposed solution:  a button in activity tracker that allows exporting raw data as some easily read format (comma delimited, tab delimited etc).  Ideally an option to save to device or email the file.   
+

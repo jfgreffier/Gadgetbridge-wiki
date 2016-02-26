@@ -1,3 +1,32 @@
+## Raw data
+
+Gadgetbridge currently stores raw data in its database. Raw data has to be read as "data as sent by the device": what kind of processing is done within each device is beyond our knowledge.
+
+### Miband (original with colored leds)
+
+* Data is aggregated per minute 
+ * the timestamp sent by the miband may be any second of a given minute
+ * when repeating a transfer (because the previous transmission was not ack'ed, for any reason) it may happen that the timestamp changes to a different second (within the same minute). This is currently an issue as multiple samples are being stored within gadgetbridge database for the same minute.
+* Multiple minutes are sent with a single transfer
+ * The amount of minutes within each chunk depends on the miband firmware, it's not predictable
+ * It may span from some minutes to entire hours. The longer the period, the more likely the corruption of the data (as the only references are the beginning of each chunk).
+* Each minute contains three values: number of steps, activity type, activity intensity
+ * The known activity types are: "normal", "deep sleep", "shallow sleep", "device not worn"
+
+### Miband 1a (white leds, no HR sensor)
+
+### Miband 1s (white leds, HR sensor)
+
+### Pebble health
+
+* Data is aggregated per minute
+ * the timestamp is rounded to the minute
+* Usually fifteen minutes are sent with a single transfer
+ * Multiple sets (each 15 minutes long) are aggregated in a single transfer, especially
+* Activity and sleep information use separate message
+ * Currently the sleep start/end time are applied over a previously received time range by Gadgetbridge
+ * See https://github.com/Freeyourgadget/Gadgetbridge/wiki/Pebble-datalog for further details
+
 ## Sources
 Ling Bao and Stephen S. Intille
 Activity Recognition from User-Annotated

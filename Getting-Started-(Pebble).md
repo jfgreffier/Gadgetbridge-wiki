@@ -2,4 +2,4 @@ All Pebbles when powered up for the first time demand that you connect in via th
 
 We recommend to flash the latest available firmware. On the Pebble and Pebble Steel (black and white models), this includes flashing a migration firmware first.
 
-For flashing the firmware with Gadgetbridge see [[this wiki article.|WikiLink]].
+For flashing the firmware with Gadgetbridge see [[this wiki article|Pebble Firmware updates]].

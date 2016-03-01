@@ -22,10 +22,12 @@ Based on our tests the following should be possible:
 ## Firmware Download Locations
 ### Pebble
 https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/3.x-migration_v1_5_v3.8-mig10.pbz (MIGRATION)
+
 https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.9.2-v1_5.pbz
 
 ### Pebble Steel
 https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/3.x-migration_v2_0_v3.8-mig10.pbz (MIGRATION)
+
 https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.9.2-v2_0.pbz
 
 ### Pebble Time

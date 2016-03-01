@@ -2,4 +2,8 @@ All Pebbles when powered up for the first time demand that you connect in via th
 
 We recommend to flash the latest available firmware. On the Pebble and Pebble Steel (black and white models), this includes flashing a migration firmware first.
 
-For flashing the firmware with Gadgetbridge see [[this wiki article|Pebble Firmware updates]].
+Steps to follow:
+* Install Gadgetbridge
+* Pair your Pebble through Android's Bluetooth Settings (**NOT THE Pebble LE**)
+* Start Gadgetbridge and tap on your Pebble until it says initialized
+* Flash a firmware as noted in [[this wiki article|Pebble Firmware updates]]

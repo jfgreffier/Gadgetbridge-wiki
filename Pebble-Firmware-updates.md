@@ -18,3 +18,21 @@ Based on our tests the following should be possible:
 **NOTE: Install firmware files from .pbz files by selecting them from a file manager and opening them in Gadgetbridge's App/FW Installer**
 
 **DO NOT FLASH A RECOVERY FIRMWARE, IF YOU WANT TO UPDATE THE RECOVERY FIRMWARE TO A NEWER VERSION, INSTALL THE LATEST MIGRATION, AND THEN THE NORMAL FIRMWARE AGAIN**
+
+## Firmware Download Locations
+### Pebble
+https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/3.x-migration_v1_5_v3.8-mig10.pbz (MIGRATION)
+https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.9.2-v1_5.pbz
+
+### Pebble Steel
+https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/3.x-migration_v2_0_v3.8-mig10.pbz (MIGRATION)
+https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.9.2-v2_0.pbz
+
+### Pebble Time
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-3.9.2-snowy_dvt.pbz
+
+### Pebble Time Steel
+https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-3.9.2-snowy_s3.pbz
+
+### Pebble Time Round
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-3.9.2-spalding.pbz

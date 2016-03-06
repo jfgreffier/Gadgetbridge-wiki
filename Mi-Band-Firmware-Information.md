@@ -46,9 +46,9 @@ This page contains remarks about the different Mi Band firmware version tested w
 * __activity recognition__: no remarks
 * __connection__: Connecting and synchronizing seems to be slightly faster and more reliable than with previous firmware versions. However, for notifications the vibration feature does not work with Gadgetbridge versions prior to 0.6.2.
 * __battery life__: no remarks
-* __gadgedbridge fw installer nr.__: 16779790
+* __gadgetbridge fw installer nr.__: 16779790
 
-# Firmware 4.19 (Mi Band 1s)
+# Firmware 4.19 (Mi Band 1S)
 
 
 ## 4.15.11.19
@@ -57,12 +57,22 @@ This page contains remarks about the different Mi Band firmware version tested w
 * __activity recognition__: does not work (likely due to change of data format for transmitting heart rate sensor data.)
 * __connection__: works
 * __battery life__: ?
-* __gadgedbridge fw installer nr.__: ?
+* __gadgetbridge fw installer nr.__: ?
 
 # Firmware 5.15.* (Mi Band 1A with white LEDs)
+## Recommended version: 5.15.7.14 (see below)
 
-## From 5.15.7.29 upwards, notifications do not work anymore.
-Might be fixed by using a different API again.
+## From 5.15.7.29 upwards, notifications do not work well, or at all
+
+## 5.15.11.19
+* __alarms__: mostly works (randomly fails)
+* __notifications__: mostly works (randomly fails)
+* __activity recognition__: works
+* __connection__: works
+* __battery life__: good
+* __sleep detection__: doesn't work (band recognises sleep but not wake-up)
+* lift and twist wrist to check activity goal progress through LEDs: doesn't work
+* __gadgetbridge fw installer nr.__: ?
 
 ## 5.15.7.14 (recommended for Mi 1A) (MiFit 1.5.912-1539)
 * __alarms__: work
@@ -70,14 +80,14 @@ Might be fixed by using a different API again.
 * __activity recognition__: works
 * __connection__: works
 * __battery life__: good
-* __gadgedbridge fw installer nr.__: 84870926
+* __gadgetbridge fw installer nr.__: 84870926
 
 ## 5.15.7.2
 * __alarms__: do not work
 * __activity recognition__: ?
 * __connection__: ?
 * __battery life__: ?
-* __gadgedbridge fw installer nr.__: ?
+* __gadgetbridge fw installer nr.__: ?
 
 <!--
 Template for each firmware:
@@ -87,6 +97,6 @@ Template for each firmware:
 * __activity recognition__: 
 * __connection__: 
 * __battery life__: 
-* __gadgedbridge fw installer nr.__: 
+* __gadgetbridge fw installer nr.__: 
 
 -->

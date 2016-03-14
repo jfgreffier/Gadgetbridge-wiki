@@ -17,3 +17,5 @@ Which Mi Band do you have? There are 3 different models and each of them needs a
 
 ## Installing the Firmware
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
+
+Note that both upgrade and downgrade of firmware versions is possible.

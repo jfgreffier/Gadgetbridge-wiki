@@ -1,0 +1,2 @@
+#Log file location
+If you enable logging in the "Debug" screen and restart Gadgetbridge, the log file will be stored on your external sdcard in `/sdcard/Android/data/nodomain.freeyourgadget.gadgetbridge/files/gadgetbridge.log`

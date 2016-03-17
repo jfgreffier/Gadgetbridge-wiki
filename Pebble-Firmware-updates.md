@@ -23,18 +23,18 @@ Based on our tests the following should be possible:
 ### Pebble
 https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/3.x-migration_v1_5_v3.8-mig10.pbz (MIGRATION)
 
-https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.10-v1_5.pbz
+https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.10.1-v1_5.pbz
 
 ### Pebble Steel
 https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/3.x-migration_v2_0_v3.8-mig10.pbz (MIGRATION)
 
-https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.10-v2_0.pbz
+https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.10.1-v2_0.pbz
 
 ### Pebble Time
-https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-3.10-snowy_dvt.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-3.10.1-snowy_dvt.pbz
 
 ### Pebble Time Steel
-https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-3.10-snowy_s3.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-3.10.1-snowy_s3.pbz
 
 ### Pebble Time Round
-https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-3.10-spalding.pbz
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-3.10.1-spalding.pbz

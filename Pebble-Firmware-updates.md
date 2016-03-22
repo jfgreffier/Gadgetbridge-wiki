@@ -4,13 +4,13 @@ Based on our tests the following should be possible:
 
 * Up or downgrade from any 1.x/2.x firmware to any 1.x/2.x firmware.
 * Up or downgrade from 3.x to any 3.x.
-* Upgrade von 2.x to 3.x via migration firmware
+* Upgrade from 2.x to 3.x via migration firmware
 
-**WARNING: IF YOU WANT TO UPDATE YOUR OG PEBBLE FROM 2.x TO 3.x, READ THIS**
+## Upgrade to 3.x from 2.x
 
-**YOUR RECOVERY WILL BE UPDATED TO 3.8-prf9**
-
-**DOWNGRADING FROM 3.8.x to 2.x IS UNTESTED, IT MAY BRICK YOUR WATCH**
+### Warnings
+**Upgrading from 2.x to 3.x will update the recovery to 3.8**
+**Downgrading from 3.x to 2.x won't downgrade the recovery firmware and your data will be lost, we haven't tested it and do not know the correct procedure to update to 3.x again**
 
 1. Flash the migration firmware (tested 3.x-migration_v1_5_v3.8-mig9.pbz) and **wait till the Pebble reboots, ignoring errors if any** 
 2. The pebble will start in a 3.x recovery, flash the real firmware from there (tested Pebble-3.8-v1_5.pbz)

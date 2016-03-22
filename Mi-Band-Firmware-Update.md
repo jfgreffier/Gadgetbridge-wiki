@@ -32,7 +32,6 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 04.15.11.20 - 7be80f0061efdf660e25a2d7cb3b6660
  * 04.15.12.10 - 24d8b84f8964489b893d1cb4581dc85f
 
-It is possible that you 
 ## Installing the Firmware
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
 

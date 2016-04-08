@@ -22,10 +22,10 @@ Template for each firmware:
 * __connection__: works
 * __battery life__: good
 * __heart rate measurement__: works
-* __gadgetbridge fw installer nr.: 68094986
+* __gadgetbridge fw installer nr.__: 68094986
 
 
-## 4.15.11.19 Mi Band Firmware + correspeonding Heart Rate Firmware
+## 4.15.11.19 Mi Band Firmware + corresponding HR Firmware
 * __alarms__: do not work
 * __notifications__: work
 * __activity recognition__: unusable, detects far too many sleep hours

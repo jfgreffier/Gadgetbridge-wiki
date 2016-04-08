@@ -130,7 +130,7 @@ Template for each firmware:
 | connection | the bluetooth connection seems to be problematic after some time |
 | battery life | no remarks |
 
-## 1.0.9.3 (Mi Band 1, coloured LEDs)
+## 1.0.9.3
 | Function | Behavior |
 | --- | --- |
 | activity recognition | works well, but it doesn't seems to recognize any sleep outside of "night hours". |

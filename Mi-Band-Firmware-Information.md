@@ -29,6 +29,18 @@ Template for each firmware:
 | gadgetbridge fw installer nr. | 68094986 |
 
 
+## 4.16.3.7 Mi Band Firmware + 1.3.76.18 HR Firmware
+| Function | Behavior |
+| --- | --- |
+| alarms | work |
+| notifications | work |
+| activity recognition | works |
+| connection | works |
+| battery life | good |
+| heart rate measurement | works |
+| gadgetbridge fw installer nr. | ? |
+
+
 ## 4.15.11.19 Mi Band Firmware + corresponding HR Firmware
 | Function | Behavior |
 | --- | --- |

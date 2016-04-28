@@ -1,4 +1,4 @@
-![Gadgetbridge](../tree/master/app/src/main/res/drawable-mdpi/ic_launcher.png)<br>
+![Gadgetbridge](https://raw.githubusercontent.com/Freeyourgadget/Gadgetbridge/master/app/src/main/res/drawable-mdpi/ic_launcher.png)<br>
 ----
 **General**
  - [[Home]]

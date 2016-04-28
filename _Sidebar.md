@@ -14,7 +14,7 @@
 
 **Feature Discussion**
  - [[Brainstorming new UI]]
- - [[Activity analysis]]
+ - [[Activity Analysis]]
 
 **FAQ**
  - [[Log Files]]

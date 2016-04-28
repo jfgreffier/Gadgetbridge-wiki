@@ -2,6 +2,7 @@
 ----
 **General**
  - [[Home]]
+ - [ReadMe](https://github.com/Freeyourgadget/Gadgetbridge/blob/master/README.md)
 
 **Device Related**
  - [[Pebble]]

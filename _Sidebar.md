@@ -5,10 +5,7 @@
 
 **Device Related**
  - [[Pebble]]
- - **Mi Band**
-  - [[Compatibility Issues]]
-  - [[Mi Band Firmware Information]]
-  - [[Mi Band Firmware Update]]
+ - [[Mi Band]]
 
 **Development**
  - [[How to Release]]

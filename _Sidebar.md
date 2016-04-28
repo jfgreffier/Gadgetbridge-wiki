@@ -4,12 +4,7 @@
  - [[Home]]
 
 **Device Related**
- - **Pebble**
-  - [[Getting Started (Pebble)]]
-  - [[Pebble datalog]]
-  - [[Pebble Firmware updates]]
-  - [[PebbleKit Android App Compatibility]]
-  - [[Recommended Open Source Pebble Apps   Watchfaces]]
+ - [[Pebble]]
  - **Mi Band**
   - [[Compatibility Issues]]
   - [[Mi Band Firmware Information]]

@@ -3,6 +3,7 @@
 **General**
  - [[Home]]
  - [ReadMe](https://github.com/Freeyourgadget/Gadgetbridge/blob/master/README.md)
+ - [ChangeLog](https://github.com/Freeyourgadget/Gadgetbridge/blob/master/CHANGELOG.md)
 
 **Device Related**
  - [[Pebble]]

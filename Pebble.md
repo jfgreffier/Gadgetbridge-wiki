@@ -1,5 +1,5 @@
 - [[Pebble Getting Started]]
-- [[Pebble datalog]]
+- [[Pebble Datalog]]
 - [[Pebble Firmware updates]]
 - [[PebbleKit Android App Compatibility]]
 - [[Pebble Watchfaces]]

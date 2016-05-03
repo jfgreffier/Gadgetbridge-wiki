@@ -28,3 +28,6 @@ $ sqlite3 ActivityDatabase <<!
 ```
 
 taken from [SO](http://stackoverflow.com/questions/5776660/export-from-sqlite-to-csv-using-shell-script).
+
+### Bluetooth Error Codes
+https://android.googlesource.com/platform/external/bluetooth/bluedroid/+/android-5.1.1_r37/stack/include/gatt_api.h

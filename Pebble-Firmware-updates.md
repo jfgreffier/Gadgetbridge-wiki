@@ -34,7 +34,7 @@ https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.10.1-v2_
 https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-3.10.1-snowy_dvt.pbz
 
 ### Pebble Time Steel
-https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-3.10.1-snowy_s3.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-3.11.1-snowy_s3.pbz
 
 ### Pebble Time Round
 https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-3.10.1-spalding.pbz

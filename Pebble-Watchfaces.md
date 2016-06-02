@@ -4,6 +4,7 @@ This page is about apps running on your Pebble, also called „Watchfaces“.
 * [Where can I find Watchfaces?](#where-can-i-find-watchfaces)
 * [How do I install them to my Pebble?](#how-do-i-install-them-to-my-pebble)
 * [How do I manage installed watchfaces?](#how-do-i-manage-installed-watchfaces)
+* [Why do some watchfaces not work fully?](#why-do-some-watchfaces-not-work-fully)
 
 ### Where can I find Watchfaces?
 You can find them on many places. The official source for watchfaces is the corresponding section in the Pebble store: [Watchfaces](https://apps.getpebble.com/en_US/watchfaces?dev_settings=true). There you can browse through a large collection of watchfaces and, following the button on the end of each watchface page, download them via the „Download PBW“ button.
@@ -30,3 +31,9 @@ As the screenshot shows, here you can reinstall an app (in case you've deleted i
 Note: With Firmware 3.x Gadgetbridge has no means of determining which watchfaces are installed on your Pebble. Hence it can only tell what's in its cache, so please don't wonder.
 
 Btw: a single tap on a watchface in Gadgetbridge will start it on your Pebble – saving your from button-juggling.
+
+
+### Why do some watchfaces not work fully?
+There are some restrictions to consider. Remember for example that Gadgetbridge comes without the Internet permission (for privacy reasons) – so watchfaces won't be able to access the internet through it. That means weather data can't be retrieved – and things like e.g. the [TripAdvisor](https://apps.getpebble.com/de_DE/application/5509b04684ad023da7000030?dev_settings=true&hardware=basalt&is_browser=true&platform=android&query=&section=watchapps) app cannot do anything useful.
+
+That's by design – and before you ask: No, Gadgetbridge won't get the Internet permission added. For your own sake. There *might* be an [Internet-enabled companion app](https://github.com/Freeyourgadget/Gadgetbridge/issues/302) (or addon) one day, though. To work around that, you could use watchfaces that have another Android companion app which comes with the Internet permission. Unfortunately, there are [security implications](https://github.com/Freeyourgadget/Gadgetbridge/issues/302#issuecomment-219211974) with all of them: don't blame the devs for that, they're innocents. Put into simple terms: as the watchfaces are installed on your Pebble (and not on the Android device), Android cannot assing them specific permissions – and thus they need to use less secure means of communication. Details behind the link.

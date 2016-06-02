@@ -1,4 +1,3 @@
-## Pebble Watchfaces
 This page is about apps running on your Pebble, also called „Watchfaces“.
 
 ### Contents
@@ -17,7 +16,7 @@ There are also several free and open-source watchfaces you can find here at Gith
 ### How do I install them to my Pebble?
 Once the `.pbw` files are on your Android device running Gadgetbridge (either because you've downloaded them there, or copied them over from your computer), simply tap the file in the file manager of your choice (or the „Downloads“ app). A popup will appear asking you what to open it with. Chose the Gadgetbridge „FW/App Installer“, and the watchface will be installed to your Pebble. If you download a watchface directly on the device running Gadgetbridge, your browser might even prompt you to:
 
-[![FM install](http://i.imgur.com/7ulfoS8m.png)](http://i.imgur.com/7ulfoS8.png) [![BrowserInstall](http://i.imgur.com/vN00enQm.png)](http://i.imgur.com/vN00enQ.png)  
+[![FM install](http://i.imgur.com/7ulfoS8t.png)](http://i.imgur.com/7ulfoS8.png) [![BrowserInstall](http://i.imgur.com/vN00enQm.png)](http://i.imgur.com/vN00enQ.png)  
 <sup>Install a watchface from within the file manager / install it directly from the browser</sup>
 
 ### How do I manage installed watchfaces?

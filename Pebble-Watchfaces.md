@@ -28,3 +28,5 @@ Once you've installed a watchface, Gadgetbridge will cache it. So tapping your d
 As the screenshot shows, here you can reinstall an app (in case you've deleted it), delete it from the watch, or delete it from the watch and the Gadgetbridge cache.
 
 Note: With Firmware 3.x Gadgetbridge has no means of determining which watchfaces are installed on your Pebble. Hence it can only tell what's in its cache, so please don't wonder.
+
+Btw: a single tap on a watchface in Gadgetbridge will start it on your Pebble – saving your from button-juggling.

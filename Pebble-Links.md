@@ -10,7 +10,7 @@ This page collects some useful links around your Pebble watch:
     * [Pebble Time Steel, Pebblet Time Round und Pebble Time – Anleitung und Handbuch](http://www.appdated.de/2016/03/pebble-time-steel-pebblet-time-round-und-pebble-time-anleitung-und-handbuch/) (German)
     * [Reddit Pebble Wiki](https://www.reddit.com/r/pebble/wiki/index)
 * some interesting pages around Pebble and privacy
-    * [Smartwatches and privacy – contradiction in terms?](https://android.izzysoft.de/articles/named/smartwatch-privacy) (5/2016; English and German)
+    * [Smartwatches and privacy – contradiction in terms?](https://android.izzysoft.de/articles/named/smartwatch-privacy) (6/2016; English and German)
     * [Personal Privacy, Smartwatch Security, and You](http://smartwatches.org/learn/privacy-smartwatch-security-and-you/) (10/2014)
     * [Privacy concerns with new Pebble privacy policy](https://www.reddit.com/r/pebble/comments/3hsxez/privacy_concerns_with_new_pebble_privacy_policy/) (8/2015)
     * [Pebble Privacy Policy](https://www.pebble.com/legal/privacy)

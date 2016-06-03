@@ -16,3 +16,6 @@
 * One annoyance with close devices is several require a paid subscriptions to get the raw activity data as a flat file to analyze yourself.  
  * proposed solution:  a button in activity tracker that allows exporting raw data as some easily read format (comma delimited, tab delimited etc).  Ideally an option to save to device or email the file.   
 
+
+##Also see
+* [More Intuitive User Interface](https://github.com/Freeyourgadget/Gadgetbridge/issues/301)

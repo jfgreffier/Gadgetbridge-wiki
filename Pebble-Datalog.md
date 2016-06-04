@@ -31,7 +31,7 @@ After opening a session, further messages may be sent that contain the actual da
 
 Of course watch apps may as well close the datalog sessions, using the aforementioned id.
 
-# Pebble Health datalog
+# Pebble Health datalog - firmware version 3.10
 
 Pebble Health - despite having its own UUID - sends the datalog message using UUID 0. Two distinct messages were identified, one for steps/activity data and one for sleep data, they may be identified thanks to the associated tag:
 * Steps data has tag _81_; its item size is 99
@@ -70,6 +70,15 @@ _In the case of sleep data an item contains a single record._ Its content are:
 * __an integer__ (four bytes) with a timestamp, probably the __first__ minute of "bed time"
 * __an integer__ (four bytes) with a timestamp, probably the __last__ minute of "bed time"
 * __a short__ (two bytes) with the number of seconds of deep sleep
+
+# Pebble Health datalog - firmware version 3.11
+A new message was introduced, identified by tag 84. It contains shallow and deep sleep data details.
+The steps message (tag 81) was updated.
+More details will follow.
+
+# Pebble Health datalog - firmware version 3.12
+The message with tag 84 was modified, further activity types were added, but they are still unknown. 
+More details will follow.
 
 # Analytics Datalog
 All Pebble models before Firmware 3.8 already used three different datalog sessions coming from UUID 0 (tag ids 78,79 and 80). The original python libpebble suggested these were analytics and the Gadgetbridge developers also believe so. We will continue to discard these messages and no effort has been made to analyze the contents of these binary data packets.

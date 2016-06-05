@@ -3,6 +3,7 @@
 **General**
  - [[Home]]
  - [ReadMe](../tree/master/README.md)
+ - [[Configuration]]
  - [ChangeLog](../tree/master/CHANGELOG.md)
 
 **Device Related**

@@ -23,6 +23,7 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 01.00.10.14 - 1c43d7f03c911f9ba8844ddd44bd8304
  * 01.00.11.06 - 2833690a70ec8c6699ccd3ac08b933cc
  * 01.00.12.00 - 3a941165b7b4e296ecd68cdfb0e01062
+ * 01.00.09.27 - de4e5f3bf1fb5b610b3261c7f3557ca7
 
 1. Model 1A (white LEDs): `Mili_1a.fw`
  * 05.15.11.20 - 356a8e1f006c541b76b306d4dbfbfaea

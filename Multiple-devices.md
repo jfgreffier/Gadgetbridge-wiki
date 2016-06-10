@@ -7,3 +7,7 @@ You make one device the "Master" checking all the checkboxes that are relevant t
 
 ### Multiple Gadgets and one Android device
 This is currently not possible, as [Gadgetbridge only allows one device to be connected at a time](https://github.com/Freeyourgadget/Gadgetbridge/issues/305#issuecomment-219798461). It is [technically possible](https://github.com/Freeyourgadget/Gadgetbridge/issues/305#issuecomment-221086169), though, and thoughts are being made. But it's not yet on the roadmap for one of the next releases.
+
+
+### Multiple Trackers
+You can use multiple trackers simultaneously (e.g. Pebble Health and Morpheus). By default, sync for all supported trackers is activated – which should be fine for most users (even if they don't have Morpheus or Misfit installed). The only context in which you must deactivate them is the [Multiple Android devices and one Gadget](#multiple-android-devices-and-one-gadget) case described above.

@@ -21,3 +21,4 @@
 
 **FAQ**
  - [[Log Files]]
+ - [[Multiple devices]]

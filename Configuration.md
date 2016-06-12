@@ -5,13 +5,13 @@
 
 Tapping the overflow menu in the upper-right of the Gadgetbridge main screen, you get the option to enter configuration:
 
-[![OverflowMenu](http://i.imgur.com/Y4F516Fm.png)](http://i.imgur.com/Y4F516F.png)  
+[![OverflowMenu](https://i.imgur.com/XBZGxkVm.png)](https://i.imgur.com/XBZGxkV.png)  
 <sup>Overflow Menu: Chose to edit settings, debug settings, or exit Gadgetbridge</sup>
 
 ### General settings
 As we want to configure Gadgetbridge, we obviously chose the first item – which leads us to the screen with general settings:
 
-[![GeneralSettings (1)](http://i.imgur.com/PgXDB72m.png)](http://i.imgur.com/PgXDB72.png) [![GeneralSettings (2)](http://i.imgur.com/2h0Qabsm.png)](http://i.imgur.com/2h0Qabs.png) [![GeneralSettings (3)](http://i.imgur.com/432CvREm.png)](http://i.imgur.com/432CvRE.png)  
+[![GeneralSettings (1)](https://i.imgur.com/6SkGlEXm.png)](https://i.imgur.com/6SkGlEX.png) [![GeneralSettings (2)](https://i.imgur.com/x5CXDcim.png)](https://i.imgur.com/x5CXDci.png) [![GeneralSettings (3)](https://i.imgur.com/KR1Hy92m.png)](https://i.imgur.com/KR1Hy92.png)  
 <sup>The General Settings screen (click images for larger variants)</sup>
 
 Most of the items here are pretty much self explaining. Nevertheless, I'll mention each of them with at least a short description:
@@ -38,7 +38,7 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
 
 
 ### Pebble specific settings
-[![PebbleSettings (1)](http://i.imgur.com/lU6RIhHm.png)](http://i.imgur.com/lU6RIhH.png) [![PebbleSettings (2)](http://i.imgur.com/cb42bI2m.png)](http://i.imgur.com/cb42bI2.png)  
+[![PebbleSettings (1)](https://i.imgur.com/fkyMVcPm.png)](https://i.imgur.com/fkyMVcP.png) [![PebbleSettings (2)](https://i.imgur.com/iGjbTbOm.png)](https://i.imgur.com/iGjbTbO.png)  
 <sup>Pebble specific settings</sup>
 
 * **General settings**
@@ -56,5 +56,5 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   * **Emulator Port:**
 
 ### Mi Band specific settings
-[![MiBandSettings (1)](http://i.imgur.com/JB6lk0km.png)](http://i.imgur.com/JB6lk0k.png) [![MiBandSettings (2)](http://i.imgur.com/xM5nPFJm.png)](http://i.imgur.com/xM5nPFJ.png)  
+[![MiBandSettings (1)](https://i.imgur.com/NJA87grm.png)](https://i.imgur.com/NJA87gr.png) [![MiBandSettings (2)](https://i.imgur.com/TzW42fTm.png)](https://i.imgur.com/TzW42fT.png)  
 <sup>Mi Band specific settings (click images for larger variants)</sup>

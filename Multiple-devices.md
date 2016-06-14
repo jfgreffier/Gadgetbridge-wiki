@@ -10,4 +10,6 @@ This is currently not possible, as [Gadgetbridge only allows one device to be co
 
 
 ### Multiple Trackers
-You can use multiple trackers simultaneously (e.g. Pebble Health and Morpheus). By default, sync for all supported trackers is activated – which should be fine for most users (even if they don't have Morpheus or Misfit installed). The only context in which you must deactivate them is the [Multiple Android devices and one Gadget](#multiple-android-devices-and-one-gadget) case described above.
+You can use multiple trackers simultaneously (e.g. Pebble Health and Morpheuz). By default, sync for all supported trackers is activated – which should be fine for most users (even if they don't have Morpheus or Misfit installed). The only context in which you must deactivate them is the [Multiple Android devices and one Gadget](#multiple-android-devices-and-one-gadget) case described above.
+
+If you are satisfied with a third party tracker and want to switch off the integrated Pebble Health, you can do so from the app manager: long-press on the "Health" app and tap "Deactivate" (at the same place you can press "Activate" to enable it). For Morpheuz and Misfit, simply uninstall their watch apps if you no longer wish to use them.

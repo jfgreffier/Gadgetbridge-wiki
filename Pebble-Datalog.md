@@ -80,7 +80,7 @@ More details will follow.
 The message with tag 84 was modified, further activity types were added, but they are still unknown. 
 More details will follow.
 
-# Pebble Health datalog - firmware version 3.12
+# Pebble Health datalog - firmware version 3.13
 No changes were detected so far.
 
 # Analytics Datalog

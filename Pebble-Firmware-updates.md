@@ -20,6 +20,8 @@ Based on our tests the following should be possible:
 **DO NOT FLASH A RECOVERY FIRMWARE, IF YOU WANT TO UPDATE THE RECOVERY FIRMWARE TO A NEWER VERSION, INSTALL THE LATEST MIGRATION, AND THEN THE NORMAL FIRMWARE AGAIN**
 
 ## Firmware Download Locations
+If you think there might be something newer available, please check the [Pebble wiki](http://www.pebbledev.org/wiki/Firmware_Updates/) on how to find out for real.
+
 ### Pebble
 https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/3.x-migration_v1_5_v3.8-mig10.pbz (MIGRATION)
 

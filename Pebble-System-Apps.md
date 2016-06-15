@@ -14,7 +14,7 @@ Starting with v0.10.1, *Music* works well with most players – though only for 
 
 But it somehow failed for [Jockey](https://github.com/marverenic/Jockey).
 
-With the *Music* watchapp active, you also can control those players via the three buttons on the right of your Pebble: the upper button skips one title back, the lower forward. Pressing the middle button (labeled with three dots, as shown in the screenshot above) reveals a play/pause button, to fire the action press it again.
+With the *Music* watchapp active, you also can control those players via the three buttons on the right side of your Pebble: the upper button skips one title back, the lower forward. Pressing the middle button (labeled with three dots, as shown in the screenshot above) reveals a play/pause button, to fire the action press it again.
 
 ### Health
 
@@ -26,6 +26,6 @@ With the *Music* watchapp active, you also can control those players via the thr
 * customize the name and icon
 * react to the middle button when the app is started
 
-Gadgetbridge does have support for all these except for changing the icon (for which of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
+Gadgetbridge does have support for all these except for changing the icon (of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) first). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
 
 ### Golf

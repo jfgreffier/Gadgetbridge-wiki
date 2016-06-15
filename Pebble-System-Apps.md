@@ -17,6 +17,13 @@ But it somehow failed for [Jockey](https://github.com/marverenic/Jockey).
 With the *Music* watchapp active, you also can control those players via the three buttons on the right side of your Pebble: the upper button skips one title back, the lower forward. Pressing the middle button (labeled with three dots, as shown in the screenshot above) reveals a play/pause button, to fire the action press it again.
 
 ### Health
+To activate the *Health* app, open the Application Manager in Gadgetbridge, long-press the "Health" entry, and select "Activate". The app then will collect healt data on your watch (steps and sleep data), and – provided you didn't deactivate it – Gadgetbridge will sync this data. If you selected "Pebble Health" as your preferred activity tracker, those data will be used on Gadgetbridge's "Your activity" screens:
+
+[![Menu](https://i.imgur.com/jZfEhHmm.png)](https://i.imgur.com/jZfEhHm.png) [![Activity&Sleep](https://i.imgur.com/70YobbFm.png)](https://i.imgur.com/70YobbF.png) [![Sleep](https://i.imgur.com/OZ43x0Tm.png)](https://i.imgur.com/OZ43x0T.png) [![Steps](https://i.imgur.com/rlsTLYUm.png)](https://i.imgur.com/rlsTLYU.png)  
+<sup>Context menu and activity screens; click images for larger variants)</sup>
+
+With your Pebble connected, long-press its name and select "Your Activity" from the drop-down (first screenshot). You should then see a screen like in the second screenshot, summarizing your activity of the last 24 hours. From here you can swipe to the other screens (or tap their "tab" on the bottom of the screen). In case you wonder whether I have no heart (beats): the Pebble has no sensor for that, so it doesn't support it (screens are the same for MiBand, which does support heart rate). As you've probably already have discovered on the screenshots, you can browse through the days using the corresponding buttons in the upper part of the screen.
+
 
 ### Sport
 *Sport* and *Golf* are some kind of barebone apps. It is possible for companion apps to

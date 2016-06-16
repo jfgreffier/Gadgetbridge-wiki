@@ -1,7 +1,7 @@
 The Pebble watch ships with several system apps. Some of them are visible by default (Music), others can be activated from within Gadgetbridge's *Application Manager* (Health), and again others are hidden by default and require the "untested features" fo be enabled (Sport, Golf – see [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings)).
 
 ### Music
-![Music](https://i.imgur.com/SsWWSzP.png)  
+[![Music](https://i.imgur.com/SsWWSzPs.png)](https://i.imgur.com/SsWWSzP.png)  
 <sup>*Music* on the *Pebble Time Steel*</sup>
 
 Starting with v0.10.1, *Music* works well with most players – though only for "basic information": it displays the currently played track's interpret and title (see screenshot), which is updated whenever the track on your Android device changes. This is confirmed at least for the following apps:
@@ -38,6 +38,11 @@ This is what it will look like on your Pebble:
 * customize the name and icon
 * react to the middle button when the app is started
 
+[![Sport](https://i.imgur.com/dYxzWKes.png)](https://i.imgur.com/dYxzWKe.png)  
+<sup>The *Sport* watchapp</sup>
+
 Gadgetbridge does have support for all these except for changing the icon (of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) first). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
 
 ### Golf
+[![Golf](https://i.imgur.com/T6XYIHds.png)](https://i.imgur.com/T6XYIHd.png)  
+<sup>The *Golf* watchapp</sup>

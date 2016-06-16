@@ -30,6 +30,8 @@ This is what it will look like on your Pebble:
 [![Steps](https://i.imgur.com/DurBLw1m.png)](https://i.imgur.com/DurBLw1.png) [![Sleep](https://i.imgur.com/Vnev4Fem.png)](http://i.imgur.com/Vnev4Fe.png)  
 <sup>Steps and Sleep on your Pebble watch (click images for larger variants)</sup>
 
+Live activity (the 4th tab, missing in above screenshots) does not work with *Pebble Health,* health does not send live data (it can be used with the Mi Band). Gadgetbridge separates data from the Mi Band, Pebble Health, Misfit and Morpheuz. The database can be exported in the debug activity. It is a sqlite database, so you could use it with your own project to interpret collected data (also see [Exporting data - meaning of columns](https://github.com/Freeyourgadget/Gadgetbridge/issues/332) if you're interested in this).
+
 
 ### Sport
 *Sport* and *Golf* are some kind of barebone apps. It is possible for companion apps to

@@ -1,7 +1,7 @@
 ### Multiple Android devices and one Gadget
-It is possible to share one Gadget among multiple Android devices, but only one device can be connected at a time; furthermore the implication would be that chunks of your health data will be send to different android devices (so you won't have a complete set on any of them; [source](https://github.com/Freeyourgadget/Gadgetbridge/issues/322#issuecomment-223714965)).
+It is possible to share one Gadget among multiple Android devices, but only one device can be connected at a time; furthermore the implication would be that chunks of your health data will be send to different Android devices (so you won't have a complete set on any of them; [source](https://github.com/Freeyourgadget/Gadgetbridge/issues/322#issuecomment-223714965)).
 
-This will change with the release v0.10.1 of Gadgetbridge: The activity trackers to sync can be set by checking the newly introduced checkboxes in Pebble settings. This is independent from the activity tracker to display on graphs (currently labeled "Preferred Activitytracker") but activity trackers that are not synced will save no data in Gadgetbridge DB, hence nothing will be shown on the graphs as well.
+This changed with the release v0.10.1 of Gadgetbridge: The activity trackers to sync can be set by checking the newly introduced checkboxes in Pebble settings. This is independent from the activity tracker to display on graphs (currently labeled "Preferred Activitytracker") but activity trackers that are not synced will save no data in Gadgetbridge DB, hence nothing will be shown on the graphs either.
 
 You make one device the "Master" checking all the checkboxes that are relevant to your usage, and the other the "Slave" ensuring the checkboxes are not selected. Be aware that by default these checkboxes **are** checked, because that's the most common use-case for Gadgetbridge.
 

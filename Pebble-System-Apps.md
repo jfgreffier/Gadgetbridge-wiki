@@ -11,8 +11,9 @@ The Pebble watch ships with several system apps. Some of them are visible in Gad
 * [DJD Player](https://github.com/mikaelstaldal/DJDPlayer)
 * [GEM Player](https://github.com/SubstanceMobile/GEM)
 * [Timber](https://f-droid.org/repository/browse/?fdid=naman14.timber)
+* [AntennaPod](https://github.com/AntennaPod/AntennaPod)
 
-But it somehow failed for [Jockey](https://github.com/marverenic/Jockey). If your Android device runs Lollipop (Android 5) or later, you might even see a progress bar on your Pebble (confirmed e.g. for *Timber).*
+But it somehow failed for [Jockey](https://github.com/marverenic/Jockey). If your Android device runs Lollipop (Android 5) or later, you might even see a progress bar on your Pebble (confirmed e.g. for *Timber* and *AntennaPod).*
 
 With the *Music* watchapp active, you also can control those players via the three buttons on the right side of your Pebble: the upper button skips one title back, the lower forward. Pressing the middle button (labeled with three dots, as shown in the screenshot above) reveals a play/pause button, to fire the action press it again. Long-pressing the upper/lower button will even let you control the volume (see second screenshot).
 

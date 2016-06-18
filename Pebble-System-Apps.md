@@ -37,13 +37,22 @@ Live activity (the 4th tab, missing in above screenshots) does not work with *Pe
 [![Notifications](https://i.imgur.com/togixyRs.png)](https://i.imgur.com/togixyR.png) [![Notifications](https://i.imgur.com/CVOfpkys.png)](https://i.imgur.com/CVOfpky.png)  
 <sup>Notifications on the Pebble</sup>
 
+This is the place where you can find all notifications which were sent to your Pebble – including those you've missed to read. The watchapp allows you to read them, or clear them *all* out (but not to clear selected entries). Consider this to be your "notification history".
+
 ### Alarms
 [![Alarms](https://i.imgur.com/io9CNCKs.png)](https://i.imgur.com/io9CNCK.png) [![Alarms](https://i.imgur.com/rvFR6Jds.png)](https://i.imgur.com/rvFR6Jd.png) [![Alarms](https://i.imgur.com/ZnetpJqs.png)](https://i.imgur.com/ZnetpJq.png) [![SmartAlarm](https://i.imgur.com/9wW26wts.png)](https://i.imgur.com/9wW26wt.png)  
 <sup>Alarms on the Pebble</sup>
 
+You can setup alarms directly on your Pebble: either "normal alarms" that fire exactly at the time configured, or "smart alarms" which fire at a point in the specified interval – avoiding to get you up on the wrong side of bed by not firing while you're in a phase of deep-sleep. Unfortunately, it's not possible to [sync Pebble alarms with your stock Android alarms](https://github.com/Freeyourgadget/Gadgetbridge/issues/317).
+
+Oh: do not expect some nice music or birds sound to wake you app. The Pebble has no speaker for that. Instead, it will "hum" (vibrate).
+
 ### Watchfaces
 [![Watchfaces](https://i.imgur.com/Tp0VMBms.png)](https://i.imgur.com/Tp0VMBm.png) [![Watchfaces](https://i.imgur.com/pAqDJDRs.png)](https://i.imgur.com/pAqDJDR.png)  
 <sup>Watchfaces on the Pebble</sup>
+
+If you have multiple watch faces installed, this is where you can switch between them. Use the top and bottom buttons on your Pebble's right side to navigate, and the middle button to select the face you wish to see.
+
 
 ### Sport
 *Sport* and *Golf* are some kind of barebone apps. It is possible for companion apps to

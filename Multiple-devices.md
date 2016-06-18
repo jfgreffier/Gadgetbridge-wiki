@@ -12,6 +12,8 @@ You can use multiple trackers simultaneously (e.g. Pebble Health and Morpheuz). 
 
 If you are satisfied with a third party tracker and want to switch off the integrated Pebble Health, you can do so from the app manager: long-press on the "Health" app and tap "Deactivate" (at the same place you can press "Activate" to enable it). For Morpheuz and Misfit, simply uninstall their watch apps if you no longer wish to use them.
 
+Note that at least [Pebble discourages using multiple tracking apps simultaneously](https://help.getpebble.com/customer/en/portal/articles/2239065-pebble-health?b_id=8308) (quote: *Pebble Health is very efficient and should use less battery than other third party fitness trackers. Please note, running two activity trackers will increase battery drain, and is not recommended.*) So better decide for one.
+
 ### Multiple Gadgets and one Android device
 This is currently not possible, as [Gadgetbridge only allows one device to be connected at a time](https://github.com/Freeyourgadget/Gadgetbridge/issues/305#issuecomment-219798461). It is [technically possible](https://github.com/Freeyourgadget/Gadgetbridge/issues/305#issuecomment-221086169), though, and thoughts are being made. But it's not yet on the roadmap for one of the next releases.
 

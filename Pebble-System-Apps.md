@@ -33,6 +33,18 @@ This is what it will look like on your Pebble:
 Live activity (the 4th tab, missing in above screenshots) does not work with *Pebble Health,* health does not send live data (it can be used with the Mi Band). Gadgetbridge separates data from the Mi Band, Pebble Health, Misfit and Morpheuz. The database can be exported in the debug activity. It is a sqlite database, so you could use it with your own project to interpret collected data (also see [Exporting data - meaning of columns](https://github.com/Freeyourgadget/Gadgetbridge/issues/332) if you're interested in this).
 
 
+### Notifications
+[![Notifications](https://i.imgur.com/togixyRs.png)](https://i.imgur.com/togixyR.png) [![Notifications](https://i.imgur.com/CVOfpkys.png)](https://i.imgur.com/CVOfpky.png)  
+<sup>Notifications on the Pebble</sup>
+
+### Alarms
+[![Alarms](https://i.imgur.com/io9CNCKs.png)](https://i.imgur.com/io9CNCK.png) [![Alarms](https://i.imgur.com/rvFR6Jds.png)](https://i.imgur.com/rvFR6Jd.png) [![Alarms](https://i.imgur.com/ZnetpJqs.png)](https://i.imgur.com/ZnetpJq.png) [![SmartAlarm](https://i.imgur.com/9wW26wts.png)](https://i.imgur.com/9wW26wt.png)  
+<sup>Alarms on the Pebble</sup>
+
+### Watchfaces
+[![Watchfaces](https://i.imgur.com/Tp0VMBms.png)](https://i.imgur.com/Tp0VMBm.png) [![Watchfaces](https://i.imgur.com/pAqDJDRs.png)](https://i.imgur.com/pAqDJDR.png)  
+<sup>Watchfaces on the Pebble</sup>
+
 ### Sport
 *Sport* and *Golf* are some kind of barebone apps. It is possible for companion apps to
 

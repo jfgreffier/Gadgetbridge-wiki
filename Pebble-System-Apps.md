@@ -18,7 +18,7 @@ But it somehow failed for [Jockey](https://github.com/marverenic/Jockey). If you
 With the *Music* watchapp active, you also can control those players via the three buttons on the right side of your Pebble: the upper button skips one title back, the lower forward. Pressing the middle button (labeled with three dots, as shown in the screenshot above) reveals a play/pause button, to fire the action press it again. Long-pressing the upper/lower button will even let you control the volume (see second screenshot).
 
 ### Health
-To activate the *Health* app, open the Application Manager in Gadgetbridge, long-press the "Health" entry, and select "Activate". The app then will collect healt data on your watch (steps and sleep data), and – provided you didn't deactivate it – Gadgetbridge will sync this data. If you selected "Pebble Health" as your preferred activity tracker, those data will be used on Gadgetbridge's "Your activity" screens:
+To activate the [*Health* app](https://help.getpebble.com/customer/en/portal/articles/2239065-pebble-health?b_id=8308), open the Application Manager in Gadgetbridge, long-press the "Health" entry, and select "Activate". The app then will collect healt data on your watch (steps and sleep data), and – provided you didn't deactivate it – Gadgetbridge will sync this data. If you selected "Pebble Health" as your preferred activity tracker, those data will be used on Gadgetbridge's "Your activity" screens:
 
 [![Menu](https://i.imgur.com/jZfEhHmm.png)](https://i.imgur.com/jZfEhHm.png) [![Activity&Sleep](https://i.imgur.com/70YobbFm.png)](https://i.imgur.com/70YobbF.png) [![Sleep](https://i.imgur.com/OZ43x0Tm.png)](https://i.imgur.com/OZ43x0T.png) [![Steps](https://i.imgur.com/rlsTLYUm.png)](https://i.imgur.com/rlsTLYU.png)  
 <sup>Context menu and activity screens; click images for larger variants)</sup>
@@ -40,10 +40,10 @@ Live activity (the 4th tab, missing in above screenshots) does not work with *Pe
 This is the place where you can find all notifications which were sent to your Pebble – including those you've missed to read. The watchapp allows you to read them, or clear them *all* out (but not to clear selected entries). Consider this to be your "notification history".
 
 ### Alarms
-[![Alarms](https://i.imgur.com/io9CNCKs.png)](https://i.imgur.com/io9CNCK.png) [![Alarms](https://i.imgur.com/rvFR6Jds.png)](https://i.imgur.com/rvFR6Jd.png) [![Alarms](https://i.imgur.com/ZnetpJqs.png)](https://i.imgur.com/ZnetpJq.png) [![SmartAlarm](https://i.imgur.com/9wW26wts.png)](https://i.imgur.com/9wW26wt.png)  
+[![Alarms](https://i.imgur.com/io9CNCKs.png)](https://i.imgur.com/io9CNCK.png) [![Alarms](https://i.imgur.com/rvFR6Jds.png)](https://i.imgur.com/rvFR6Jd.png) [![Alarms](https://i.imgur.com/ZnetpJqs.png)](https://i.imgur.com/ZnetpJq.png) [![SmartAlarm](https://i.imgur.com/9wW26wts.png)](https://i.imgur.com/9wW26wt.png) [![SetAlarm](https://i.imgur.com/AKDk7wX.gif)](https://i.imgur.com/rMWwBTg.gif)  
 <sup>Alarms on the Pebble</sup>
 
-You can setup alarms directly on your Pebble: either "normal alarms" that fire exactly at the time configured, or "smart alarms" which fire at a point in the specified interval – avoiding to get you up on the wrong side of bed by not firing while you're in a phase of deep-sleep. Unfortunately, it's not possible to [sync Pebble alarms with your stock Android alarms](https://github.com/Freeyourgadget/Gadgetbridge/issues/317).
+You can [setup alarms directly on your Pebble](https://help.getpebble.com/customer/portal/articles/2415680-alarms-smart-alarms?b_id=8308): either "normal alarms" that fire exactly at the time configured, or "smart alarms" which fire at a point in the specified interval – avoiding to get you up on the wrong side of bed by not firing while you're in a phase of deep-sleep. For both types, you can define which days they should be enabled – and you can setup multiple alarms, and use different vibration patterns. Unfortunately, it's not possible to [sync Pebble alarms with your stock Android alarms](https://github.com/Freeyourgadget/Gadgetbridge/issues/317).
 
 Oh: do not expect some nice music or birds sound to wake you app. The Pebble has no speaker for that. Instead, it will "hum" (vibrate).
 

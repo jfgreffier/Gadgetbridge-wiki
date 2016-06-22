@@ -70,4 +70,4 @@ If you have multiple watch faces installed, this is where you can switch between
 
 Gadgetbridge does have support for all these except for changing the icon (of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) first). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
 
-The Golf App should also work with Gadgetbridge, although it is untested. [Freecaddie](https://www.freecaddie.com/) seems to be a companion app with Pebble support.
+The Golf App should also work with Gadgetbridge, although it is untested. [Freecaddie](https://www.freecaddie.com/) and [Golf Pad Gps](http://golfpadgps.com/)seem to be a golf companion apps with Pebble support.

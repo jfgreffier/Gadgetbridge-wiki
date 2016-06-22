@@ -54,19 +54,20 @@ Oh: do not expect some nice music or birds sound to wake you app. The Pebble has
 If you have multiple watch faces installed, this is where you can switch between them. Use the top and bottom buttons on your Pebble's right side to navigate, and the middle button to select the face you wish to see.
 
 
-### Sport
+### Sport and Golf
 *Sport* and *Golf* are some kind of barebone apps. It is possible for companion apps to
 
 * start and stop them
 * set the values you see on screen
 * customize the name and icon
-* react to the middle button when the app is started
+* react to buttons when the app is started
 
 [![Sport](https://i.imgur.com/dYxzWKes.png)](https://i.imgur.com/dYxzWKe.png)  
 <sup>The *Sport* watchapp</sup>
 
-Gadgetbridge does have support for all these except for changing the icon (of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) first). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
-
-### Golf
 [![Golf](https://i.imgur.com/T6XYIHds.png)](https://i.imgur.com/T6XYIHd.png)  
 <sup>The *Golf* watchapp</sup>
+
+Gadgetbridge does have support for all these except for changing the icon (of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) first). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
+
+The Golf App should also work with Gadgetbridge, although it is untested. [Freecaddie](https://www.freecaddie.com/) seems to be a companion app with Pebble support.

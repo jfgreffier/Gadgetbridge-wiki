@@ -1,7 +1,7 @@
 The Pebble watch ships with several system apps. Some of them are visible in Gadgetbridge's *Application Manager* by default (Music), some need to be activated from within Gadgetbridge's *Application Manager* to do their work on your Pebble (Health), and others are hidden by default in the *Application Manager* unless "untested features" are enabled (Sport, Golf – see [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings); they'll work on your Pebble though when a matching third-party companion app triggers them).
 
 ### Music
-[![Music](https://i.imgur.com/SsWWSzPs.png)](https://i.imgur.com/SsWWSzP.png) [![Volume Control](https://i.imgur.com/FR8Uk9ss.png)](https://i.imgur.com/FR8Uk9s.png)  
+[![Music](https://i.imgur.com/SsWWSzPs.png)](https://i.imgur.com/SsWWSzP.png) [![Music](https://i.imgur.com/sKwyaWKs.png)](https://i.imgur.com/sKwyaWK.png) [![Volume Control](https://i.imgur.com/FR8Uk9ss.png)](https://i.imgur.com/FR8Uk9s.png)  
 <sup>*Music* on the *Pebble Time Steel*</sup>
 
 *Music* works well with most players – though often only for "basic information": it displays the currently played track's interpret, album and title (see screenshot), which is updated whenever the track on your Android device changes. This is confirmed at least for the following apps:

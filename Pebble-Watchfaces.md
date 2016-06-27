@@ -23,12 +23,17 @@ Once the `.pbw` files are on your Android device running Gadgetbridge (either be
 ### How do I manage installed watchfaces?
 Once you've installed a watchface, Gadgetbridge will cache it. So tapping your device in Gadgetbridge (when it's connected) brings you to the app manager. Long-tap (alias „tap-and-hold“) the entry of an app will bring up a context menu with available actions:
 
-[![App Manager](https://i.imgur.com/WfE3oTIm.png)](https://i.imgur.com/WfE3oTI.png)  
+[![App Manager](https://i.imgur.com/3473hE9m.png)](https://i.imgur.com/3473hE9.png)  
 <sup>Gadgetbridge App Manager with open context menu</sup>
 
-As the screenshot shows, here you can reinstall an app (in case you've deleted it), delete it from the watch, or delete it from the watch and the Gadgetbridge cache.
+As the screenshot shows, here you can reinstall an app (in case you've deleted it), delete it from the watch, or delete it from the watch and the Gadgetbridge cache. If the app has a configuration page, you can call that from here as well: it will most likely open in a browser window, from where you submit your configuration values directly back to the corresponding watch app. Some watch apps however use a protocol the browser doesn't understand:
 
-Note: With Firmware 3.x Gadgetbridge has no means of determining which watchfaces are installed on your Pebble. Hence it can only tell what's in its cache, so please don't wonder.
+[![Protocol Error](https://i.imgur.com/V8tZVlMm.png)](https://i.imgur.com/V8tZVlM.png) [![Paste URL](https://i.imgur.com/pF1zM5hm.png)](https://i.imgur.com/pF1zM5h.png) [![New config](https://i.imgur.com/0fDYRsAm.png)](https://i.imgur.com/0fDYRsA.png)  
+<sup>Configure a watch app using an "unknown protocol"</sup>
+
+As the screenshots show, your browser will then display an error page. Long-press the URL shown and select to copy it to the clipboard, then close the browser (first screenshot). Back in Gadgetbridge, paste that URL into the field shown, and hit the button to parse the URL (second screenshot). After that, you have the choice to directly send the parsed data to the watch app to configure it, or to save it as a "preset". The latter saves you from running the entire procedure again: if you want to use the configuration you've saved as preset, you can just select that directly when calling the "Configure" item next time.
+
+**Note:** With Firmware 3.x Gadgetbridge has no means of determining which watchfaces are installed on your Pebble. Hence it can only tell what's in its cache (i.e. the apps you've installed via Gadgetbridge), so please don't wonder.
 
 Btw: a single tap on a watchface in Gadgetbridge will start it on your Pebble – saving your from button-juggling.
 

@@ -37,8 +37,6 @@ As the first screenshot shows, you can also reinstall an app (in case you've del
 
 As the screenshots show, your browser will then display an error page. Long-press the URL shown and select to copy it to the clipboard, then close the browser (first screenshot). Back in Gadgetbridge, paste that URL into the field shown, and hit the button to parse the URL (second screenshot). After that, you have the choice to directly send the parsed data to the watch app to configure it, or to save it as a "preset". The latter saves you from running the entire procedure again: if you want to use the configuration you've saved as preset, you can just select that directly when calling the "Configure" item next time.
 
-**Note:** With Firmware 3.x Gadgetbridge has no means of determining which watchfaces are installed on your Pebble. Hence it can only tell what's in its cache (i.e. the apps you've installed via Gadgetbridge), so please don't wonder.
-
 Btw: a single tap on a watchface in Gadgetbridge will start it on your Pebble – saving your from button-juggling.
 
 

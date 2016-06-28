@@ -23,10 +23,14 @@ Once the `.pbw` files are on your Android device running Gadgetbridge (either be
 ### How do I manage installed watchfaces?
 Once you've installed a watchface, Gadgetbridge will cache it. So tapping your device in Gadgetbridge (when it's connected) brings you to the app manager. Long-tap (alias „tap-and-hold“) the entry of an app will bring up a context menu with available actions:
 
-[![App Manager](https://i.imgur.com/3473hE9m.png)](https://i.imgur.com/3473hE9.png)  
+[![App Manager](https://i.imgur.com/3473hE9m.png)](https://i.imgur.com/3473hE9.png) [![WatchApps](https://i.imgur.com/gvsRaKlm.png)](https://i.imgur.com/gvsRaKl.png) [![WatchFaces](https://i.imgur.com/nHsGLcsm.png)](https://i.imgur.com/nHsGLcs.png)  
 <sup>Gadgetbridge App Manager with open context menu</sup>
 
-As the screenshot shows, here you can reinstall an app (in case you've deleted it), delete it from the watch, or delete it from the watch and the Gadgetbridge cache. If the app has a configuration page, you can call that from here as well: it will most likely open in a browser window, from where you submit your configuration values directly back to the corresponding watch app. Some watch apps however use a protocol the browser doesn't understand:
+The App-Manager is divided in three tabs. Left to right from the screenshots: _Apps in cache_ (i.e. apps you've installed via Gadgetbridge, but which you also might have uninstalled meanwhile; Gadgetbridge keeps them in its cache until you explicitly remove them from there), _Installed apps_ Gadgetbridge knows about (i.e. system apps and those you've installed yourself via Gadgetbridge), and Installed _watchfaces_ (again those shipped with your watch and those you've installed yourself via Gadgetbridge). With FW 3.x Gadgetbridge cannot know anything about apps or watchfaces you've installed by other means (e.g. using the official Pebble app, or using another Android device), as this firmware offers no way to query that information: the official Pebble app manages that via the cloud.
+
+Except for in the first tab, you also can rearrange the order apps and watchfaces appear in – in the App Manager as well as on your Pebble: tap and hold an entry, move it around, and drop it where you want it to be shown. Long pressing and releasing the Health app you can activate or deactivate Pebble Health data collection on your Pebble (e.g. when switching between different trackers like Morpheuz and Pebble Health).
+
+As the first screenshot shows, you can also reinstall an app (in case you've deleted it), delete it from the watch, or delete it from the watch and the Gadgetbridge cache. If the app has a configuration page, you can call that from here as well: it will most likely open in a browser window, from where you submit your configuration values directly back to the corresponding watch app. Some watch apps however use a protocol the browser doesn't understand:
 
 [![Protocol Error](https://i.imgur.com/V8tZVlMm.png)](https://i.imgur.com/V8tZVlM.png) [![Paste URL](https://i.imgur.com/pF1zM5hm.png)](https://i.imgur.com/pF1zM5h.png) [![New config](https://i.imgur.com/0fDYRsAm.png)](https://i.imgur.com/0fDYRsA.png)  
 <sup>Configure a watch app using an "unknown protocol"</sup>

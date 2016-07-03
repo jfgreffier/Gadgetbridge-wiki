@@ -11,7 +11,7 @@ Tapping the overflow menu in the upper-right of the Gadgetbridge main screen, yo
 ### General settings
 As we want to configure Gadgetbridge, we obviously chose the first item – which leads us to the screen with general settings:
 
-[![GeneralSettings (1)](https://i.imgur.com/6SkGlEXm.png)](https://i.imgur.com/6SkGlEX.png) [![GeneralSettings (2)](https://i.imgur.com/x5CXDcim.png)](https://i.imgur.com/x5CXDci.png) [![GeneralSettings (3)](https://i.imgur.com/KR1Hy92m.png)](https://i.imgur.com/KR1Hy92.png)  
+[![GeneralSettings (1)](https://i.imgur.com/AKDMGs0m.png)](https://i.imgur.com/AKDMGs0.png) [![GeneralSettings (2)](https://i.imgur.com/kIm58q3m.png)](https://i.imgur.com/kIm58q3.png) [![GeneralSettings (3)](https://i.imgur.com/3xAZiBcm.png)](https://i.imgur.com/3xAZiBc.png)  
 <sup>The General Settings screen (click images for larger variants)</sup>
 
 Most of the items here are pretty much self explaining. Nevertheless, I'll mention each of them with at least a short description:
@@ -30,7 +30,6 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   * **Pebble Messages:** again similar to SMS, but for Pebble companion apps.
   * **Generic notification support:** tapping that lets you tell the Android system to allow Gadgetbridge accessing notifications (so it can forward them to your Gadget at all) or not. An additional checkbox allows you to define whether those "other notifications" should also be sent to your Gadget when the Android device's screen is on.
   * **Blacklist Apps:** this opens a picker where you can exclude apps from having their notifications forwarded to your Gadget.
-  * **Canned Replies:** define answers to pick from „interactive notifications“, so you can e.g. answer SMS directly from your Gadget. This currently only works for Pebble.
   * **About You:** Details on your person. These are sent to the Mi Band and Pebble Health to magically adjust their algorithms. We just know they have to be sent but we do not really know what happens on the device because firmware is not open source.
 * **Device specific settings**  
   Here you can configure things specific to the device you're using (see below).
@@ -39,7 +38,7 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
 
 
 ### Pebble specific settings
-[![PebbleSettings (1)](https://i.imgur.com/fkyMVcPm.png)](https://i.imgur.com/fkyMVcP.png) [![PebbleSettings (2)](https://i.imgur.com/iGjbTbOm.png)](https://i.imgur.com/iGjbTbO.png)  
+[![PebbleSettings (1)](https://i.imgur.com/SRIEZYvm.png)](https://i.imgur.com/SRIEZYv.png) [![PebbleSettings (2)](https://i.imgur.com/eEJ5caxm.png)](https://i.imgur.com/eEJ5cax.png)  
 <sup>Pebble specific settings</sup>
 
 * **General settings**
@@ -51,11 +50,15 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
 * **Location**
   * **Acquire Location:** tapping this causes Gadgetbridge to obtain your location and fill the following two fields.
   * **Latitude/Longitude:** your current location. Gets filled automatically by tapping the entry above. Tapping the latitude/longitude fields also allows you to manually enter your location. These values are used for sunrise/sunset times.
+* **Canned Messages**
+  * **Replies:** define answers to pick from „interactive notifications“, so you can e.g. answer SMS directly from your Gadget.
+  * **Call Dismissal:** Here you can setup "canned replies" for call rejection, which enables you to reject a call with an SMS (e.g. informing the calling party you're in a meeting and will call back later).
 * **Developer Options**
   * **Force Notification Protocol:** if checked, enforces the latest notification protocol available by your Pebble's firmware. This is a legacy option which only does something for 2.x firmware users: It forces 2.x style (instead of 1.x style) notifications instead in all cases. If is is not checked, for email notifications 1.x style notifications are used, because we can set an email icon there (but we wont have a context menu on the pebble then). Enable only if you know what you're doing – or being told by our devs.
   * **Enable untested features:** checking this will make some additional system apps visible in the Gadgetbridge App Manager (see [[Pebble Watchfaces]] for details). These include e.g. *Golf* and *Sport* – which are both rather „bare bones apps“: tapping their entry from the App Manager will show their interfaces on your Pebble, but won't let you do much with them. But you then can e.g. install the [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup) Sports activities tracker, which then will automatically start the *Sports* app on your device and use it as display – provided you've enabled *Allow access from other Android apps* (see above in the *General Settings* section). There might be other companions making use of these (also see [here](https://github.com/Freeyourgadget/Gadgetbridge/issues/322#issuecomment-223714965) for details). *Untested Features* also includes the possibility to [configure some watchfaces](https://github.com/Freeyourgadget/Gadgetbridge/issues/251) which offer HTML configuration pages via their "configure" menu entry when long-pressing an app in the watchapp list.
   * **Emulator IP:**
   * **Emulator Port:**
+
 
 ### Mi Band specific settings
 [![MiBandSettings (1)](https://i.imgur.com/NJA87grm.png)](https://i.imgur.com/NJA87gr.png) [![MiBandSettings (2)](https://i.imgur.com/TzW42fTm.png)](https://i.imgur.com/TzW42fT.png)  

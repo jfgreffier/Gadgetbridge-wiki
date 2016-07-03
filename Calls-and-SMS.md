@@ -16,7 +16,7 @@ Tap an empty row here to add a new message, tap an existing entry to modify. Whe
 
 With no canned messages set up, you can still reject incoming calls – as the screenshots above show: push the lower-right button, done. You'll see a simple red screen confirming the call was rejected (or "declined").
 
-### Advances call rejection
+### Advanced call rejection
 [![Advanced Reject](https://i.imgur.com/al0CTvns.png)](https://i.imgur.com/al0CTvn.png) [![Advanced Reject Menu](https://i.imgur.com/5gcuGCVs.png)](https://i.imgur.com/5gcuGCV.png) [![Advanced Reject Message](https://i.imgur.com/amabcdks.png)](https://i.imgur.com/amabcdk.png)  
 <sup>Advanced call rejection with canned replies</sup>
 

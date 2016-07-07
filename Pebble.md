@@ -3,6 +3,7 @@ In this section you find pages relevant to end-users:
 
 - [[Pebble Getting Started]]: first steps with your Pebble and Gadgetbridge
 - [[Pebble Firmware updates]]: firmware downloads for Pebble devices
+- [[Pebble Language Packs]]: language pack download and installation
 - [[Pebble Watchfaces]]: apps on your Pebble (aka Watchfaces), where to find, how to use/manage, known issues/limitations
 - [[Pebble System Apps]]: pre-installed system apps supported via Gadgetbridge
 - interacting with [[Calls and SMS]]

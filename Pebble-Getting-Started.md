@@ -7,3 +7,4 @@ Steps to follow:
 * Pair your Pebble through Android's Bluetooth Settings (**NOT THE Pebble LE**)
 * Start Gadgetbridge and tap on your Pebble until it says initialized
 * Flash a firmware as noted in [[this wiki article|Pebble Firmware updates]]
+* Install a language pack as noted in [[this wiki article|Pebble-Language-Packs]]

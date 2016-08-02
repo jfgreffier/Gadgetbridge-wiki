@@ -19,51 +19,19 @@ Template for each firmware:
 -->
 
 # Mi Band 1S (Firmware 4.x)
-## 4.15.12.10 Mi Band Firmware + 1.3.74.76 HR Firmware (recommended)
-| Function | Behavior |
-| --- | --- |
-| alarms | work |
-| notifications | work |
-| activity recognition | works |
-| connection | works |
-| battery life | good |
-| heart rate measurement | works |
-| gadgetbridge fw installer nr. | 68094986 |
-
-
-## 4.16.3.7 Mi Band Firmware + 1.3.76.18 HR Firmware
-| Function | Behavior |
-| --- | --- |
-| alarms | work |
-| notifications | work |
-| activity recognition | works |
-| connection | works |
-| battery life | good |
-| heart rate measurement | works |
-| gadgetbridge fw installer nr. | ? |
-
-## 4.16.4.22 Mi Band Firmware + 1.3.76.22 HR Firmware
-| Function | Behavior |
-| --- | --- |
-| alarms | work |
-| notifications | work |
-| activity recognition | works |
-| connection | works |
-| battery life | good |
-| heart rate measurement | works |
-| gadgetbridge fw installer nr. | ? |
-
-## 4.15.11.19 Mi Band Firmware + corresponding HR Firmware
-| Function | Behavior |
-| --- | --- |
-| alarms | do not work |
-| notifications | work |
-| activity recognition | unusable, detects far too many sleep hours |
-| connection | works |
-| battery life | good |
-| gadgetbridge fw installer nr. | ? |
-| heart rate measurement | does not work |
-
+| Version / Function            | 4.15.11.19 Mi Band  + ? HR                 | 4.15.12.10 Mi Band + 1.3.74.76 HR | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.16.4.22 Mi Band + 1.3.76.22 HR  |
+|------------------------------ | ------------------------------------------ | --------------------------------- | -------------------------------- | ----------------------------------|
+| recommended                   | no                                         | yes                               | no                               | no                                |
+| alarms                        | does not work                              | work                              | work                             | work                              |
+| notifications                 | work                                       | work                              | work                             | work                              |
+| activity recognition          | unusable, detects far too many sleep hours | works                             | works                            | works                             |
+| connection                    | works                                      | works                             | works                            | works                             |
+| battery life                  | good                                       | good                              | good                             | good                              |
+| heart rate measurement        | does not work                              | works                             | works                            | works                             |
+| gadgetbridge fw installer nr. | ?                                          | 68094986                          | ?                                | ?                                 |
+| CRC32                         | ?                                          | 393A9FC2                          | A3F47C39                         | 5E1A74E2                          |
+| MD5SUM                        | ?                                          | 24d8b84f8964489b893d1cb4581dc85f  | 7883298d9696c608210991c1dc3d0030 | 3b3b1427078b23808dce480a85665423  |
+| Mi band apk vesion            | ?                                          | 2.0.1, 2.0.4, 2.0.5               | 2.0.10                           | 2.1.0, 2.1.1, 2.1.4, 2.1.5, 2.1.6 |
 
 # Mi Band 1A (with white LEDs, no heartrate sensor)
 ## 5.15.7.14 (recommended) (MiFit 1.5.912-1539)

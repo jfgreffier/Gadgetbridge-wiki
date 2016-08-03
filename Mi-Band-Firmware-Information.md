@@ -28,7 +28,7 @@ Template for each firmware:
 | connection                    | works                                      | works                             | works                            | works                             |
 | battery life                  | good                                       | good                              | good                             | good                              |
 | heart rate measurement        | does not work                              | works                             | works                            | works                             |
-| gadgetbridge fw installer nr. | ?                                          | 68094986                          | ?                                | ?                                 |
+| gadgetbridge fw installer nr. | ?                                          | 68094986                          | 68158215                         | ?                                 |
 | CRC32                         | ?                                          | 393A9FC2                          | A3F47C39                         | 5E1A74E2                          |
 | MD5SUM                        | ?                                          | 24d8b84f8964489b893d1cb4581dc85f  | 7883298d9696c608210991c1dc3d0030 | 3b3b1427078b23808dce480a85665423  |
 | Mi band apk vesion            | ?                                          | 2.0.1, 2.0.4, 2.0.5               | 2.0.10                           | 2.1.0, 2.1.1, 2.1.4, 2.1.5, 2.1.6 |

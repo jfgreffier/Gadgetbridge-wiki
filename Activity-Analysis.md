@@ -17,6 +17,13 @@ Gadgetbridge currently stores raw data in its database. Raw data has to be read 
 
 ### Miband 1s (white leds, HR sensor)
 
+The firmware sports 3 different measurement modes:
+* a single measurement (as initiated from the debug screen)
+* automatic measurement during sleep
+* continuous measurement, about one peer second (as used in the live activity tracking screen)
+
+Only the measurement during sleep is recorded on the band. The other measurement values are sent to the mobile only, so you have to be connected to get them. Maybe there are other ways to get the heart rate data recorded but we don't know them.
+
 ### Pebble health
 
 * Data is aggregated per minute

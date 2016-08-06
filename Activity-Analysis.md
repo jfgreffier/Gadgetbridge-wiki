@@ -17,7 +17,7 @@ Gadgetbridge currently stores raw data in its database. Raw data has to be read 
 
 ### Miband 1s (white leds, HR sensor)
 
-The firmware sports 3 different measurement modes:
+The firmware sports 3 different modes to measure the heart rate:
 * a single measurement (as initiated from the debug screen)
 * automatic measurement during sleep
 * continuous measurement, about one peer second (as used in the live activity tracking screen)

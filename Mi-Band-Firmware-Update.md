@@ -6,6 +6,8 @@ Since we may not distribute the firmware, you have to do a little work. You need
 
 Next, you need to find out, which of the `*.fw` files you need.
 
+Some less interesting technical information is in [[Mi Band Firmware Information]].
+
 ## Mi Band Model
 Which Mi Band do you have? There are 3 different models and each of them needs a different `*.fw` file.
 

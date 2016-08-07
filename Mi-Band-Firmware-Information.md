@@ -19,9 +19,9 @@ Template for each firmware:
 -->
 
 # Mi Band 1S (Firmware 4.x)
-| Version / Function            | 4.15.12.10 Mi Band + 1.3.74.76 HR | 4.16.4.22 Mi Band + 1.3.76.22 HR  | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.15.11.19 Mi Band  + ? HR                 |
+| Version / Function            | 4.15.12.10 Mi Band + 1.3.74.64 HR | 4.16.4.22 Mi Band + 1.3.76.22 HR  | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.15.11.19 Mi Band  + ? HR                 |
 | ----------------------------- | --------------------------------- | --------------------------------- | -------------------------------- | ------------------------------------------ |
-| recommended                   | yes                               | no                                | no                               | no                                         |
+| recommended                   | yes                               | yes                               | no                               | no                                         |
 | alarms                        | work                              | work                              | work                             | does not work                              |
 | notifications                 | work                              | work                              | work                             | work                                       |
 | activity recognition          | works                             | works                             | works                            | unusable, detects far too many sleep hours |

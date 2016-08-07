@@ -1,4 +1,4 @@
 - [[Mi Band Compatibility Issues]]
-- [[Mi Band Firmware Information]]
 - [[Mi Band Firmware Update]]
+- [[Mi Band Firmware Information]] - some technical and historical information about firmware versions
 - [[Activity Analysis]]

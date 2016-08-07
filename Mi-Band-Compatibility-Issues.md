@@ -4,7 +4,9 @@ It looks like it is not feasible to have both Mi Fit and Gadgetbridge installed 
 Maybe it is sufficient to deactivate Mi Fit instead of uninstalling it completely.
 
 ## Moto G (2013)
-It looks like the Moto G, at least with Android 4.4.x (KitKat) has a problem with the Mi Band. It might be a problem with the Bluetooth stack of KitKat or even Moto G's Bluetooth device. 
-Occurred with Mi Band firmware versions 
+
+The first gen Moto works fine with the Mi Band when updated to Android 5.1 (most should be), tested with Mi Band firmware 04.15.12.10. Everything seems to work.
+
+Other versions like Android 4.4.x (KitKat) may have problems with the Mi Band - occurred with Mi Band firmware versions 
 * 1.4.0.3 (everything in Gadgetbridge works **except** fetching activity data)
 * 1.0.9.14 (nothing works, cannot even connect properly)

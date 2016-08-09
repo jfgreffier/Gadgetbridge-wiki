@@ -13,6 +13,8 @@ Other versions like Android 4.4.x (KitKat) may have problems with the Mi Band - 
 
 ## Pebble 
 
+Situation: use Pebble and Mi Band 2 at the same time    
+
 1. Upgrade Pebble's firmware (tested 3.12.2), either with the official application or by flashing. 
 2. Disable official Pebble app. 
 3. Install F-Droid and Gadgetbridge. 

@@ -20,4 +20,4 @@ Other versions like Android 4.4.x (KitKat) may have problems with the Mi Band - 
 
 Pebble's official application complicates with Mi Fit. This work around enables to use both devices at the same time. Do software installation with the official Pebble app and do then (2-4)
 
-Pebbles: Pebble Classic hardware V3R3    
+Pebble: Pebble Classic hardware V3R3, ...    

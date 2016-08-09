@@ -20,7 +20,7 @@ Situation: use Pebble and Mi Band 2 at the same time
 3. Install F-Droid and Gadgetbridge. 
 4. Connect to your Pebble by clicking your Pebble device. 
 
-Pebble's official application complicates with Mi Fit. This work around enables to use both devices at the same time. Do software installation with the official Pebble app and do then (2-4)
+Pebble's official application complicates with Mi Fit. This work around enables to use both devices at the same time. Do software installation with the official Pebble app and do then (2-4).
 
 Pebble: Pebble Classic hardware V3R3, ...    
 Pebble firmware: 3.12.2, ...

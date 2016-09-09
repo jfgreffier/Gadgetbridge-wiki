@@ -19,6 +19,10 @@ Based on our tests the following should be possible:
 
 **DO NOT FLASH A RECOVERY FIRMWARE, IF YOU WANT TO UPDATE THE RECOVERY FIRMWARE TO A NEWER VERSION, INSTALL THE LATEST MIGRATION, AND THEN THE NORMAL FIRMWARE AGAIN**
 
+## Upgrading from 3.x to 4.x (only available for the pebble time watches)
+
+Just flash the firmware as normal, no special procedure needed.
+
 ## Firmware Download Locations
 If you think there might be something newer available, please check the [Pebble wiki](http://www.pebbledev.org/wiki/Firmware_Updates/) on how to find out for real.
 

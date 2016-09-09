@@ -38,10 +38,10 @@ https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/3.x-migration_v2_
 https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.12.1-v2_0.pbz
 
 ### Pebble Time
-https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-3.14-snowy_dvt.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.0-snowy_dvt.pbz
 
 ### Pebble Time Steel
-https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-3.14-snowy_s3.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.0-snowy_s3.pbz
 
 ### Pebble Time Round
-https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-3.14-spalding.pbz
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.0-spalding.pbz

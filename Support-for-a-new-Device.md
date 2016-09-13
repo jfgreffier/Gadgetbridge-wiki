@@ -4,5 +4,5 @@ In practice, someone needs to have the time and the information to implement sup
 
 We do encourage and support the implementation for new devices. 
 
-When requesting support for a new device, please add the label "request for device" to it.
+When requesting support for a new device, please add the label "request for device" to it. If you found documentation or even a specification about the protocol, please reference it.
 

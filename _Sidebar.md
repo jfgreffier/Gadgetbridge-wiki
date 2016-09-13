@@ -9,6 +9,7 @@
 **Device Related**
  - [[Pebble]]
  - [[Mi Band]]
+ - [[Support for a new Device]]
 
 **Development**
  - [[How to Release]]

@@ -14,7 +14,7 @@ Template for each firmware:
 | activity recognition |  |
 | connection |  |
 | battery life |  |
-| gadgetbridge fw installer nr. |  |
+| gadgetbridge fw installer no. |  |
 
 -->
 
@@ -28,7 +28,7 @@ Template for each firmware:
 | connection                    | works                             | works                             | works                            | works                                      |
 | battery life                  | good                              | good                              | good                             | good                                       |
 | heart rate measurement        | works                             | works                             | works                            | does not work                              |
-| gadgetbridge fw installer nr. | 68094986                          | ?                                 | 68158215                         | ?                                          |
+| gadgetbridge fw installer no. | 68094986                          | 68158486                          | 68158215                         | ?                                          |
 | CRC32                         | 393A9FC2                          | 5E1A74E2                          | A3F47C39                         | ?                                          |
 | MD5SUM                        | 24d8b84f8964489b893d1cb4581dc85f  | 3b3b1427078b23808dce480a85665423  | 7883298d9696c608210991c1dc3d0030 | ?                                          |
 | Mi band apk vesion            | 2.0.1, 2.0.4, 2.0.5               | 2.1.0, 2.1.1, 2.1.4, 2.1.5, 2.1.6 | 2.0.10                           | ?                                          |
@@ -42,7 +42,7 @@ Template for each firmware:
 | activity recognition | works |
 | connection | works |
 | battery life | good |
-| gadgetbridge fw installer nr. | 84870926 |
+| gadgetbridge fw installer no. | 84870926 |
 
 ## From 5.15.7.29 upwards, notifications do not work well, or at all
 
@@ -56,7 +56,7 @@ Template for each firmware:
 | battery life | good |
 | sleep detection | doesn't work (band recognises sleep but not wake-up) |
 | activity goal check | doesn't work |
-| gadgetbridge fw installer nr. | ? |
+| gadgetbridge fw installer no. | ? |
 
 ## 5.15.7.2
 | Function | Behavior |
@@ -65,7 +65,7 @@ Template for each firmware:
 | activity recognition | ? |
 | connection | ? |
 | battery life | ? |
-| gadgetbridge fw installer nr. | ? |
+| gadgetbridge fw installer no. | ? |
 
 # Mi Band 1 (coloured LEDs)
 
@@ -75,7 +75,7 @@ Template for each firmware:
 | activity recognition | no remarks |
 | connection | Connecting and synchronizing seems to be slightly faster and more reliable than with previous firmware versions. However, for notifications the vibration feature does not work with Gadgetbridge versions prior to 0.6.2. |
 | battery life | no remarks |
-| gadgetbridge fw installer nr. | 16779790 |
+| gadgetbridge fw installer no. | 16779790 |
 
 ## 1.0.10.11
 | Function | Behavior |
@@ -83,7 +83,7 @@ Template for each firmware:
 | activity recognition | seems to be working well, the "band not worn" detection looks good |
 | connection | no remarks |
 | battery life | no remarks |
-| gadgedbridge fw installer nr. | 16779787 |
+| gadgedbridge fw installer no. | 16779787 |
 
 ## 1.0.10.6
 | Function | Behavior |
@@ -91,7 +91,7 @@ Template for each firmware:
 | activity recognition | no remarks |
 | connection | no remarks |
 | battery life | no remarks |
-| gadgedbridge fw installer nr. | 16779782 |
+| gadgedbridge fw installer no. | 16779782 |
 
 ## 1.0.10.3
 | Function | Behavior |
@@ -99,7 +99,7 @@ Template for each firmware:
 | activity recognition | no remarks |
 | connection | no remarks |
 | battery life | no remarks |
-| gadgedbridge fw installer nr. | 16779779 |
+| gadgedbridge fw installer no. | 16779779 |
 
 ## 1.0.9.48
 | Function | Behavior |

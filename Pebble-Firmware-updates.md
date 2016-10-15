@@ -4,16 +4,25 @@ Based on our tests the following should be possible:
 
 * Up or downgrade from any 1.x/2.x firmware to any 1.x/2.x firmware.
 * Up or downgrade from 3.x to any 3.x.
-* Upgrade from 2.x to 3.x via migration firmware
+* Upgrade from 1.x/2.x to 3.x via migration firmware
 
-## Upgrading from 2.x to 3.x
+## Upgrading from 1.x/2.x to 3.x
+
+### Instructions
+
+1. Flash the migration firmware and **wait till the Pebble reboots, ignoring errors if any** 
+2. The pebble will start in a 3.x recovery, flash the real firmware from there
+
+Tested versions:
+
+| Model  | Recovery                          | Firmware               | Tested by       |
+|--------|-----------------------------------|------------------------|-----------------|
+| Pebble | 3.x-migration_v1_5_v3.8-mig9.pbz  | Pebble-3.8-v1_5.pbz    | ashimokawa      |
+| Pebble | 3.x-migration_v1_5_v3.8-mig10.pbz | Pebble-3.12.2-v1_5.pbz | PabloCastellano |
 
 ### Warnings
-* Upgrading from 2.x to 3.x will update the recovery to 3.8
+* Upgrading from 1.x/2.x to 3.x will update the recovery to 3.8
 * Downgrading from 3.x to 2.x won't downgrade the recovery firmware and your data will be lost, we haven't tested it and do not know the correct procedure to update to 3.x again
-
-1. Flash the migration firmware (tested 3.x-migration_v1_5_v3.8-mig10.pbz) and **wait till the Pebble reboots, ignoring errors if any** 
-2. The pebble will start in a 3.x recovery, flash the real firmware from there (tested Pebble-3.8-v1_5.pbz)
 
 **NOTE: Install firmware files from .pbz files by selecting them from a file manager and opening them in Gadgetbridge's App/FW Installer**
 

@@ -29,7 +29,7 @@ If you think there might be something newer available, please check the [Pebble 
 ### Pebble
 https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/3.x-migration_v1_5_v3.8-mig10.pbz (MIGRATION)
 
-https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.12.1-v1_5.pbz
+https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.12.2-v1_5.pbz
 
 ### Pebble Kickstarter edition (HW version: V2R2)
 https://pebblefw.s3.amazonaws.com/pebble/ev2_4/release-v3.8/pbz/3.x-migration_ev2_4_v3.8-mig10.pbz (MIGRATION)

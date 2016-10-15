@@ -12,7 +12,7 @@ Based on our tests the following should be possible:
 * Upgrading from 2.x to 3.x will update the recovery to 3.8
 * Downgrading from 3.x to 2.x won't downgrade the recovery firmware and your data will be lost, we haven't tested it and do not know the correct procedure to update to 3.x again
 
-1. Flash the migration firmware (tested 3.x-migration_v1_5_v3.8-mig9.pbz) and **wait till the Pebble reboots, ignoring errors if any** 
+1. Flash the migration firmware (tested 3.x-migration_v1_5_v3.8-mig10.pbz) and **wait till the Pebble reboots, ignoring errors if any** 
 2. The pebble will start in a 3.x recovery, flash the real firmware from there (tested Pebble-3.8-v1_5.pbz)
 
 **NOTE: Install firmware files from .pbz files by selecting them from a file manager and opening them in Gadgetbridge's App/FW Installer**

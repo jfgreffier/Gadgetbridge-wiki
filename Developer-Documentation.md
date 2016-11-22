@@ -23,7 +23,7 @@ or
 ## Overview
 ![Overview UML Component Diagram](https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/assets/devintro.png)
 
-All the details about the communication/protocol with a concrete device (Pebble, Mi Band, ...) is inside the "Concrete Device Impl." component, that is, the concrete implementations of the DeviceSupport interface. Only the DeviceCommunicationService has access to those -- clients (typically Activities) talk to the DeviceService interface in order to communicate with the devices.
+All the details about the communication/protocol with a concrete device (Pebble, Mi Band, ...) is inside the "Concrete Device Impl." component, that is, the concrete implementations of the `DeviceSupport` interface. Only the `DeviceCommunicationService` has access to those -- clients (typically Activities) talk to the `DeviceService` interface in order to communicate with the devices.
 
 ### Extracting CSV Data from the SQLite Database
 

@@ -1,3 +1,12 @@
+# Development Environment
+The core team uses Debian GNU/Linux + [Android Studio](https://developer.android.com/studio/index.html) 2.2 (as of November 2016). It is also available for Windows and Mac, but we never used that.
+You can use any Android device connected to USB to run your code straight from Android Studio on the device. Be aware that you cannot install your own built version and F-Droid's at the same time. You can export and import your database, though.
+
+If you only want to compile the code, you can simply execute
+```./gradlew assembleDebug```
+or
+```./gradlew assembleRelease```
+
 # Short Introduction to Gadgetbridge's Source Code
 ## Important Classes
 - [PebbleSupport] (https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/java/nodomain/freeyourgadget/gadgetbridge/service/devices/pebble/PebbleSupport.java) (see class hierarchy)

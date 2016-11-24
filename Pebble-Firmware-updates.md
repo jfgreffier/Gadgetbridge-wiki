@@ -38,23 +38,26 @@ If you think there might be something newer available, please check the [Pebble 
 ### Pebble
 https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/3.x-migration_v1_5_v3.8-mig10.pbz (MIGRATION)
 
-https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.12.2-v1_5.pbz
+https://pebblefw.s3.amazonaws.com/pebble/v1_5/release-v3.8/pbz/Pebble-3.12.3-v1_5.pbz
 
 ### Pebble Kickstarter edition (HW version: V2R2)
 https://pebblefw.s3.amazonaws.com/pebble/ev2_4/release-v3.8/pbz/3.x-migration_ev2_4_v3.8-mig10.pbz (MIGRATION)
 
-https://pebblefw.s3.amazonaws.com/pebble/ev2_4/release-v3.8/pbz/Pebble-3.12.2-ev2_4.pbz
+https://pebblefw.s3.amazonaws.com/pebble/ev2_4/release-v3.8/pbz/Pebble-3.12.3-ev2_4.pbz
 
 ### Pebble Steel
 https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/3.x-migration_v2_0_v3.8-mig10.pbz (MIGRATION)
 
-https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.12.2-v2_0.pbz
+https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.12.3-v2_0.pbz
 
 ### Pebble Time
-https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.1.3-snowy_dvt.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.2-snowy_dvt.pbz
 
 ### Pebble Time Steel
-https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.1.3-snowy_s3.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.2-snowy_s3.pbz
 
 ### Pebble Time Round
-https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.1.3-spalding.pbz
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.2-spalding.pbz
+
+### Pebble 2
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.2-silk.pbz

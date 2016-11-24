@@ -1,5 +1,7 @@
 **FIRMWARE UPDATES ARE ALWAYS AT YOUR OWN RISK!**
 
+**PEBBLE 2 updates seem to be failing! But bricks did not happen so far**
+
 Based on our tests the following should be possible:
 
 * Up or downgrade from any 1.x/2.x firmware to any 1.x/2.x firmware.

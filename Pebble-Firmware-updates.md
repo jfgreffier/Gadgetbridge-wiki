@@ -4,11 +4,11 @@
 
 Based on our tests the following should be possible:
 
-* Up or downgrade from any 1.x/2.x firmware to any 1.x/2.x firmware.
-* Up or downgrade from 3.x to any 3.x.
+* Up or downgrade from 1.x/2.x to any 1.x/2.x firmware.
+* Up or downgrade from 3.x/4.x to any 3.x/4.x firmware
 * Upgrade from 1.x/2.x to 3.x via migration firmware
 
-## Upgrading from 1.x/2.x to 3.x
+## Upgrading from 1.x/2.x to 3.x (Pebble, Pebble Steel)
 
 ### Instructions
 
@@ -53,13 +53,13 @@ https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/3.x-migration_v2_
 https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.12.3-v2_0.pbz
 
 ### Pebble Time
-https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.2-snowy_dvt.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.3-snowy_dvt.pbz
 
 ### Pebble Time Steel
-https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.2-snowy_s3.pbz
+https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.3-snowy_s3.pbz
 
 ### Pebble Time Round
-https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.2-spalding.pbz
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.3-spalding.pbz
 
 ### Pebble 2
-https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.2-silk.pbz
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.3-silk.pbz

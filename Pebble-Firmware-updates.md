@@ -1,6 +1,6 @@
 **FIRMWARE UPDATES ARE ALWAYS AT YOUR OWN RISK!**
 
-**PEBBLE 2 updates seem to be failing! But bricks did not happen so far**
+**PEBBLE 2 updates could fail, but bricks did not happen so far**
 
 Based on our tests the following should be possible:
 

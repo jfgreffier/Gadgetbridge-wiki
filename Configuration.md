@@ -9,7 +9,7 @@ Tapping the overflow menu in the upper-right of the Gadgetbridge main screen, yo
 <sup>Overflow Menu: Chose to edit settings, debug settings, or exit Gadgetbridge</sup>
 
 ### General settings
-As we want to configure Gadgetbridge, we obviously chose the first item – which leads us to the screen with general settings:
+As we want to configure Gadgetbridge, we obviously choose the first item – which leads us to the screen with general settings:
 
 [![GeneralSettings (1)](https://i.imgur.com/AKDMGs0m.png)](https://i.imgur.com/AKDMGs0.png) [![GeneralSettings (2)](https://i.imgur.com/kIm58q3m.png)](https://i.imgur.com/kIm58q3.png) [![GeneralSettings (3)](https://i.imgur.com/3xAZiBcm.png)](https://i.imgur.com/3xAZiBc.png)  
 <sup>The General Settings screen (click images for larger variants)</sup>

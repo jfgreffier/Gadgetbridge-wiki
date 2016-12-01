@@ -1,4 +1,4 @@
-This page contains remarks about the different Mi Band firmware version tested with Gadgetbridge. If you are using Gadgetbridge with a firmware version that is not listed here – or find that the information provided here are not correct – please provide your impressions and remarks to the team!
+This page contains remarks about the different Mi Band firmware versions tested with Gadgetbridge. If you are using Gadgetbridge with a firmware version that is not listed here – or find that the information provided here are not correct – please provide your impressions and remarks to the team!
 
 The firmwares are sorted by device. The recommended version comes first, then other versions sorted from newer to older.
 
@@ -125,6 +125,6 @@ Template for each firmware:
 ## 1.0.9.3
 | Function | Behavior |
 | --- | --- |
-| activity recognition | works well, but it doesn't seems to recognize any sleep outside of "night hours". |
+| activity recognition | works well, but it doesn't seem to recognize any sleep outside of "night hours". |
 | connection | no remarks |
 | battery life | no remarks |

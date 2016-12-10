@@ -9,19 +9,26 @@ You need to install
 - adb (Android Debug Bridge, included in Android Studio)
 
 ## Getting the code
-    git clone https://github.com/Freeyourgadget/Gadgetbridge.git
+```
+git clone https://github.com/Freeyourgadget/Gadgetbridge.git
+```
 (after you did that once, you can use `git pull` to get the newest Gadgetbridge code)
 
 Alternatively you can use Android Studio to clone the Gadgetbridge repository.
 
 ## Building and installing the Gadgetbridge apk
 If you only want to compile the code, you can simply execute
-    ./gradlew assembleDebug
+```
+./gradlew assembleDebug
+```
 or
-    ./gradlew assembleRelease
-
+```
+./gradlew assembleRelease
+```
 And install it to your mobile or tablet by executing
-    adb install app/build/outputs/apk/app-debug.apk
+```
+adb install app/build/outputs/apk/app-debug.apk
+```
 
 Android Studio does all this automatically when you press the `Run` or `Debug` button.
 

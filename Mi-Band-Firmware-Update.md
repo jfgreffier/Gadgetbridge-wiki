@@ -17,6 +17,8 @@ Which Mi Band do you have? There are 3 different models and each of them needs a
 
 1. Model 1S (white LEDs + heart rate sensor): `Mili_hr.fw`
 
+1. Model 2 (with display + heart rate sensor): `Mili_pro.fw`
+
 ## Known firmwares' md5
 As mentioned above, we are not allowed to distribute firmware files, these md5 values may be used to check if the firmware file you obtained is valid/is not corrupted.
 **To check the md5 you may use the command `md5sum` on a linux computer.**
@@ -35,6 +37,9 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 04.15.11.20 - 7be80f0061efdf660e25a2d7cb3b6660
  * 04.15.12.10 - 24d8b84f8964489b893d1cb4581dc85f
  * 04.16.4.22 - 3b3b1427078b23808dce480a85665423
+
+1. Model 2 (with display + heart rate sensor): `Mili_pro.fw`
+ * 1.0.0.39 - a98ee8d6a04b3bb4aff472e2cc91c21b
 
 ## Installing the Firmware
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.

@@ -2,7 +2,7 @@
 This feature **has the potential to brick your Mi Band**! That said, this has never happened to any of the developers, but remember **you're doing this at your own risk**.
 
 ## Getting the Firmware
-Since we may not distribute the firmware, you have to do a little work. You need to find and download a MiFit APK file. There is an APK Mirror Web site that might help you find MiFit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.
+Since we may not distribute the firmware, you have to do a little work. You need to find and download a Mi Fit APK file. There is an APK Mirror Web site that might help you find Mi Fit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.
 
 Next, you need to find out, which of the `*.fw` files you need.
 

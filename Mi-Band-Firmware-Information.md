@@ -17,6 +17,20 @@ Template for each firmware:
 | gadgetbridge fw installer no. |  |
 
 -->
+# Mi Band 2 (Firmware 1.x)
+| Version / Function            | 1.0.0.39 |
+| ----------------------------- | --------------------------------- |
+| recommended                   | yes                               |
+| alarms                        | work                              |
+| notifications                 | work                              |
+| activity recognition          | works                             |
+| connection                    | works                             |
+| battery life                  | good                              |
+| heart rate measurement        | works                             |
+| gadgetbridge fw installer no. | 41899                             |
+| CRC32                         | 68efecd7                          |
+| MD5SUM                        | a98ee8d6a04b3bb4aff472e2cc91c21b  |
+| Mi band apk vesion            | 2.2.0               |
 
 # Mi Band 1S (Firmware 4.x)
 | Version / Function            | 4.15.12.10 Mi Band + 1.3.74.64 HR | 4.16.4.22 Mi Band + 1.3.76.22 HR  | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.15.11.19 Mi Band  + ? HR                 |

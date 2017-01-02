@@ -1,3 +1,5 @@
+**Warning:** Make sure to enable untested features in [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) before starting. [See #203](https://github.com/Freeyourgadget/Gadgetbridge/issues/203)
+
 You can interact with incoming calls and SMS from your Pebble. For advanced features, you need to prepare your own Canned Replies:
 
 ## Configure Canned Replies

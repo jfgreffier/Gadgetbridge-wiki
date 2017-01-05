@@ -7,7 +7,13 @@ This page is about apps running on your Pebble, also called „Watchfaces“.
 * [Why do some watchfaces not work fully?](#why-do-some-watchfaces-not-work-fully)
 
 ### Where can I find Watchfaces?
-You can find them on many places. The official source for watchfaces is the corresponding section in the Pebble store: [Watchfaces](https://apps.getpebble.com/en_US/watchfaces?dev_settings=true). There you can browse through a large collection of watchfaces and, following the button on the end of each watchface page, download them via the „Download PBW“ button.
+You can find them on many places. The official source for watchfaces is the corresponding section in the [Pebble store][1]: [Watchfaces](https://apps.getpebble.com/en_US/watchfaces?dev_settings=true). There you can browse through a large collection of watchfaces and, following the button on the end of each watchface page, download them via the „Download PBW“ button:
+
+1. Open the [Pebble Store][1]
+1. Find the app / watchface you want to install, and open its detail page
+1. In the browser's address bar, add `&dev_settings=true` to the page's URL, so it looks e.g. like this: [`https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true`](https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true), and load this page.
+1. Scroll to the end of the page. There you should find an additional link now, labeled "DOWNLOAD PBW". Use this to download the app/watchface.  
+[![DownloadPbw][2]][3]
 
 There are also several free and open-source watchfaces you can find here at Github. The Gadgetbridge team e.g. recommends:
 
@@ -44,3 +50,8 @@ Btw: a single tap on a watchface in Gadgetbridge will start it on your Pebble �
 There are some restrictions to consider. Remember for example that Gadgetbridge comes without the Internet permission (for privacy reasons) – so watchfaces won't be able to access the internet through it. That means weather data can't be retrieved – and things like e.g. the [TripAdvisor](https://apps.getpebble.com/de_DE/application/5509b04684ad023da7000030?dev_settings=true&hardware=basalt&is_browser=true&platform=android&query=&section=watchapps) app cannot do anything useful.
 
 That's by design – and before you ask: No, Gadgetbridge won't get the Internet permission added. For your own sake (and so you can trust us not to send your data somewhere into the cloud). There *might* be an [Internet-enabled companion app](https://github.com/Freeyourgadget/Gadgetbridge/issues/302) (or addon) one day, though. To work around that, you could use watchfaces that have another Android companion app which comes with the Internet permission. Unfortunately, there are [security implications](https://github.com/Freeyourgadget/Gadgetbridge/issues/302#issuecomment-219211974) with all of them: don't blame the devs for that, they're innocents. Put into simple terms: as the watchfaces are installed on your Pebble (and not on the Android device), Android cannot assing them specific permissions – and thus they need to use less secure means of communication. Details behind the link.
+
+
+[1]: https://apps.getpebble.com/ "Pebble Store"
+[2]: https://i.imgur.com/CVw5FhOm.png
+[3]: https://i.imgur.com/CVw5FhO.png

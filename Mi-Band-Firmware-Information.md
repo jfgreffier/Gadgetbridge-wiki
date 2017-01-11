@@ -20,7 +20,7 @@ Template for each firmware:
 # Mi Band 2 (Firmware 1.x)
 | Version / Function            | 1.0.0.39                          | 1.0.1.28                          | 1.0.0.53 | 1.0.0.34 | 1.0.0.19                          |
 | ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
-| recommended                   | yes                               | yes (upgrade with GB does only work from 1.0.0.53 and above)                                | ? | no      | no      |
+| recommended                   | yes                               | yes (when upgrading from 1.0.0.* versions, install Mili_pro_53.fw first)                                | ? | no      | no      |
 | alarms                        | work                              | work (no smart alarms?)       | ? | work (smart alarms partly?)      | work (smart alarms partly?)      |
 | notifications                 | work                              | work                              | ? | work                              | work                              |
 | activity recognition          | works                             | works                             | ? | works                     | works                     |
@@ -30,7 +30,7 @@ Template for each firmware:
 | gadgetbridge fw installer no. | 41899                             | 32450 | 49197 | ? | ? |
 | CRC32                         | 68efecd7                          | ? | ? | ? | ? |
 | MD5SUM                        | a98ee8d6a04b3bb4aff472e2cc91c21b  | 804903543b7958c1b4f9b5c0e420bcb5 | abdd122897234f40b556f775ba0b9dc2 | ? | ? |
-| Mi band apk vesion            | 2.2.0                             | 2.2.9 | included in all newer apks | ? | ? |
+| Mi Fit apk version            | 2.2.0                             | 2.2.9 | included in all newer apks | ? | ? |
 
 # Mi Band 1S (Firmware 4.x)
 | Version / Function            | 4.15.12.10 Mi Band + 1.3.74.64 HR | 4.16.4.22 Mi Band + 1.3.76.22 HR  | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.15.11.19 Mi Band  + ? HR                 |

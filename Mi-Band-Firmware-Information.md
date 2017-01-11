@@ -18,19 +18,19 @@ Template for each firmware:
 
 -->
 # Mi Band 2 (Firmware 1.x)
-| Version / Function            | 1.0.0.39                          | 1.0.0.19                          | 1.0.1.28                          |
+| Version / Function            | 1.0.0.39                          | 1.0.1.28                          | 1.0.0.19                          |
 | ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
-| recommended                   | yes                               | no                                | yes (but upgrade with Gadgetbridge untested)      |
-| alarms                        | work                              | work (smart alarms partly?)       | work (no smart alarms?)      |
+| recommended                   | yes                               | yes (but upgrade with Gadgetbridge untested)                                | no      |
+| alarms                        | work                              | work (no smart alarms?)       | work (smart alarms partly?)      |
 | notifications                 | work                              | work                              | work                              |
-| activity recognition          | works                             | step count inconsistent (most of the time) between GB and device itself | works                             |
-| connection                    | works                             | works                             | works                              |
+| activity recognition          | works                             | works                             | works                     |
+| connection                    | works                             | works                             | works                             |
 | battery life                  | good                              | good                              | good                              |
-| heart rate measurement        | works                             | stopped working at some point (known firmware issue, not GB-related) | works                             |
-| gadgetbridge fw installer no. | 41899                             | ? | ? |
+| heart rate measurement        | works                             | works                             | stopped working at some point (known firmware issue, not GB-related) |
+| gadgetbridge fw installer no. | 41899                             | 32450 | ? |
 | CRC32                         | 68efecd7                          | ? | ? |
-| MD5SUM                        | a98ee8d6a04b3bb4aff472e2cc91c21b  | ? | ? |
-| Mi band apk vesion            | 2.2.0                             | ? | ? |
+| MD5SUM                        | a98ee8d6a04b3bb4aff472e2cc91c21b  | 804903543b7958c1b4f9b5c0e420bcb5 | ? |
+| Mi band apk vesion            | 2.2.0                             | 2.2.9 | ? |
 
 # Mi Band 1S (Firmware 4.x)
 | Version / Function            | 4.15.12.10 Mi Band + 1.3.74.64 HR | 4.16.4.22 Mi Band + 1.3.76.22 HR  | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.15.11.19 Mi Band  + ? HR                 |

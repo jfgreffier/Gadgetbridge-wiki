@@ -20,7 +20,7 @@ Template for each firmware:
 # Mi Band 2 (Firmware 1.x)
 | Version / Function            | 1.0.0.39                          | 1.0.1.28                          | 1.0.0.53 | 1.0.0.34 | 1.0.0.19                          |
 | ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
-| recommended                   | yes                               | yes (but upgrade with Gadgetbridge untested)                                | ? | no      | no      |
+| recommended                   | yes                               | yes (upgrade with GB does only work from 1.0.0.53 and above)                                | ? | no      | no      |
 | alarms                        | work                              | work (no smart alarms?)       | ? | work (smart alarms partly?)      | work (smart alarms partly?)      |
 | notifications                 | work                              | work                              | ? | work                              | work                              |
 | activity recognition          | works                             | works                             | ? | works                     | works                     |

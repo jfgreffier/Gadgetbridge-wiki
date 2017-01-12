@@ -40,10 +40,12 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
 
 1. Model 2 (with display + heart rate sensor): `Mili_pro.fw`
  * 1.0.0.39 - a98ee8d6a04b3bb4aff472e2cc91c21b
- * 1.0.0.53 - abdd122897234f40b556f775ba0b9dc2
+ * 1.0.0.53 - abdd122897234f40b556f775ba0b9dc2 (included in all newer Mi Fit APKs as `Mili_pro_53.fw`)
  * 1.0.1.28 - 804903543b7958c1b4f9b5c0e420bcb5
 
 ## Installing the firmware
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
 
-Note that both upgrade and downgrade of firmware versions is possible.
+**Note 1:** Both upgrade and downgrade of firmware versions is possible.
+
+**Note 2:** Mi Band 2 upgrades from 1.0.0.* firmware versions to newer versions (>1.0.0.* ) require to upgrade to an intermediate firmware version first. This intermediate version is 1.0.0.53 and is included in all Mi Fit APKs that supply such newer firmware. Besides the `Mili_pro.fw` file there will also be the file `Mili_pro_53.fw`. Install the latter *before* installing the `Mili_pro.fw` file.

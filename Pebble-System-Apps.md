@@ -73,3 +73,23 @@ If you have multiple watch faces installed, this is where you can switch between
 Gadgetbridge does have support for all these except for changing the icon (of course you need to "Allow 3rd Party Android App Access" in Gadgetbridge [Pebble specific settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings) first). One app known to work with this is [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup).
 
 The Golf App should also work with Gadgetbridge, although it is untested. [Freecaddie](https://www.freecaddie.com/) and [Golf Pad Gps](http://golfpadgps.com/) seem to be a golf companion apps with Pebble support.
+
+
+### Weather
+Starting with version 0.17, *Gadgetbridge* offers support for weather information on your Pebble. To do this without requiring the `INTERNET` permission for itself, this requires the help of a weather provider on your Android device – which is provided by the [Weather notification](https://f-droid.org/repository/browse/?fdid=ru.gelin.android.weather.notification) app available at *F-Droid.*
+
+[![InstallApp](https://i.imgur.com/5pxDZVKm.png)](https://i.imgur.com/5pxDZVK.png) [![ActivateWeather](https://i.imgur.com/372DQFvm.png)](https://i.imgur.com/372DQFv.png) [![ActivateSkin](https://i.imgur.com/AeWeT5Zm.png)](https://i.imgur.com/AeWeT5Z.png)  
+<sup>Install the Weather Notification app / activate Pebble Weather app / activate the skin</sup>
+
+If your Pebble runs firmware 4.x, just open *Gadgetbridge,* tap the entry of your device, and switch to the „Installed Apps“ tab. There you should find an app labeled „Weather (System)“. Long tap that. If you didn't yet install the afore mentioned weather provider, you will be prompted to do so now (first screenshot above this paragraph). Tapping the prompt will open your web browser with the app's page at *F-Droid,* where you can use the APK download link. Alternatively, open your *F-Droid* app, search for „Weather notification“, and install it that way. Once installed and long-pressing the entry again, you should see something like in the second screenshot – and can enable the Pebble „Weather“ system app.
+
+If your device runs a lower firmware version, you won't have that system app available. In this case, just make sure you install the „provider“ from *F-Droid* as described, and continue with the next step. Weather will still be available to the watchfaces.
+
+Now, you must enable the *Gadgetbridge* skin in the *Weather notification* app: start the app, and flip the switch as shown in the third screenshot. If you don't want weather information in your notification area, flip off the „Default Skin“. Feel free to adjust the other settings; for weather to work with your Pebble and *Gadgetbridge* you're already done now.
+
+[![WeatherApp](https://i.imgur.com/PZVkcscs.png)](https://i.imgur.com/PZVkcsc.png) [![Healthify](https://i.imgur.com/oXW7XI7s.png)](https://i.imgur.com/oXW7XI7.png) [![TrekVolle](https://i.imgur.com/YBcgJUOs.png)](https://i.imgur.com/YBcgJUO.png)  
+<sup>Pebble Weather app / weather with the *Healthify* watchface / weather with the _TrekVolle_ watchface</sup>
+
+For watchfaces to show weather information, *Gadgetbridge* must adapt to them. Check with the [Pebble weather for watchface requests](https://github.com/Freeyourgadget/Gadgetbridge/issues/482) issue if your candidate already is supported. If it's not, you can ask there for it to be added. Please understand that this requires a look into the watchface's code – so it being Open Source would help a lot here.
+
+Now, enjoy the weather in your watchface – as shown by the two examples above!

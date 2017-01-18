@@ -88,7 +88,7 @@ If your device runs a lower firmware version, you won't have that system app ava
 Now, you must enable the *Gadgetbridge* skin in the *Weather notification* app: start the app, and flip the switch as shown in the third screenshot. If you don't want weather information in your notification area, flip off the „Default Skin“. Feel free to adjust the other settings; for weather to work with your Pebble and *Gadgetbridge* you're already done now.
 
 [![WeatherApp](https://i.imgur.com/PZVkcscs.png)](https://i.imgur.com/PZVkcsc.png) [![Healthify](https://i.imgur.com/oXW7XI7s.png)](https://i.imgur.com/oXW7XI7.png) [![TrekVolle](https://i.imgur.com/YBcgJUOs.png)](https://i.imgur.com/YBcgJUO.png)  
-<sup>Pebble Weather app / weather with the *Healthify* watchface / weather with the _TrekVolle_ watchface</sup>
+<sup>Pebble Weather app / weather with the [Healthify](https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true) watchface / weather with the [TrekVolle](https://apps.getpebble.com/en_US/application/56bb35ee90610aa83400000f?dev_settings=true&section=watchfaces) watchface</sup>
 
 For watchfaces to show weather information, *Gadgetbridge* must adapt to them. Check with the [Pebble weather for watchface requests](https://github.com/Freeyourgadget/Gadgetbridge/issues/482) issue if your candidate already is supported. If it's not, you can ask there for it to be added. Please understand that this requires a look into the watchface's code – so it being Open Source would help a lot here.
 

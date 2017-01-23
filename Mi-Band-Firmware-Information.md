@@ -21,7 +21,7 @@ Template for each firmware:
 | Version / Function            | 1.0.0.39                          | 1.0.1.28                          | 1.0.0.53 | 1.0.0.34 | 1.0.0.19                          |
 | ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | recommended                   | yes                               | yes (when upgrading from 1.0.0.* versions, install version 1.0.0.53 (`Mili_pro_53.fw`) first) | intermediate version needed to install newer firmware | no      | no      |
-| alarms                        | work                              | work (no smart alarms?)       | ? | work (smart alarms partly?)      | work (smart alarms partly?)      |
+| alarms                        | work                              | work (no smart alarms)       | ? | work (smart alarms partly?)      | work (smart alarms partly?)      |
 | notifications                 | work                              | work                              | ? | work                              | work                              |
 | activity recognition          | works                             | works                             | ? | works                     | works                     |
 | connection                    | works                             | works                             | works                             | works                             | works                             |

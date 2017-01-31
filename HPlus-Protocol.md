@@ -26,14 +26,36 @@ _Not sure how other values influence the monitoring period_
 ## Messages provided by the device
 
 ### Current Stats
-Enabling All Day Heart Rate Measurement will make the device send periodic messages with current Calories, Steps, Heart Rate, Active Time, and Battery.
+Enabling All Day Heart Rate Measurement will make the device send periodic messages with current Calories, Steps, Heart Rate, Active Time, and Battery. 
 
-Message format: [0x33, Steps0, Steps1, Distance0, Distance1, Calories0, Calories1, Calories2, Calories3, Battery, Unknown, HeartRate, Active0, Active1]
+These messages are sent whenever movement is detected even if there are no changes. Expect duplicated messages. 
+
+Message format: [0x33, S0, S1, D0, D1, C0, C1, C2, C3, B, Unknown, HR, A0, A1]
+
 Fields:
-* Steps (number): Steps1 * 256 + Steps0
-* Distance (meters): Distance1 * 256 + Distance0
-* Calories (kCal): Calories1 * 256 + Calories3*256 + Calories1 + Calories0
-* Battery: 0-100
-* HeartRate: in Beats Per Minute. 0 if measurement failed (not in wrist). 255 is measuring
-* ActiveTime (minutes): Active1 * 256 + Active0
-  
+* Steps (number): S1 * 256 + S0
+* Distance (meters): D1 * 256 + D0
+* Calories (kCal): C1 * 256 + C3 * 256 + C1 + C0
+* Battery: B ranging from 0 to 100
+* HeartRate: HR in Beats Per Minute. 0 if measurement failed (not in wrist). 255 is measuring
+* ActiveTime (minutes): A1 * 256 + A0.
+
+### Day Summary
+
+These messages are sent if requested, providing a summary of the day. The device will store an unknown number of days. When requested, it will provide all days stored in the memory.
+
+It is unknown why the device may report two different IDs for these messages.
+
+Message format : [0x38 or 0x39,  S0, S1, D0, D1, C0, C1, C2, C3, Y0, Y1, Month, Day, A0, A1, MaxHR, MinHR]
+
+Fields:
+* Steps (number): S1 * 256 + S0
+* Distance (meters): D1 * 256 + D0
+* Calories (kCal): C1 * 256 + C3 * 256 + C1 + C0
+* Year: Y1 * 256 + Y0. Year of the measurement
+* Month: month of the measurement
+* Day: day of the measurement
+* ActiveTime (minutes): A1 * 256 + A0
+* MaxHR: Maximum Heart Rate during the day
+* MinHR: Minimum Heart Rate during the day
+

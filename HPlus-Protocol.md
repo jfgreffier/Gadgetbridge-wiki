@@ -10,16 +10,18 @@ Configuration is achieved by sending specific messages. There is no feedback and
 
 Values are sent in sets of 8bits. Values with more than 8bits must be split into multiple bytes in a specific manner.
 
+Internally they have by a circular buffer with 144 slots, each representing 10 minutes of operation. It is possible to query
+
 #### All Day Heart Rate Measurement
 Sets periodic monitoring of heart rate with an interval yet to be determined.
 
 Message format: [0x35, ARG]
+
 ARG values:
 * Monitoring On: 0x0A
 * Monitoring Off: 0xFF
 
-
-Internally they are composed by a circular buffer with 144 slots, each representing 10 minutes of operation. It is possible to query
+_Not sure how other values influence the monitoring period_
 
 ## Messages provided by the device
 

@@ -2,7 +2,7 @@ The information present in this page is the result of reverse engineering the co
 
 __This article is work in progress__
 
-### Device operation logic
+# Device operation logic
 
 These smart watches operate in a autonomous way without requiring permanent connection to another device (e.g, smartphone). Once configured, they will operate accordingly. Some devices, such as the Makibes F68 provide a screen that can be used to configure their operation. Others will rely on a configuration provided by a host device.
 
@@ -12,16 +12,29 @@ Values are sent in sets of 8bits. Values with more than 8bits must be split into
 
 Internally they have by a circular buffer with 144 slots, each representing 10 minutes of operation. It is possible to query
 
-#### All Day Heart Rate Measurement
+## Messages sent to the device
+## Set All Day Heart Rate Measurement
 Sets periodic monitoring of heart rate with an interval yet to be determined.
 
 Message format: `[0x35, ARG]`
 
-ARG values:
-* Monitoring On: `0x0A`
-* Monitoring Off: `0xFF`
+Arguments:
+* ARG: Monitoring On: `0x0A`, Monitoring Off: `0xFF`
 
 _Not sure how other values influence the monitoring period_
+
+## Set Inactivity Timers
+Sets an inactivity timer.
+
+Message format: `[0x0A, H1, M1, H2, M2]`
+
+Arguments:
+* H1: Start Hour
+* M1: Start Minute
+* H2: End Hour
+* M2: End Minute
+
+_Operation was not tested_ Needs testing 
 
 ## Messages provided by the device
 
@@ -32,7 +45,7 @@ These messages are sent whenever movement is detected even if there are no chang
 
 Message format: `[0x33, S0, S1, D0, D1, C0, C1, C2, C3, B, Unknown, HR, A0, A1]`
 
-Fields:
+Information Fields:
 * Steps (number): `S1 * 256 + S0`
 * Distance (meters): `D1 * 256 + D0`
 * Calories (kCal): `C1 * 256 + C3 * 256 + C1 + C0`
@@ -48,7 +61,7 @@ It is unknown why the device may report two different IDs for these messages.
 
 Message format : `[0x38 or 0x39,  S0, S1, D0, D1, C0, C1, C2, C3, Y0, Y1, Month, Day, A0, A1, MaxHR, MinHR]`
 
-Fields:
+Information Fields:
 * Steps (number): `S1 * 256 + S0`
 * Distance (meters): `D1 * 256 + D0`
 * Calories (kCal): `C1 * 256 + C3 * 256 + C1 + C0`

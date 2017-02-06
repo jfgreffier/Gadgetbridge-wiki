@@ -22,9 +22,9 @@ This applies both to the Zeblaze Zeband and Makibes F68 as they share most of th
 * Activity only considers HR... So there is no activity charts if All Day HR monitoring is disabled.
 * Firmware update: Standard Nordic DFU process. No code developed
 
-## Development/work planned
+## Development/work planned/ideas to be explored
 * Find if there is a configurable HR monitoring interval
-* Inactivity Timers
+* Find how inactivity timers work
 * Some messages are not understood and require further tinkering
 
 

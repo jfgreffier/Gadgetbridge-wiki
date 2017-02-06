@@ -13,7 +13,8 @@ Values are sent in sets of 8bits. Values with more than 8bits must be split into
 Internally they have by a circular buffer with 144 slots, each representing 10 minutes of operation. It is possible to query
 
 ## Messages sent to the device
-## Set All Day Heart Rate Measurement
+
+### Set All Day Heart Rate Measurement
 Sets periodic monitoring of heart rate with an interval yet to be determined.
 
 Message format: `[0x35, ARG]`
@@ -23,7 +24,7 @@ Arguments:
 
 _Not sure how other values influence the monitoring period_
 
-## Set Inactivity Timers
+### Set Inactivity Timers
 Sets an inactivity timer.
 
 Message format: `[0x0A, H1, M1, H2, M2]`
@@ -53,7 +54,7 @@ Information Fields:
 * HeartRate: HR in Beats Per Minute. 0 if measurement failed (not in wrist). 255 is measuring
 * ActiveTime (minutes): `A1 * 256 + A0`
 
-### Day Summary
+### Day Summary Data
 
 These messages are sent if requested, providing a summary of the day. The device will store an unknown number of days. When requested, it will provide all days stored in the memory.
 

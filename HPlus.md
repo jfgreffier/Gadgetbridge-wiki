@@ -26,6 +26,7 @@ This applies both to the Zeblaze Zeband and Makibes F68 as they share most of th
 * Find if there is a configurable HR monitoring interval
 * Find how inactivity timers work
 * Some messages are not understood and require further tinkering
+* Temporarily enable All Day HR Monitoring, for 1-2 seconds, in order to get latest data from band. This would be a simple synchronization method for steps, distance and calories.
 
 
 # For Developers

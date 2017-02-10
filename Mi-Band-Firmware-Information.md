@@ -22,11 +22,11 @@ Template for each firmware:
 | ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | recommended                   | yes                               | ? (when upgrading from 1.0.0.* versions, install version 1.0.0.53 (`Mili_pro_53.fw`) first)                               | yes (when upgrading from 1.0.0.* versions, install version 1.0.0.53 (`Mili_pro_53.fw`) first) | intermediate version needed to install newer firmware | no      | no      |
 | alarms                        | work                              | ?                              | work (no smart alarms)       | ? | work (smart alarms partly?)      | work (smart alarms partly?)      |
-| notifications                 | work                              | ?                              | work                              | ? | work                              | work                              |
+| notifications                 | work                              | ?                              | work                              | work | work                              | work                              |
 | activity recognition          | works                             | ?                             | works                             | ? | works                     | works                     |
 | connection                    | works                             | works                          | works                             | works                             | works                             | works                             |
 | battery life                  | good                              | good                           | good                              | ? | good                              | ? |
-| heart rate measurement        | works                             | works                          | works                             | ? | stopped working at some point (known firmware issue, not GB-related) | ? |
+| heart rate measurement        | works                             | works                          | works                             | works | stopped working at some point (known firmware issue, not GB-related) | ? |
 | gadgetbridge fw installer no. | 41899                             | 51770 | 32450 | 49197 | ? | ? |
 | CRC32                         | 68efecd7                          | ? | ? | ? | ? | ? |
 | MD5SUM                        | a98ee8d6a04b3bb4aff472e2cc91c21b  | 3ae6d0abe06006fbcf0d1685ad8231bb | 804903543b7958c1b4f9b5c0e420bcb5 | abdd122897234f40b556f775ba0b9dc2 | ? | ? |

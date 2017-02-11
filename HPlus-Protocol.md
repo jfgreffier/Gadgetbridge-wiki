@@ -14,6 +14,39 @@ Internally they have by a circular buffer with 144 slots, each representing 10 m
 
 ## Messages sent to the device
 
+### Set Date
+
+Sets the year, month and day.
+
+Message format: `[0x08, Y0, Y1, Month, Day]`
+
+Arguments:
+* Y0: Year / 256
+* Y1: Year % 256
+* Month: Number of the month, from 1 to 12
+* Day: Day of the month
+
+### Set Time
+
+Sets the current time.
+
+Message format: `[0x09, Hour, Minute, Second]`
+
+Arguments:
+* Hour: Hour of the day, from 0 to 23
+* Minute: Minutes of the hour, from 0 to 59
+* Second: Seconds of the minute, from 0 to 59
+
+### Set Day of the Week
+
+Sets the day of the week to be presented (e.g, Sunday, Monday...)
+
+Message format: `[0x2A, DayNumber]`
+
+Arguments:
+* DayNumber: Number of the day of the week, Sunday is 0
+
+
 ### Set All Day Heart Rate Measurement
 Sets periodic monitoring of heart rate with an interval yet to be determined.
 

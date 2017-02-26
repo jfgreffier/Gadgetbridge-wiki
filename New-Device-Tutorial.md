@@ -2,7 +2,7 @@
 
 This is a step by step tutorial for supporting a new device in Gadgetbridge. There are some differences depending on the transport layer being used (Bluetooth Classic, Bluetooth LE, WiFi, ...), but most of it is independent of that. The tutorial only covers the basics to get you started quickly. For more details, have a look at the existing implementations for other devices. Try to do your implementation in a similar way (where it makes sense), so as to ease maintenance.
 
-See `Appendix: Infrastructure` for some general implementation topics.
+See `Appendix: Infrastructure` for some general implementation topics and [[Developer-Documentation]] for an overview into Gadgetbridge's inner workings and important classes.
 
 Before going into the details, let's have a short look at the process the user has to go through in order to connect a new device.
 <pre>

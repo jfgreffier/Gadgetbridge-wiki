@@ -15,6 +15,7 @@
 **Development**
  - [[How to Release]]
  - [[Developer Documentation]]
+ - [[New Device Tutorial]]
  - [[Translating Gadgetbridge]]
 
 **Feature Discussion**

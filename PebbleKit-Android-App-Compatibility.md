@@ -10,4 +10,5 @@ Does not work. Complains about `Pebble not connected`. [#130](../issues/130) One
 Does not Work. Complains about `No Pebble Connected or Pebble app not installed`. [#130](../issues/130).  Might work with Gadgetbridge > 0.7.2
 ### [RunnerUp](https://f-droid.org/repository/browse/?fdfilter=runnerup&fdid=org.runnerup)
 Works, and simply uses the „Sports“ system app (if you've enabled that in Gadgetbridge [Pebble settings](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Configuration#pebble-specific-settings))
-
+### [upTempo](https://play.google.com/store/apps/details?id=com.vssh.uptempo)
+The Android companion app for the fitness tracker [upTempo](https://apps.getpebble.com/en_US/application/556c1dc2e42ea416be0000aa). Works, without any problem with GadgetBridge >= 0.17.5

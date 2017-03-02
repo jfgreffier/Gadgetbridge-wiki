@@ -42,6 +42,7 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 1.0.0.39 - a98ee8d6a04b3bb4aff472e2cc91c21b
  * 1.0.0.53 - abdd122897234f40b556f775ba0b9dc2 (included in all newer Mi Fit APKs as `Mili_pro_53.fw`)
  * 1.0.1.28 - 804903543b7958c1b4f9b5c0e420bcb5
+ * 1.0.1.34 - 3ae6d0abe06006fbcf0d1685ad8231bb
 
 ## Installing the firmware
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.

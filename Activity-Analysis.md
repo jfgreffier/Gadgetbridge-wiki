@@ -17,12 +17,16 @@ Gadgetbridge currently stores raw data in its database. Raw data has to be read 
 
 ### Miband 1s (white leds, HR sensor)
 
-The firmware sports 3 different modes to measure the heart rate:
+The firmware supports 3 different modes to measure the heart rate:
 * a single measurement (as initiated from the debug screen)
 * automatic measurement during sleep
 * continuous measurement, about one peer second (as used in the live activity tracking screen)
 
 Only the measurement during sleep is recorded on the band. The other measurement values are sent to the mobile only, so you have to be connected to get them. Maybe there are other ways to get the heart rate data recorded but we don't know them.
+
+### Miband 2 (with display, button, HR sensor)
+
+Besides the display it basically provides the same functionality as Miband 1s in Gadgetbridge (including original Miband functionality).
 
 ### Pebble health
 

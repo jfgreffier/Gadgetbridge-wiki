@@ -28,7 +28,7 @@ Template for each firmware:
 | battery life                  | good                              | good                           | good                              | ? | good                              | ? |
 | heart rate measurement        | works                             | works                          | works                             | works | stopped working at some point (known firmware issue, not GB-related) | ? |
 | gadgetbridge fw installer no. | 41899                             | 51770 | 32450 | 49197 | ? | ? |
-| CRC32                         | 68efecd7                          | ? | ? | ? | ? | ? |
+| CRC32                         | 68efecd7                          | 01d1ef2d | ? | ? | ? | ? |
 | MD5SUM                        | a98ee8d6a04b3bb4aff472e2cc91c21b  | 3ae6d0abe06006fbcf0d1685ad8231bb | 804903543b7958c1b4f9b5c0e420bcb5 | abdd122897234f40b556f775ba0b9dc2 | ? | ? |
 | Mi Fit apk version            | 2.2.0                             | 2.2.12 | 2.2.9 | included in all newer apks as `Mili_pro_53.fw` | ? | ? |
 

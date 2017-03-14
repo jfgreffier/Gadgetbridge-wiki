@@ -18,6 +18,8 @@ Template for each firmware:
 
 -->
 # Mi Band 2 (Firmware 1.x)
+**Note:** For text and special icon notifications, you need to have version >= 1.0.1.28 and installed an appropriate font on the band: Mili_pro.ft or Mili_pro.ft.en.
+
 | Version / Function            | 1.0.1.39                          | 1.0.1.34                          | 1.0.1.28                          | 1.0.0.53                          | 1.0.0.39                          | 1.0.0.34 | 1.0.0.19                          |
 | ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | recommended                   | yes (when upgrading from 1.0.0.* versions, install version 1.0.0.53 (`Mili_pro_53.fw`) first)       | yes (when upgrading from 1.0.0.* versions, install version 1.0.0.53 (`Mili_pro_53.fw`) first)                               | yes (when upgrading from 1.0.0.* versions, install version 1.0.0.53 (`Mili_pro_53.fw`) first) | intermediate version needed to install newer firmware | yes                               | no      | no      |

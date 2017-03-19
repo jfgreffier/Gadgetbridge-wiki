@@ -43,11 +43,24 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 1.0.0.53 - abdd122897234f40b556f775ba0b9dc2 (included in all newer Mi Fit APKs as `Mili_pro_53.fw`)
  * 1.0.1.28 - 804903543b7958c1b4f9b5c0e420bcb5
  * 1.0.1.34 - 3ae6d0abe06006fbcf0d1685ad8231bb
- * 1.0.1.39 - 470641716d9e63115b839cb38eaafce7
+ * 1.0.1.39 - Firmware and Font files:
+   + Mili_pro.fw:     470641716d9e63115b839cb38eaafce7
+   + Mili_pro.ft:     aa1d93a7ade6fb4cd35d63ce38100df3
+   + Mili_pro.ft.en:  6e18d7ddd212d74ad8d272f6738ecd6c
 
-## Installing the firmware
+
+## Installing the firmware on Mi Band 1 , 1A, 1S models
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible.
 
-**Note 2:** Mi Band 2 upgrades from 1.0.0.* firmware versions to newer versions (>1.0.0.* ) require to upgrade to an intermediate firmware version first. This intermediate version is 1.0.0.53 and is included in all Mi Fit APKs that supply such newer firmware. Besides the `Mili_pro.fw` file there will also be the file `Mili_pro_53.fw`. Install the latter *before* installing the `Mili_pro.fw` file.
+## Installing the firmware on Mi Band 2 model
+Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
+
+**Important:** Mi Band 2 upgrades from 1.0.0.* firmware versions to newer versions (>1.0.0.* ) require to upgrade to an intermediate firmware version first. This intermediate version is 1.0.0.53 and is included in all Mi Fit APKs that supply such newer firmware. Besides the `Mili_pro.fw` file there will also be the file `Mili_pro_53.fw`. Install the latter *before* installing the `Mili_pro.fw` file.
+
+**Note 1:** Both upgrade and downgrade of firmware versions is possible.
+
+Starting with Firmware 1.0.1.28 the Mi Band supports text notifications. In order to get it working you need to have Gadgetbridge v0.18.0 or above and install the font files after installing the corresponding firmware file. They are located in the same directory as the firmware files and are named Mili_pro.ft* (currently Mili_pro.ft and Mili_pro.ft.en are included). The installation process is the same as with the firmware file.
+
+**Note 2:** Text support is still under development and has currently limited functionality.

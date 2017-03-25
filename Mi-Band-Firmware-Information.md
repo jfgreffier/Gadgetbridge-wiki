@@ -2,7 +2,7 @@ This page contains remarks about the different Mi Band firmware versions tested 
 
 The firmwares are sorted by device. The recommended version comes first, then other versions sorted from newer to older.
 
-Further information is here: https://github.com/flycodepl/mi-band-firmware-analyse
+Further information can be found on the [[Mi Band Firmware Update]] wiki page and here: https://github.com/flycodepl/mi-band-firmware-analyse
 
 <!--
 Template for each firmware:

@@ -61,6 +61,6 @@ Copy the desired Mi Band firmware as a `*.fw` file to your Android device and op
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible.
 
-Starting with Firmware version 1.0.1.28 the Mi Band supports text notifications. In order to get it working you need to have Gadgetbridge version >=0.18.0 and install the font files after installing the corresponding firmware file. These font files are located in the same directory as the firmware files and are named `Mili_pro.ft*` (currently `Mili_pro.ft` and `Mili_pro.ft.en`). The installation process is the same as with the firmware file.
+Starting with Firmware version 1.0.1.28 the Mi Band supports text notifications. In order to get it working you need to have Gadgetbridge version >=0.18.0 and install the font files after installing the corresponding firmware file. These font files are located in the same directory as the firmware files and named `Mili_pro.ft*` (currently `Mili_pro.ft` and `Mili_pro.ft.en`). The installation process is the same as with the firmware file.
 
 **Note 2:** Text support is still under development and has currently limited functionality.

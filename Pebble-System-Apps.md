@@ -4,7 +4,7 @@ The Pebble watch ships with several system apps. Some of them are visible in Gad
 [![Music](https://i.imgur.com/SsWWSzPs.png)](https://i.imgur.com/SsWWSzP.png) [![Music](https://i.imgur.com/sKwyaWKs.png)](https://i.imgur.com/sKwyaWK.png) [![Volume Control](https://i.imgur.com/FR8Uk9ss.png)](https://i.imgur.com/FR8Uk9s.png)  
 <sup>*Music* on the *Pebble Time Steel*</sup>
 
-*Music* works well with most players – though often only for "basic information": it displays the currently played track's interpret, album and title (see screenshot), which is updated whenever the track on your Android device changes. This is confirmed at least for the following apps:
+*Music* works well with most players – though often only for „basic information“: it displays the currently played track's interpret, album and title (see screenshot), which is updated whenever the track on your Android device changes. This is confirmed at least for the following apps:
 
 * the stock (AOSP) music player
 * Cyanogen's *Apollo*
@@ -20,12 +20,12 @@ With the *Music* watchapp active, you also can control those players via the thr
 <sup>(Note that on Kitkat using external controls like these can lead to a [full-time wake-lock](https://github.com/Freeyourgadget/Gadgetbridge/issues/322#issuecomment-226942564).)</sup>
 
 ### Health (not for Pebble Classic and Steel)
-To activate the [*Health* app](https://help.getpebble.com/customer/en/portal/articles/2239065-pebble-health?b_id=8308), open the Application Manager in Gadgetbridge, long-press the "Health" entry, and select "Activate". The app then will collect healt data on your watch (steps and sleep data), and – provided you didn't deactivate it – Gadgetbridge will sync this data. If you selected "Pebble Health" as your preferred activity tracker, those data will be used on Gadgetbridge's "Your activity" screens:
+To activate the [*Health* app](https://help.getpebble.com/customer/en/portal/articles/2239065-pebble-health?b_id=8308), open the „Application Manager“ in Gadgetbridge (second icon in the first screenshot below), long-press the „Health“ entry, and select „Activate“. The app then will collect healt data on your watch (steps and sleep data), and – provided you didn't deactivate it – Gadgetbridge will sync this data. If you selected „Pebble Health“ as your preferred activity tracker, those data will be used on Gadgetbridge's „Your activity“ screens:
 
 [![Menu](https://i.imgur.com/iJPrv0tm.png)](https://i.imgur.com/iJPrv0t.png) [![Activity&Sleep](https://i.imgur.com/70YobbFm.png)](https://i.imgur.com/70YobbF.png) [![Sleep](https://i.imgur.com/OZ43x0Tm.png)](https://i.imgur.com/OZ43x0T.png) [![Sleep Weekly](https://i.imgur.com/glI9jpzm.png)](https://i.imgur.com/glI9jpz.png) [![Steps](https://i.imgur.com/rlsTLYUm.png)](https://i.imgur.com/rlsTLYU.png)  
 <sup>Context menu and activity screens; click images for larger variants)</sup>
 
-With your Pebble connected, long-press its name and select "Your Activity" from the drop-down (first screenshot). You should then see a screen like in the second screenshot, summarizing your activity of the last 24 hours. From here you can swipe to the other screens (or tap their "tab" on the bottom of the screen). In case you wonder whether I have no heart (beats): the Pebble has no sensor for that, so it doesn't support it (screens are the same for MiBand, which does support heart rate). As you've probably already have discovered on the screenshots, you can browse through the days using the corresponding buttons in the upper part of the screen.
+With your Pebble connected, tap the „Activity“ button (see first screenshot). You should then see a screen like in the second screenshot, summarizing your activity of the last 24 hours. From here you can swipe to the other screens (or tap their „tab“ on the bottom of the screen). In case you wonder whether I have no heart (beats): the Pebble has no sensor for that, so it doesn't support it (screens are the same for MiBand, which does support heart rate). As you've probably already have discovered on the screenshots, you can browse through the days using the corresponding buttons in the upper part of the screen.
 
 This is what it will look like on your Pebble:
 
@@ -39,15 +39,15 @@ Live activity (the 4th tab, missing in above screenshots) does not work with *Pe
 [![Notifications](https://i.imgur.com/togixyRs.png)](https://i.imgur.com/togixyR.png) [![Notifications](https://i.imgur.com/CVOfpkys.png)](https://i.imgur.com/CVOfpky.png)  
 <sup>Notifications on the Pebble</sup>
 
-This is the place where you can find all notifications which were sent to your Pebble – including those you've missed to read. The watchapp allows you to read them, or clear them *all* out (but not to clear selected entries). Consider this to be your "notification history".
+This is the place where you can find all notifications which were sent to your Pebble – including those you've missed to read. The watchapp allows you to read them, or clear them *all* out (but not to clear selected entries). Consider this to be your „notification history“.
 
 ### Alarms
 [![Alarms](https://i.imgur.com/io9CNCKs.png)](https://i.imgur.com/io9CNCK.png) [![Alarms](https://i.imgur.com/rvFR6Jds.png)](https://i.imgur.com/rvFR6Jd.png) [![Alarms](https://i.imgur.com/ZnetpJqs.png)](https://i.imgur.com/ZnetpJq.png) [![SmartAlarm](https://i.imgur.com/9wW26wts.png)](https://i.imgur.com/9wW26wt.png) [![SetAlarm](https://i.imgur.com/AKDk7wX.gif)](https://i.imgur.com/rMWwBTg.gif)  
 <sup>Alarms on the Pebble</sup>
 
-You can [setup alarms directly on your Pebble](https://help.getpebble.com/customer/portal/articles/2415680-alarms-smart-alarms?b_id=8308): either "normal alarms" that fire exactly at the time configured, or "smart alarms" (not on Pebble Classic and Steel) which fire at a point in the specified interval – avoiding to get you up on the wrong side of bed by not firing while you're in a phase of deep-sleep. For both types, you can define which days they should be enabled – and you can setup multiple alarms, and use different vibration patterns (not on Pebble Classic an Steel). Unfortunately, it's not possible to [sync Pebble alarms with your stock Android alarms](https://github.com/Freeyourgadget/Gadgetbridge/issues/317).
+You can [setup alarms directly on your Pebble](https://help.getpebble.com/customer/portal/articles/2415680-alarms-smart-alarms?b_id=8308): either „normal alarms“ that fire exactly at the time configured, or „smart alarms“ (not on Pebble Classic and Steel) which fire at a point in the specified interval – avoiding to get you up on the wrong side of bed by not firing while you're in a phase of deep-sleep. For both types, you can define which days they should be enabled – and you can setup multiple alarms, and use different vibration patterns (not on Pebble Classic an Steel). Unfortunately, it's not possible to [sync Pebble alarms with your stock Android alarms](https://github.com/Freeyourgadget/Gadgetbridge/issues/317).
 
-Oh: do not expect some nice music or birds sound to wake you app. The Pebble has no speaker for that. Instead, it will "hum" (vibrate).
+Oh: do not expect some nice music or birds sound to wake you app. The Pebble has no speaker for that. Instead, it will „hum“ (vibrate).
 
 ### Watchfaces
 [![Watchfaces](https://i.imgur.com/Tp0VMBms.png)](https://i.imgur.com/Tp0VMBm.png) [![Watchfaces](https://i.imgur.com/pAqDJDRs.png)](https://i.imgur.com/pAqDJDR.png)  
@@ -81,7 +81,7 @@ Starting with version 0.17, *Gadgetbridge* offers support for weather informatio
 [![InstallApp](https://i.imgur.com/5pxDZVKm.png)](https://i.imgur.com/5pxDZVK.png) [![ActivateWeather](https://i.imgur.com/372DQFvm.png)](https://i.imgur.com/372DQFv.png) [![ActivateSkin](https://i.imgur.com/AeWeT5Zm.png)](https://i.imgur.com/AeWeT5Z.png)  
 <sup>Install the Weather Notification app / activate Pebble Weather app / activate the skin</sup>
 
-If your Pebble runs firmware 4.x, just open *Gadgetbridge,* tap the entry of your device, and switch to the „Installed Apps“ tab. There you should find an app labeled „Weather (System)“. Long tap that. If you didn't yet install the afore mentioned weather provider, you will be prompted to do so now (first screenshot above this paragraph). Tapping the prompt will open your web browser with the app's page at *F-Droid,* where you can use the APK download link. Alternatively, open your *F-Droid* app, search for „Weather notification“, and install it that way. Once installed and long-pressing the entry again, you should see something like in the second screenshot – and can enable the Pebble „Weather“ system app.
+If your Pebble runs firmware 4.x, just open *Gadgetbridge,* tap the „App Manager“ icon of your device, and switch to the „Installed Apps“ tab. There you should find an app labeled „Weather (System)“. Long tap that. If you didn't yet install the afore mentioned weather provider, you will be prompted to do so now (first screenshot above this paragraph). Tapping the prompt will open your web browser with the app's page at *F-Droid,* where you can use the APK download link. Alternatively, open your *F-Droid* app, search for „Weather notification“, and install it that way. Once installed and long-pressing the entry again, you should see something like in the second screenshot – and can enable the Pebble „Weather“ system app.
 
 If your device runs a lower firmware version, you won't have that system app available. In this case, just make sure you install the „provider“ from *F-Droid* as described, and continue with the next step. Weather will still be available to the watchfaces.
 

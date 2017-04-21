@@ -6,5 +6,5 @@ Steps to follow:
 * Install Gadgetbridge
 * Pair your Pebble through Android's Bluetooth Settings (**NOT THE Pebble LE** , **Pebble 2 has to be paired by pressing the + in Control Center**)
 * Start Gadgetbridge and tap on your Pebble until it says initialized
-* Flash a firmware as noted in [[this wiki article|Pebble Firmware updates]] **Flashing the firmware is UNTESTED for Pebble 2 and could get stuck, but it would not brick the Pebble**
+* Flash a firmware as noted in [[this wiki article|Pebble Firmware updates]]
 * Install a language pack as noted in [[this wiki article|Pebble-Language-Packs]]

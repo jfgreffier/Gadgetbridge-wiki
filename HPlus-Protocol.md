@@ -106,3 +106,15 @@ Information Fields:
 * MaxHR: Maximum Heart Rate during the day
 * MinHR: Minimum Heart Rate during the day
 
+### SW Version
+
+Message sent by the device if requested, proving the current software version.
+There are two different formats:
+
+Message format 1: `[0x18, Minor, Major]`
+
+Message format 2: `[0x2E, 0, 0, 0, 0, 0, 0, 0, 0, Minor, Major]`
+
+Information Fields:
+* Minor: Minor Software Version
+* Major: Major Software Version

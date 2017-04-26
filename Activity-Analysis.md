@@ -2,6 +2,8 @@
 
 Gadgetbridge currently stores raw data in its database. Raw data has to be read as "data as sent by the device": what kind of processing is done within each device is beyond our knowledge.
 
+Actigraphy even with pulse oximetry has very limited ability to accurately Eg r = 0.15 for a more elaborate device than any supported by Gadgetbridge vs in lab sleep study (Penzel, Kesper,  Pinnow, Becker, & Vogelmeier, 2004). Though better in this systematic analysis (Yalamanchali, Farajian, Hamilton, Pott, Samuelson, & Friedman, 2013).
+
 ### Miband (original with colored leds)
 
 * Data is aggregated per minute 
@@ -39,26 +41,16 @@ Besides the display it basically provides the same functionality as Miband 1s in
  * See https://github.com/Freeyourgadget/Gadgetbridge/wiki/Pebble-datalog for further details
 
 ## Sources
-Ling Bao and Stephen S. Intille
-Activity Recognition from User-Annotated
-Acceleration Data
-http://robotics.usc.edu/~gaurav/CS546/readings/bao_pc2004.pdf
 
-Ainsworth BE, Haskell WL, Whitt MC, Irwin ML, Swartz AM, Strath
-SJ, O’Brien WL, Bassett DR Jr, Schmitz KH, Emplaincourt PO,
-Jacobs DR Jr, Leon AS.
-Compendium of physical activities: an update of
-activity codes and MET intensities.
-http://www.juststand.org/portals/3/literature/compendium-of-physical-activities.pdf
+Ainsworth, B. E., Haskell, W. L., Whitt, M. C., Irwin, M. L., Swartz, A. M., Strath, S. J., O'brien, W. L., Bassett, D. R., Jr., Schmitz, K. H., Emplaincourt, P. O., Jacobs, D. R. Jr., & Leon, A. S. (2000, September). Compendium of physical activities: An update of activity codes and MET intensities. Medicine & Science in Sports & Exercise, 32, 498-516. doi:10.1097/00005768-200009001-00009. Retrieved from http://www.juststand.org/portals/3/literature/compendium-of-physical-activities.pdf 
 
-Vincent T. van Hees, Ulf Ekelund 
-Novel daily energy expenditure estimation by using objective activity type classification: where do we go from here?
-http://jap.physiology.org/content/jap/107/3/639.full.pdf 
+Bao L., & Intille S. S. (2004). Activity Recognition from User-Annotated Acceleration Data. In Ferscha, A., & Mattern, F. (Eds.), Pervasive Computing: Second International Conference, PERVASIVE 2004, Vienna Austria, April 21-23, 2004, Proceedings (1-17). Berlin-Heidelberg, Germany: Springer-Verlag. doi: 10.1007/978-3-540-24646-6_1. Retrieved from http://robotics.usc.edu/~gaurav/CS546/readings/bao_pc2004.pdf 
+ 
+Fitbit Blog. Retrieved from Fitbit blog: https://blog.fitbit.com/246/ [blogs URL’s use sentences instead of a number; link broken]
 
+Penzel, T., Kesper, K., Pinnow, I., Becker, H. F., & Vogelmeier, C. (2004, August). Peripheral arterial tonometry, oximetry and actigraphy for ambulatory recording of sleep apnea. Physiological measures, 25(4), 1025-1036. doi:10.1088/0967-3334/25/4/019. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/15382839 
 
-Fitbit blog: https://blog.fitbit.com/246/
+van Hees T. V., & Ekelund, U. (2009, September 1). Novel daily energy expenditure estimation by using objective activity type classification: where do we go from here? Journal of Applied Physiology, 107(3), 639-640. doi:10.1152/japplphysiol.00793.2009. Retrieved from http://jap.physiology.org/content/107/3/639.full.pdf%2Bhtml  
 
-Actigraphy even with pulse oximetry has very limited ability to accurately  Eg r = 0.15 for a more elaborate device than any supported by Gadgetbridge vs in lab sleep study:
-https://www.ncbi.nlm.nih.gov/pubmed/15382839
-Though better in this systematic analysis: 
-JAMA Otolaryngol Head Neck Surg. 2013;139(12):1343-1350. doi:10.1001/jamaoto.2013.5338. pubmedID: 24158564 
+Yalamanchali, S., Farajian, V., Hamilton, C., Pott, T. R., Samuelson, C. G., & Friedman, M. (2013, December 1). Diagnosis of obstructive sleep apnea by peripheral arterial tonometry. JAMA Otolaryngology - Head & Neck Surgery,139(12), 1343-1350. doi:10.1001/jamaoto.2013.5338. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/24158564 
+

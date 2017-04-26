@@ -52,5 +52,5 @@ Penzel, T., Kesper, K., Pinnow, I., Becker, H. F., & Vogelmeier, C. (2004, Augus
 
 van Hees T. V., & Ekelund, U. (2009, September 1). Novel daily energy expenditure estimation by using objective activity type classification: where do we go from here? Journal of Applied Physiology, 107(3), 639-640. doi:10.1152/japplphysiol.00793.2009. Retrieved from http://jap.physiology.org/content/107/3/639.full.pdf%2Bhtml  
 
-Yalamanchali, S., Farajian, V., Hamilton, C., Pott, T. R., Samuelson, C. G., & Friedman, M. (2013, December 1). Diagnosis of obstructive sleep apnea by peripheral arterial tonometry. JAMA Otolaryngology - Head & Neck Surgery,139(12), 1343-1350. doi:10.1001/jamaoto.2013.5338. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/24158564 
+Yalamanchali, S., Farajian, V., Hamilton, C., Pott, T. R., Samuelson, C. G., & Friedman, M. (2013, December 1). Diagnosis of obstructive sleep apnea by peripheral arterial tonometry. JAMA Otolaryngology - Head & Neck Surgery, 139(12), 1343-1350. doi:10.1001/jamaoto.2013.5338. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/24158564 
 

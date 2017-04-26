@@ -4,7 +4,7 @@ You can use any Android device connected to USB to run your code straight from A
 
 ## Tools
 You need to install
-- a Java Development Kit (JDK)
+- a Java Development Kit (JDK), version 9 seems broken on Ubuntu, version 8 works fine (package java-1.8.0-openjdk-amd64)
 - git
 - adb (Android Debug Bridge, included in Android Studio)
 

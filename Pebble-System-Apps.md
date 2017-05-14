@@ -85,7 +85,7 @@ If your Pebble runs firmware 4.x, just open *Gadgetbridge,* tap the „App Manag
 
 If your device runs a lower firmware version, you won't have that system app available. In this case, just make sure you install the „provider“ from *F-Droid* as described, and continue with the next step. Weather will still be available to the watchfaces.
 
-Now, you must enable the *Gadgetbridge* skin in the *Weather notification* app: start the app, and flip the switch as shown in the third screenshot. If you don't want weather information in your notification area, flip off the „Default Skin“. Feel free to adjust the other settings; for weather to work with your Pebble and *Gadgetbridge* you're already done now.
+Now, you must enable the *Gadgetbridge* skin in the *Weather notification* app: start the app, and flip the Gadgetbridge skin switch as shown in the third screenshot. Also make sure that you have the „Enable Notification“ switch enabled. If you don't want weather information in your notification area, flip off the „Default Skin“. Feel free to adjust the other settings; for weather to work with your Pebble and *Gadgetbridge* you're already done now.
 
 [![WeatherApp](https://i.imgur.com/PZVkcscs.png)](https://i.imgur.com/PZVkcsc.png) [![Healthify](https://i.imgur.com/oXW7XI7s.png)](https://i.imgur.com/oXW7XI7.png) [![TrekVolle](https://i.imgur.com/YBcgJUOs.png)](https://i.imgur.com/YBcgJUO.png)  
 <sup>Pebble Weather app / weather with the [Healthify](https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true) watchface / weather with the [TrekVolle](https://apps.getpebble.com/en_US/application/56bb35ee90610aa83400000f?dev_settings=true&section=watchfaces) watchface</sup>

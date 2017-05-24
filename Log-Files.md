@@ -4,6 +4,10 @@ If you enable Gadgetbridge's logging in the "Settings" screen (under "Developer 
 
 **Note**: Up to version 0.9.4, you needed to quit and restart Gadgetbridge to make the log setting work.
 
+# Log File Contents
+
+When sharing a log file, please try to make it as short as possible. If you already had logging enabled, disable and reenable it before doing the things that you want to get logged. Disable logging when you're done with that. That way, we will not have to wade through huge log files looking for the actual relevant lines.
+
 # Android's Bluetooth Logging (BT Snoop)
 
 In order to capture the Bluetooth traffic, open Android's "Settings" -> "Developer options" and check "Enable Bluetooth HCI snoop log". Then perform the action that you want to capture. After doing that, uncheck the option again.

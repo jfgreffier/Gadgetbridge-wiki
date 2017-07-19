@@ -7,6 +7,8 @@ Most devices provide the same features, although the external appearance may be 
 ## Supported devices
 
 ### GB2312
+These devices will not display all accented characters correctly.
+
 * [Zeblaze Zeband](http://www.zeblaze.com/plus/view.php?aid=90)
 
 ### Unicode

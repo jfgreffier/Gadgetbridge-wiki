@@ -2,7 +2,22 @@
 
 This applies both to the Zeblaze Zeband, Zeband Plus, Makibes F68, and many others, as they share most of the same protocol.
 
-## Working
+Most devices provide the same features, although the external appearance may be quite different. The variations in the protocol are minimal. More recent versions will have support for Unicode characters, while older versions will only support GB2312 characters. Hence, accented characters will be displayed as Chinese symbols. We workaround this the best we know.
+
+## Supported devices
+
+### GB2312
+* [Zeblaze Zeband](http://www.zeblaze.com/plus/view.php?aid=90)
+
+### Unicode
+* [Zeblaze Zeband Plus](http://www.zeblaze.com/plus/view.php?aid=90)
+* Makibes F68
+
+## Probably supported devices
+* S200
+* HPlus H4, H5, H9, K8 and [others](http://www.hpluswatch.com)
+
+## Supported features
 * Discovery and pairing
 * Setting weight, height, age, date, time, day of week
 * Synchronise activity data: all stored not all is displayed
@@ -15,7 +30,7 @@ This applies both to the Zeblaze Zeband, Zeband Plus, Makibes F68, and many othe
 * Alarms
 * Configuration of some specific settings: Language, Real time HR State, Goals, Screen time.
 
-## Not working:
+## Not implemented:
 * Inactivity Alarms: Messages are known. Requires some more code.
 * Configuration of some specific settings: (HR thresholds, Inactivity alarms, Enable/Disable SMS and Phone notifications in the device, Find Me)
 * Swimming statistics: Needs tinkering with the devices as messages are unknown

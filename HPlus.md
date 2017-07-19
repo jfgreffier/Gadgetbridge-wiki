@@ -1,6 +1,6 @@
 # Current Status
 
-This applies both to the Zeblaze Zeband and Makibes F68 as they share most of the same protocol
+This applies both to the Zeblaze Zeband, Zeband Plus, Makibes F68, and many others, as they share most of the same protocol.
 
 ## Working
 * Discovery and pairing

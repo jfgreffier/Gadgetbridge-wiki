@@ -34,7 +34,7 @@ Template for each firmware:
 | heart rate measurement        | works | ? | works                             | works                          | works                             | works | works                             | stopped working at some point (known firmware issue, not GB-related) | ? |
 | gadgetbridge fw installer no. | 50471 | ? |3929                             | 51770 | 32450 | 49197 | 41899                             | ? | ? |
 | CRC32                         | 26913267 | ? |80f6ccbe                          | 01d1ef2d | ? | ? | 68efecd7                          | ? | ? |
-| Mi Fit apk version            | 3.0.3-2.4.2 | >2.4.0 |2.3.0                             | 2.2.12 | 2.2.9 | >2.2.0 | 2.2.0                             | ? | ? |
+| Mi Fit apk version            | 3.0.4-2.4.2 | >2.4.0 |2.3.0                             | 2.2.12 | 2.2.9 | >2.2.0 | 2.2.0                             | ? | ? |
 
 # Mi Band 1S (Firmware 4.x)
 | Version / Function            | 4.15.12.10 Mi Band + 1.3.74.64 HR | 4.16.4.22 Mi Band + 1.3.76.22 HR  | 4.16.3.7 Mi Band + 1.3.76.18 HR  | 4.15.11.19 Mi Band  + ? HR                 |

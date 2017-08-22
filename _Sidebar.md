@@ -9,6 +9,7 @@
 **Device Related**
  - [[Pebble]]
  - [[Mi Band]]
+ - [[Amazfit Bip]]
  - [[HPlus]]
  - [[Support for a new Device]]
 

@@ -9,7 +9,6 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 ### Missing features
 
-* Firmware update
 * Accepting calls (will need Android O to work without root properly)
 * Fetching workout and GPS data
 

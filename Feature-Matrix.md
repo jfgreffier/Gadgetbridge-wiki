@@ -11,6 +11,7 @@
 |Smart alarms                       | NO(1)     | YES           | YES     | NO        | NO          |
 |Weather                            | NO(1)     | YES           | NO      | NO        | YES         |
 |Activity Tracking                  | NO(1)     | YES           | YES     | YES       | YES         |
+|Sleep Tracking                     | NO(1)     | YES           | YES     | YES       | YES         |
 |HR Tracking                        | N/A       | YES           | YES     | YES       | YES         |
 |Realtime Activity Tracking         | NO        | NO            | YES     | YES       | YES         |
 |Music Control                      | YES       | YES           | NO      | NO        | NO          |

@@ -7,6 +7,7 @@
 |Dismiss Notifications on Phone     | YES       | YES           | NO      | NO        | NO          |
 |Predefined Replies                 | YES       | YES           | NO      | NO        | NO          |
 |Voice Replies                      | N/A       | NO(3)         | N/A     | N/A       | N/A         |
+|Calendar Sync                      | YES       | YES           | NO      | NO        | NO          |
 |Configure alarms from Gadgetbridge | NO        | NO            | YES     | YES       | YES         |
 |Smart alarms                       | NO(1)     | YES           | YES     | NO        | NO          |
 |Weather                            | NO(1)     | YES           | NO      | NO        | YES         |

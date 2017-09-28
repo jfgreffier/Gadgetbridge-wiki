@@ -31,5 +31,13 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 0.0.8.96 (Tested, OTA Update, sleep detection does not work with Gadgetbridge)
 
+0.0.8.97 (Tested, OTA Update, sleep detection does not work with Gadgetbridge)
+
+0.0.8.98 (Tested, OTA Update, sleep detection does not work with Gadgetbridge)
+
+**WITH ENGLISH LANGUAGE FROM HERE ON**
+
+0.0.9.14 (Tested, included in Mifit 3.1.0, sleep detection does not work with Gadgetbridge)
+
 ## references to other resources
 https://github.com/amazfitbip/

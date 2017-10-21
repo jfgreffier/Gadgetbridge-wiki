@@ -50,6 +50,7 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 1.0.1.47 - 045edd2b2df5876f777a14eb3bc29966
  * 1.0.1.50 - e7ecb89b71236452c1bf4a89521bc30a
  * 1.0.1.53 - 42197ff93b9f4b0c6c9eee2b5b2308f5
+ * 1.0.1.54 - fa69dceb28458d99a905583ee2f8e2ef
 
 
 ## Installing the firmware on Mi Band 1 , 1A, 1S models

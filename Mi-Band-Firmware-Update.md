@@ -53,7 +53,7 @@ As mentioned above, we are not allowed to distribute firmware files, these md5 v
  * 1.0.1.54 - fa69dceb28458d99a905583ee2f8e2ef
 
 
-## Installing the firmware on Mi Band 1 , 1A, 1S models
+## Installing the firmware on Mi Band 1, 1A, 1S models
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible.

@@ -4,10 +4,11 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 ### Additional features not present on Mi Band 2
 
-* Rejecting phone calls (implemented)
+* Rejecting phone calls
 * Weather forecast (partly implemented)
+* Full text notifications with icons
 
-### Missing features
+### TODO
 
 * Ignoring calls
 * Fetching workout and GPS data
@@ -18,7 +19,7 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 ## Known firmware Versions
 
-0.0.7.90 (Tested, pre-installed with Chinese watches manufactured July 2017)
+0.0.7.90 (Tested, pre-installed with watches manufactured July 2017)
 
 0.0.8.20 (Untested, included in Mifit 3.0.2)
 

@@ -9,13 +9,12 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 ### Missing features
 
-* Accepting calls (will need Android O to work without root properly)
+* Ignoring calls
 * Fetching workout and GPS data
 
 ### Known issues that work on Mi Band 2:
 
 * Reboot does not work (debug menu)
-* One Time heart rate measurement never stops (debug menu)
 
 ## Known firmware Versions
 
@@ -25,19 +24,21 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 0.0.8.32 (Untested, included in Mifit 3.0.4)
 
-0.0.8.74 (Tested, included in Mifit 3.0.5, sleep detection does not work with Gadgetbridge)
+0.0.8.74 (Tested, included in Mifit 3.0.5, deep sleep detection does not work with Gadgetbridge)
 
-0.0.8.88 (Tested, slow UI, included in Mifit 3.0.7, sleep detection does not work with Gadgetbridge)
+0.0.8.88 (Tested, slow UI, included in Mifit 3.0.7, deep sleep detection does not work with Gadgetbridge)
 
-0.0.8.96 (Tested, OTA Update, sleep detection does not work with Gadgetbridge)
+0.0.8.96 (Tested, OTA Update, deep sleep detection does not work with Gadgetbridge)
 
-0.0.8.97 (Tested, OTA Update, sleep detection does not work with Gadgetbridge)
+0.0.8.97 (Tested, OTA Update, deep sleep detection does not work with Gadgetbridge)
 
-0.0.8.98 (Tested, OTA Update, sleep detection does not work with Gadgetbridge)
+0.0.8.98 (Tested, OTA Update, deep sleep detection does not work with Gadgetbridge)
 
 **WITH ENGLISH LANGUAGE FROM HERE ON**
 
-0.0.9.14 (Tested, included in Mifit 3.1.0, sleep detection does not work with Gadgetbridge)
+0.0.9.14 (Tested, included in Mifit 3.1.0, deep sleep detection does not work with Gadgetbridge)
+
+0.0.9.26 (Tested, included in Mifit 3.1.2, deep sleep detection does not work with Gadgetbridge, connection drops with some phones)
 
 ## references to other resources
 https://github.com/amazfitbip/

@@ -1,10 +1,9 @@
-The preferred way to contribute translations is by using Transifex at http://transifex.com/projects/p/gadgetbridge/
+The preferred way to contribute translations is by using Weblate at https://hosted.weblate.org/engage/freeyourgadget/
 
 To start translating, please 
-* create a Transifex account, or connect with your Github account
-* request becoming a member of the Gadgetbridge translation team
-* and translate :-)
+* create a Weblate account
+* start translating :-)
 
-If you don't want to use Transifex, you can alternatively clone our repository, translate the file https://github.com/Freeyourgadget/Gadgetbridge/blob/master/app/src/main/res/values/strings.xml and submit a pull request.
+Weblate is free software, just like Gadgetbridge, hence it is a perfect fit for us. 
 
 The translations are usually incorporated shortly before a release.

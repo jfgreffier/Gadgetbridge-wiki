@@ -82,7 +82,7 @@ Message format: `[0x33, S0, S1, D0, D1, C0, C1, C2, C3, B, Unknown, HR, A0, A1]`
 Information Fields:
 * Steps (number): `S1 * 256 + S0`
 * Distance (meters): `D1 * 256 + D0`
-* Calories (kCal): `C1 * 256 + C3 * 256 + C1 + C0`
+* Calories (kCal): `C1 * 256 + C3 * 256 + C2 + C0`
 * Battery: B ranging from 0 to 100
 * HeartRate: HR in Beats Per Minute. 0 if measurement failed (not in wrist). 255 is measuring
 * ActiveTime (minutes): `A1 * 256 + A0`
@@ -98,7 +98,7 @@ Message format : `[0x38 or 0x39,  S0, S1, D0, D1, C0, C1, C2, C3, Y0, Y1, Month,
 Information Fields:
 * Steps (number): `S1 * 256 + S0`
 * Distance (meters): `D1 * 256 + D0`
-* Calories (kCal): `C1 * 256 + C3 * 256 + C1 + C0`
+* Calories (kCal): `C1 * 256 + C3 * 256 + C2 + C0`
 * Year: `Y1 * 256 + Y0`. Year of the measurement
 * Month: month of the measurement
 * Day: day of the measurement

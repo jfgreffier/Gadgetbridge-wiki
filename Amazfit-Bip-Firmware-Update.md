@@ -7,9 +7,9 @@ Since we may not distribute the firmware, you have to do a little work. You need
 Next, you need to find out, which of the `*.fw` files you need.
 
 ## Amazfit model
-Currently we are aware of only one Amazfit Bip hardware version? If new version are released, different models might need a different `*.fw` file.
+Currently we are aware of only one Amazfit Bip hardware version. If new version are released, different models might need a different `*.fw` file.
 
-1. Model Bip: `Mili.fw`
+1. Model Bip: `Mili_chaohu.fw`
    You need to install these three files in this order:
    * Mili_chaohu.gps
    * Mili_chaohu.res
@@ -38,6 +38,6 @@ Flash the .fw file last because it triggers a reboot. After flashing the `*.res`
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible.
 
-Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English text notifications. In order to get it working you need to have Gadgetbridge version >=0.22.0 and select the language in the settings->Amazfit Bip Settings->Language  after installing the corresponding firmware file.
+Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English text notifications. In order to get it working you need to have Gadgetbridge version >=0.22.2 and select the language in the settings->Amazfit Bip Settings->Language  after installing the corresponding firmware file.
 
 **Note 2:** After flashing to a 0.0.9.x release the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again.

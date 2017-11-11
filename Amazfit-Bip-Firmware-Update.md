@@ -1,5 +1,3 @@
-# Amazfit Bip Firmware Update
-
 ## CAUTION
 This feature **has the potential to brick your Anazefit Bip**! That said, this has never happened to any of the developers, but remember **you're doing this at your own risk**.
 

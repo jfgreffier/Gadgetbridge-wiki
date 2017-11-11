@@ -34,7 +34,7 @@ Copy the desired Amazfit Bip firmware and ressource files as a `*.gps`, `*.res` 
 1. Mili_chaohu.res
 1. Mili_chaohu.fw
 
-Flash the .fw file last because it triggers a reboot. After flashing the `*.res` files do not touch your device - just continue flashing.
+Flash the .fw file last because it triggers a reboot. After flashing the `*.gps` and `*.res` files do not touch your device - just continue flashing.
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible.
 

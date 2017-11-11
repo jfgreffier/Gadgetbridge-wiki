@@ -9,7 +9,7 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 * Full text notifications with icons
 
 ### Amazfit Bip Firmware
-Installation instructions are available here: [[Amazfit Bip Firmware Update]]
+Installation instructions and firmware information are available here: [[Amazfit Bip Firmware Update]]
 
 ### TODO
 

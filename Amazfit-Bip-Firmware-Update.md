@@ -36,10 +36,10 @@ MiFit Apk ver | fw ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5
 3.0.2       | 0.0.8.20 | no     | ??           | 07 | n/a | d737c210d960ac552dba9e3d88d96a3e | 2283a4d78058321c6eed60ea17dc83b1 | db27b914056153ff47f137fd0f91209e
 3.0.4       | 0.0.8.32 | no     | ??           | 0A | n/a | 2e20c581bad02f849b1c7ddf9d2beb94 | ddc3c7075de22e8a82229a5d4e660532 | db27b914056153ff47f137fd0f91209e
 3.0.5       | 0.0.8.74 | yes    | deep sleep [\[1\]](#fwfootnote1) | 0C | n/a | bc0eccb54246a999ceb0052ed0f542d8 | 88a6675421ae9a58b2d7b85a8782842d | db27b914056153ff47f137fd0f91209e
-3.0.7       | 0.0.8.88 | yes    | slow UI, deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
-OTA Update  | 0.0.8.96 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
-OTA Update  | 0.0.8.97 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
-OTA Update  | 0.0.8.98 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
+3.0.7       | 0.0.8.88 | yes    | slow UI, deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | 2d182f06402b7bb9afe591f2697d312f | 8c2953fb1d714b0fe64c4013dd033bfb | db27b914056153ff47f137fd0f91209e
+OTA Update  | 0.0.8.96 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | 5458007fe89a3e4df2d166d49d2a4d9b | 2a745c9e97a561bff8472f2193086d52 | db27b914056153ff47f137fd0f91209e
+OTA Update  | 0.0.8.97 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | e19cf338204b9190b88f5666399d66b5 | 2a745c9e97a561bff8472f2193086d52 | db27b914056153ff47f137fd0f91209e
+OTA Update  | 0.0.8.98 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | c2c5737a304b476e197ea38354b81ea8 | 2a745c9e97a561bff8472f2193086d52 | db27b914056153ff47f137fd0f91209e
 
 **WITH ENGLISH LANGUAGE FROM HERE ON**
 

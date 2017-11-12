@@ -9,7 +9,7 @@ Next, you need to find out, which of the `*.fw` files you need.
 ## Amazfit Bip model
 Currently we are aware of only one Amazfit Bip hardware version. If new version are released, different models might need a different `*.fw` file.
 
-The Amazfit Bip requires the  `Mili_chaohu.*` files.
+The Amazfit Bip requires the  `Mili_chaohu.*` files. For **tested versions** and **known issues** check [below](#known-firmware-versions).
 
 ## Installing the firmware on Amazfit Bip models
 Copy the desired Amazfit Bip firmware and ressource files as a `*.gps`, `*.res` and `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge FW/App Installer activity should then be started and guide you through the installation process.
@@ -29,24 +29,24 @@ Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English text no
 
 ## Known firmware Versions
 
-0.0.7.90 (Tested, pre-installed with watches manufactured July 2017)
+Original Firmware Version: 0.0.7.90 (Tested, pre-installed with watches manufactured July 2017)
 
-0.0.8.20 (Untested, included in Mifit 3.0.2)
-
-0.0.8.32 (Untested, included in Mifit 3.0.4)
-
-0.0.8.74 (Tested, included in Mifit 3.0.5, deep sleep detection does not work with Gadgetbridge)
-
-0.0.8.88 (Tested, slow UI, included in Mifit 3.0.7, deep sleep detection does not work with Gadgetbridge)
-
-0.0.8.96 (Tested, OTA Update, deep sleep detection does not work with Gadgetbridge)
-
-0.0.8.97 (Tested, OTA Update, deep sleep detection does not work with Gadgetbridge)
-
-0.0.8.98 (Tested, OTA Update, deep sleep detection does not work with Gadgetbridge)
+MiFit Apk ver | fw ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 | res-md5 | gps-md5
+--------------|--------|--------|-------------------|---------|---------|--------|---------|--------
+3.0.2       | 0.0.8.20 | no     | ??           | 07 | n/a | d737c210d960ac552dba9e3d88d96a3e | 2283a4d78058321c6eed60ea17dc83b1 | db27b914056153ff47f137fd0f91209e
+3.0.4       | 0.0.8.32 | no     | ??           | 0A | n/a | 2e20c581bad02f849b1c7ddf9d2beb94 | ddc3c7075de22e8a82229a5d4e660532 | db27b914056153ff47f137fd0f91209e
+3.0.5       | 0.0.8.74 | yes    | deep sleep [\[1\]](#fwfootnote1) | 0C | n/a | bc0eccb54246a999ceb0052ed0f542d8 | 88a6675421ae9a58b2d7b85a8782842d | db27b914056153ff47f137fd0f91209e
+3.0.7       | 0.0.8.88 | yes    | slow UI, deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
+OTA Update  | 0.0.8.96 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
+OTA Update  | 0.0.8.97 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
+OTA Update  | 0.0.8.98 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
 
 **WITH ENGLISH LANGUAGE FROM HERE ON**
 
-0.0.9.14 (Tested, included in Mifit 3.1.0, deep sleep detection does not work with Gadgetbridge)
+MiFit Apk ver | fw ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 | res-md5 | gps-md5
+--------------|--------|--------|-------------------|---------|---------|--------|---------|--------
+3.1.0       | 0.0.9.14 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
+3.1.2       | 0.0.9.26 | yes    | deep sleep [\[1\]](#fwfootnote1), connection drops with some phones | n/a | n/a | n/a | n/a | n/a
 
-0.0.9.26 (Tested, included in Mifit 3.1.2, deep sleep detection does not work with Gadgetbridge, connection drops with some phones)
+
+<a name="fwfootnote1">[1]</a>: deep sleep detection does not work with Gadgetbridge

@@ -47,6 +47,6 @@ MiFit Apk ver | fw ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5
 --------------|--------|--------|-------------------|---------|---------|--------|---------|--------
 3.1.0       | 0.0.9.14 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
 3.1.2       | 0.0.9.26 | yes    | deep sleep [\[1\]](#fwfootnote1), connection drops with some phones | n/a | n/a | n/a | n/a | n/a
-
+3.1.3       | 0.0.9.40 | yes    | deep sleep [\[1\]](#fwfootnote1) | n/a | n/a | n/a | n/a | n/a
 
 <a name="fwfootnote1">[1]</a>: deep sleep detection does not work with Gadgetbridge

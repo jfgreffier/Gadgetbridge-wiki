@@ -1,5 +1,5 @@
 ## CAUTION
-This feature **has the potential to brick your Anazefit Bip**! That said, this has never happened to any of the developers, but remember **you're doing this at your own risk**.
+This feature **has the potential to brick your Amazfit Bip**! That said, this has never happened to any of the developers, but remember **you're doing this at your own risk**.
 
 ## Getting the firmware
 Since we may not distribute the firmware, you have to do a little work. You need to find and download a Mi Fit APK file. There is an APK Mirror Web site that might help you find Mi Fit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.

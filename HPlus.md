@@ -1,6 +1,6 @@
 # Current Status
 
-This applies both to the Zeblaze Zeband, Zeband Plus, Makibes F68, and many others, as they share most of the same protocol.
+This applies to all of Zeblaze Zeband, Zeband Plus, Makibes F68, and many others, as they share most of the same protocol.
 
 Most devices provide the same features, although the external appearance may be quite different. The variations in the protocol are minimal. More recent versions will have support for Unicode characters, while older versions will only support GB2312 characters. Hence, accented characters will be displayed as Chinese symbols. We workaround this the best we know.
 

@@ -60,6 +60,7 @@ Copy the desired Mi Band firmware as a `*.fw` file to your Android device and op
 
 ## Installing the firmware on Mi Band 2 model
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
+On Samsung, you might need to share the fw file, then choose FW/App Installer.
 
 **Important:** Mi Band 2 upgrades from 1.0.0.* firmware versions to newer versions (>1.0.1.* ) require to upgrade to an intermediate firmware version first. This intermediate version is 1.0.0.53 and is included in all Mi Fit APKs that supply such newer firmware. Besides the `Mili_pro.fw` file there will also be the file `Mili_pro_53.fw`. Install the latter *before* installing the `Mili_pro.fw` file.
 

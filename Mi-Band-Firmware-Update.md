@@ -19,15 +19,16 @@ Which Mi Band do you have? There are different models and each of them needs a d
 
 1. Model 2 (with display + heart rate sensor): `Mili_pro.fw`
 
-## Known firmwares' md5
+## Known firmwares' md5 / SHA256
 As mentioned above, we are not allowed to distribute firmware files, these md5 values may be used to check if the firmware file you obtained is valid/is not corrupted.
 **To check the md5 you may use the command `md5sum` on a GNU/Linux distribution.**
 
 1. Model 1 (coloured LEDs): `Mili.fw`
+ * 01.00.09.27 - de4e5f3bf1fb5b610b3261c7f3557ca7
  * 01.00.10.14 - 1c43d7f03c911f9ba8844ddd44bd8304
  * 01.00.11.06 - 2833690a70ec8c6699ccd3ac08b933cc
  * 01.00.12.00 - 3a941165b7b4e296ecd68cdfb0e01062
- * 01.00.09.27 - de4e5f3bf1fb5b610b3261c7f3557ca7
+ * 01.00.15.00 - SHA256: 7B29C5EA0325338AD703291A78D6107DEC458D1409CEF987F8E8A7FD570EB9C0
 
 1. Model 1A (white LEDs): `Mili_1a.fw`
  * 05.15.11.20 - 356a8e1f006c541b76b306d4dbfbfaea

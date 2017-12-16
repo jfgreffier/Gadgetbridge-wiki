@@ -14,11 +14,11 @@ Copy the desired Amazfit Bip firmware and ressource files as a `*.gps`, `*.res` 
 2. Mili_chaohu.res (The Bip will tell you when needed)
 3. Mili_chaohu.gps (This rarely changes, there has been one single update so far, see table below)
 
-Flash the `*.fw` file last because it triggers a reboot. After flashing the `*.gps` and `*.res` files do not touch your device - just continue flashing.
+Flashing the `*.fw` triggers a reboot and will show a screen which will ask you to flash the .res if your version is outdated.
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible.
 
-Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English text notifications. In order to get it working you need to have Gadgetbridge version >=0.22.2. If the desired language is not shown  automatically, you can select it in at Settings->Amazfit Bip Settings->Language after installing the corresponding firmware file.
+Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English menus. In order to get it working you need to have Gadgetbridge version >=0.22.2. If the desired language is not shown  automatically, you can select it in at Settings->Amazfit Bip Settings->Language after installing the corresponding firmware file.
 
 **Note 2:** After flashing to a 0.0.9.x release the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again.
 

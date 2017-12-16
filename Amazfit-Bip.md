@@ -5,7 +5,7 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 ### Additional features not present on Mi Band 2
 
 * Rejecting phone calls
-* Weather forecast (partly implemented)
+* Weather forecast
 * Full text notifications with icons
 
 ### Amazfit Bip Firmware

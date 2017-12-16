@@ -6,13 +6,13 @@ Since we may not distribute the firmware, you have to do a little work. You need
 
 The Amazfit Bip requires the  `Mili_chaohu.*` files. For **tested versions** and **known issues** check [below](#known-firmware-versions).
 
-## Installing the firmware on Amazfit Bip models
+## Installing the firmware
 Copy the desired Amazfit Bip firmware and ressource files as a `*.gps`, `*.res` and `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge FW/App Installer activity should then be started and guide you through the installation process.
 
 ### Recommended flashing order:
-1. Mili_chaohu.gps
-1. Mili_chaohu.res
 1. Mili_chaohu.fw
+2. Mili_chaohu.res (The Bip will tell you when needed)
+3. Mili_chaohu.gps (This rarely changes, there has been one single update so far, see table below)
 
 Flash the `*.fw` file last because it triggers a reboot. After flashing the `*.gps` and `*.res` files do not touch your device - just continue flashing.
 

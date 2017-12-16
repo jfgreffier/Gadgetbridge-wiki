@@ -4,11 +4,6 @@ This feature **has the potential to brick your Amazfit Bip**! That said, this ha
 ## Getting the firmware
 Since we may not distribute the firmware, you have to do a little work. You need to find and download a Mi Fit APK file. There is an APK Mirror Web site that might help you find Mi Fit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.
 
-Next, you need to find out, which of the `*.fw` files you need.
-
-## Amazfit Bip model
-Currently we are aware of only one Amazfit Bip hardware version. If new version are released, different models might need a different `*.fw` file.
-
 The Amazfit Bip requires the  `Mili_chaohu.*` files. For **tested versions** and **known issues** check [below](#known-firmware-versions).
 
 ## Installing the firmware on Amazfit Bip models

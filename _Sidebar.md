@@ -9,6 +9,7 @@
 **Device Related**
  - [[Pebble]]
  - [[Mi Band]]
+ - [[Mi Band 2]]
  - [[Amazfit Bip]]
  - [[Amazfit Cor]]
  - [[HPlus]]

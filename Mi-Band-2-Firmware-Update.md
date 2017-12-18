@@ -17,8 +17,7 @@ Starting with Firmware version 1.0.1.28 the Mi Band 2 supports text and special 
 
 **Note 3:** After flashing some firmware versions the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again. Do this if you have problems connecting after a firmware update, you wont loose any data. 
 
-# Mi Band 2 (Firmware 1.x)
-**Note:** For text and special icon notifications you need to have firmware version >=1.0.1.28 and the corresponding font files (`Mili_pro.ft` and `Mili_pro.ft.en`) installed.
+# Firmware 1.0.x.x
 
 | Version / Function | 1.0.1.54 | 1.0.1.53 | 1.0.1.50 | 1.0.1.47         | 1.0.1.39                          | 1.0.1.34                          | 1.0.1.28                          | 1.0.0.53                          | 1.0.0.39                          | 1.0.0.34 | 1.0.0.19                          |
 | ----------------------- | -----------------------|------ |------ |------ | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |

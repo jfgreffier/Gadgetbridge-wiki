@@ -26,8 +26,12 @@ Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English menus. 
 
 Original Firmware Version: 0.0.7.90 (Tested, pre-installed with watches manufactured July 2017)
 
+
+**0.0.8 series**
+
 fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 | res-md5 | gps-md5
 ----------|-----------|--------|-------------------|---------|---------|--------|---------|--------
+0.0.8.10  | 3.0.0     | no     | ??           | 7 | 9367,8f79a91,0,0, | d5e10b1b25f9a2a4cabba0ca8ff64b87 | 2283a4d78058321c6eed60ea17dc83b1 | db27b914056153ff47f137fd0f91209e
 0.0.8.20  | 3.0.2     | no     | ??           | 7 | 9367,8f79a91,0,0, | d737c210d960ac552dba9e3d88d96a3e | 2283a4d78058321c6eed60ea17dc83b1 | db27b914056153ff47f137fd0f91209e
 0.0.8.32  | 3.0.4     | no     | ??           | 10 | 9367,8f79a91,0,0, | 2e20c581bad02f849b1c7ddf9d2beb94 | ddc3c7075de22e8a82229a5d4e660532 | db27b914056153ff47f137fd0f91209e
 0.0.8.74  | 3.0.5     | yes    | deep sleep [\[1\]](#fwfootnote1) | 12 | 9367,8f79a91,0,0, | bc0eccb54246a999ceb0052ed0f542d8 | 88a6675421ae9a58b2d7b85a8782842d | db27b914056153ff47f137fd0f91209e

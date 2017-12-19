@@ -4,6 +4,16 @@ This feature **has the potential to brick your Mi Band 2**! That said, this has 
 ## Getting the firmware
 Since we may not distribute the firmware, you have to do a little work. You need to find and download a Mi Fit APK file. There is an APK Mirror Web site that might help you find Mi Fit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.
 
+## Choosing the right firmware version for your Model
+
+Device Name | HW Revisions | `*.fw` file
+------------|--------------|------------
+Mi Band 2   | ?            | Mili_pro.fw
+Mi Band 2   | ?            | Mili_pro_tph.fw
+Mi Band 2   | V0.16.2.2    | Mili_pro_tph_as7000.fw
+Mi Band 2   | ?            | Mili_pro_tph_indian.fw
+Mi Band HRX | ?            | Mili_pro_i.fw
+
 ## Installing the firmware
 Copy the desired Mi Band firmware as a `*.fw` file to your Android device and open it from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process.
 

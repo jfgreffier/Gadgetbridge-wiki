@@ -8,7 +8,7 @@ Since we may not distribute the firmware, you have to do a little work. You need
 
 Device Name | HW Revisions | `*.fw` file
 ------------|--------------|------------
-Mi Band 2   | V0.1.3.2     | Mili_pro.fw
+Mi Band 2   | V0.1.3.2 V0.1.3.3 V0.1.3.4 | Mili_pro.fw
 Mi Band 2   | ?            | Mili_pro_tph.fw
 Mi Band 2   | V0.16.2.2    | Mili_pro_tph_as7000.fw
 Mi Band 2   | ?            | Mili_pro_tph_indian.fw

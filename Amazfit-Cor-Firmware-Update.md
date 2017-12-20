@@ -30,8 +30,8 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.0.5.12 | 3.0.5   | no | ? | 7 | 2c18d8c0e81d83ab3a6811689fabaaf4 | 479c51cece9672220672130568f16879
 1.0.5.25 | 3.0.7   | no | ? | 8 | f0687f0a9bf3f88957919f79e6fd94ca | 9b061313a390efa6b26b479dccc8c24c
 1.0.5.26 | 3.0.6   | no | ? | 9 | 55104eb85661e809e9b8cb2e75f32d7f | 6aebdc56751ce034b279cd4a2803b435
-1.0.5.60 | 3.1.0   | no | ? | 27 | d4d99997e245fc1de97f0fa39c738a78 | 8c29d4dd630f7e6111c7e6fee760be0f
-1.0.5.78 | 3.1.2   | no | ? | 33 | 3062f6e54993a14a78da7b40c30f2d8c | f1721253f815d7b73978f87af9203c0e
+1.0.5.60[1] | 3.1.0   | no | ? | 27 | d4d99997e245fc1de97f0fa39c738a78 | 8c29d4dd630f7e6111c7e6fee760be0f
+1.0.5.78[2] | 3.1.2   | no | ? | 33 | 3062f6e54993a14a78da7b40c30f2d8c | f1721253f815d7b73978f87af9203c0e
 1.0.5.90 | 3.1.3   | no | ? | 36 | 40612776cb0133a158e72ab58e01028d | 736d21f8ce95ca446475bea9a00bbaf4
 1.0.5.99 | 3.1.6.1 | no | ? | 39 | 9cecf4d92fe19c22915d3c61941d4729 | 4a01c32f6c26113769bc876c3d75689c
 1.0.6.13 | 3.1.7.1 | no | ? | 40 | 8e9dc8af1057dec7572e7589055abffb | 90d41c9944a7ad75d7af6861bc61bf70
@@ -40,3 +40,6 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.0.6.31 | 3.2.0.1 | no | ? | 41 | 8f83160a5267100846346af075f247fb | bb966b847c16c61c84814d4fb4088fd7
 1.0.6.41 | 3.2.2.1 | no | ? | 42 | e8dc6fd899f6788688c812bd5daada39 | c81365b58464ab507a973f24dfbe0854
 1.0.6.44 | 3.2.1   | no | ? | 42 | d746d82d9b0274b7e5fd1b0b37f63792 | c81365b58464ab507a973f24dfbe0854
+
+[1]: flash tested on lg g5 and worked correctly
+[1]: flash tested on lg g5 and worked correctly GB:0.2.2.4

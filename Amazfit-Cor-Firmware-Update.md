@@ -39,3 +39,4 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.0.6.27 | 3.1.8.1 | no | ? | 40 | c8daa146e21cad357e5160dc46a5920e | 90d41c9944a7ad75d7af6861bc61bf70
 1.0.6.31 | 3.2.0.1 | no | ? | 41 | 8f83160a5267100846346af075f247fb | bb966b847c16c61c84814d4fb4088fd7
 1.0.6.41 | 3.2.2.1 | no | ? | 42 | e8dc6fd899f6788688c812bd5daada39 | c81365b58464ab507a973f24dfbe0854
+1.0.6.44 | 3.2.1   | no | ? | 42 | d746d82d9b0274b7e5fd1b0b37f63792 | c81365b58464ab507a973f24dfbe0854

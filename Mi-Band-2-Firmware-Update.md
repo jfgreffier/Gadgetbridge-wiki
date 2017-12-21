@@ -54,6 +54,8 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5 
 ---------|-----------|--------|-------------------|--------
 1.0.1.21 | 2.2.8     | no  | ? | d3d9d3d1cf7d227acba9a0be2015f61b
+1.0.1.28 | 2.2.9     | yes | ? | 804903543b7958c1b4f9b5c0e420bcb5
+1.0.1.34 | 2.2.12    | yes | ? | 3ae6d0abe06006fbcf0d1685ad8231bb
 1.0.1.39 | 2.3.0     | yes | ? | 470641716d9e63115b839cb38eaafce7
 1.0.1.47 | 2.4.0     | no  | ? | 045edd2b2df5876f777a14eb3bc29966
 1.0.1.50 | 2.4.2     | no  | ? | e7ecb89b71236452c1bf4a89521bc30a
@@ -70,6 +72,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 
 fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5 
 ---------|-----------|--------|-------------------|--------
+1.0.1.30 | 2.2.12    | no | ? | 921b558eb0764280d070322b3e92c920
 1.0.1.33 | 2.3.0     | no | ? | bd773efaa1c40096bea6509ead7610c1
 1.0.1.47 | 2.4.0     | no | ? | 9ed679eacfbd978fd8a28d82fd31e688
 1.0.1.50 | 3.0.0     | no | ? | 85b8b60b5e58d022c2d492178ed129cd

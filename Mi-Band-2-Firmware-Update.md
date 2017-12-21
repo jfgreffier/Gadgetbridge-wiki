@@ -53,15 +53,15 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 
 fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5 
 ---------|-----------|--------|-------------------|--------
-1.0.1.21 | 2.2.8     | no | ? | d3d9d3d1cf7d227acba9a0be2015f61b
-1.0.1.39 | 2.3.0     | no | ? | 470641716d9e63115b839cb38eaafce7
-1.0.1.47 | 2.4.0     | no | ? | 045edd2b2df5876f777a14eb3bc29966
-1.0.1.50 | 2.4.2     | no | ? | e7ecb89b71236452c1bf4a89521bc30a
-1.0.1.53 | 3.0.5     | no | ? | 42197ff93b9f4b0c6c9eee2b5b2308f5
-1.0.1.54 | 3.1.0     | no | ? | fa69dceb28458d99a905583ee2f8e2ef
-1.0.1.59 | 3.1.5     | no | ? | c3b771a7279fd6d8d361aecb7a91f051
-1.0.1.67 | 3.1.9     | no | ? | ddf32cd76409828bc15216b8f5eed3e2
-1.0.1.69 | 3.2.1     | no | ? | 8652a310283ed3fb52b4f44bc3d387e8
+1.0.1.21 | 2.2.8     | no  | ? | d3d9d3d1cf7d227acba9a0be2015f61b
+1.0.1.39 | 2.3.0     | yes | ? | 470641716d9e63115b839cb38eaafce7
+1.0.1.47 | 2.4.0     | no  | ? | 045edd2b2df5876f777a14eb3bc29966
+1.0.1.50 | 2.4.2     | no  | ? | e7ecb89b71236452c1bf4a89521bc30a
+1.0.1.53 | 3.0.5     | yes | ? | 42197ff93b9f4b0c6c9eee2b5b2308f5
+1.0.1.54 | 3.1.0     | yes | ? | fa69dceb28458d99a905583ee2f8e2ef
+1.0.1.59 | 3.1.5     | no  | ? | c3b771a7279fd6d8d361aecb7a91f051
+1.0.1.67 | 3.1.9     | no  | ? | ddf32cd76409828bc15216b8f5eed3e2
+1.0.1.69 | 3.2.1     | yes | ? | 8652a310283ed3fb52b4f44bc3d387e8
 
 
 ## Mi Band 2 (tph) firmwares
@@ -112,7 +112,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 
 | Version / Function | 1.0.1.54 | 1.0.1.53 | 1.0.1.50 | 1.0.1.47         | 1.0.1.39                          | 1.0.1.34                          | 1.0.1.28                          | 1.0.0.53                          | 1.0.0.39                          | 1.0.0.34 | 1.0.0.19                          |
 | ----------------------- | -----------------------|------ |------ |------ | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
-| recommended                   | yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model) | yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model) | no | no |yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model)      | yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model)    | yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model)  | yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model) | yes[*](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update#installing-the-firmware-on-mi-band-2-model)                               | no      | no      |
+| recommended                   | yes | yes| no | no |yes  | yes   | yes  | yes | yes                               | no      | no      |
 | alarms                        | work | work | work | ? |work                              | work                              | work (no smart alarms)       | ? | work                              | work (smart alarms partly?)      | work (smart alarms partly?)      |
 | notifications                 | work | work | work | ? |work                              | work                              | work                              | work | work                              | work                              | work                              |
 | activity recognition          | no deep sleep[1] | no deep sleep[1] | no deep sleep[1] | no deep sleep[1] | works                             | works                             | works                             | ? | works                             | works                     | works                     |

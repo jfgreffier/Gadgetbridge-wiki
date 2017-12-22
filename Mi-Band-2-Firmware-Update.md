@@ -45,8 +45,8 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.0.2  | 2.1.0     | no  | ? | e92c1d40691322f0a4fa718a150a4c32
 1.0.0.11 | 2.1.3     | no  | ? | e1a4a2650366d9ba1e428a822dee014f
 1.0.0.18 | 2.1.5     | no  | ? | bed62211776a5623767d51861d8b71a1
-1.0.0.23 | 2.1.8     | no  | ? | dd7c055415d41fcc567ea783b70f0319
-1.0.0.39 | 2.2.0     | yes | ? | a98ee8d6a04b3bb4aff472e2cc91c21b
+1.0.0.23 | 2.1.6     | no  | ? | dd7c055415d41fcc567ea783b70f0319
+1.0.0.39 | 2.1.9     | yes | ? | a98ee8d6a04b3bb4aff472e2cc91c21b
 1.0.0.53 | 2.2.4     | yes | ? | abdd122897234f40b556f775ba0b9dc2
 
 

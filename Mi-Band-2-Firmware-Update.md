@@ -101,6 +101,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.1.58 | 3.0.0     | no | ? | f55cf0c4d28b07ddaae94aa65c5715e4
 1.0.1.61 | 3.0.2     | no | ? | 19cfc77a37ae235052bfbc1be792e174
 1.0.1.69 | 3.0.4     | no | ? | abd38ca3231aa2eb61ef574f7f2c60ff
+1.0.1.70 | 3.2.2.3   | no | ? | e08b3632fa0ace7fbfad4fc43b425df6
 
 ## Mi Band HRX firmwares
 

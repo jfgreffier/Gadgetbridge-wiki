@@ -60,7 +60,8 @@ Moved to [[Mi Band Firmware Update]]
 # Mi Band 1 (coloured LEDs)
 
 ## 1.0.15.0
-sync fails, see: https://github.com/Freeyourgadget/Gadgetbridge/issues/915
+works with Gadgetbridge versions >= 0.23.2
+for older version sync fails, see: https://github.com/Freeyourgadget/Gadgetbridge/issues/915
 
 ## 1.0.10.14
 | Function | Behavior |

@@ -57,11 +57,12 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 
 0.1.0.08 | 3.1.9     | yes     | deep sleep [\[1\]](#fwfootnote1) | 20 | 9565,dfbd8fa,0,0, | 47ae3eb87462a946deddc315be00b406 | 656c784e54c9ece7688eea64cb4d32d3 | 97f9794cc46b2ebddaa0b52fe27a4f8f
 0.1.0.11[2] | 3.1.8.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 20 | 9565,dfbd8fa,0,0, | 52e056e27a5b27891e257b71dae39e09 | 656c784e54c9ece7688eea64cb4d32d3 | 97f9794cc46b2ebddaa0b52fe27a4f8f
 0.1.0.17[2] | 3.2.0.1   | yes     | deep sleep [\[1\]](#fwfootnote1) | 21 | 9565,dfbd8fa,0,0, | 15c899aff4842eaea3608b512e86b2c6 | fcda343cdffbe12acec6bb8e9e9d20ca | 97f9794cc46b2ebddaa0b52fe27a4f8f
-0.1.0.26    | 3.2.1     | no     | deep sleep [\[1\]](#fwfootnote1) | 22 | 9565,dfbd8fa,0,0, | a64b9ce5d58612d13da08b507db79a01 | c9e82528cb97db2e5bb85781d6f38c54 | 97f9794cc46b2ebddaa0b52fe27a4f8f
+0.1.0.26    | 3.2.1     | yes    | deep sleep [\[1\]](#fwfootnote1) | 22 | 9565,dfbd8fa,0,0, | a64b9ce5d58612d13da08b507db79a01 | c9e82528cb97db2e5bb85781d6f38c54 | 97f9794cc46b2ebddaa0b52fe27a4f8f
 0.1.0.27[2] | 3.2.2.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 22 | 9565,dfbd8fa,0,0, | f76b8c0e536c609ee7e04400f3f866ed | c9e82528cb97db2e5bb85781d6f38c54 | 97f9794cc46b2ebddaa0b52fe27a4f8f
 0.1.0.33[2] | 3.2.2.2   | yes    | deep sleep [\[1\]](#fwfootnote1) | 23 | 9565,dfbd8faf42,0 | 3109ebb17d7bfee045e1996d79030aad | 136a07f0f1740d3a9cd3688e50500d44 | b4f787b3e722e69252df90e4c710b85d
 0.1.0.39[2] | 3.2.2.3   | yes    | deep sleep [\[1\]](#fwfootnote1) | 24 | 9565,dfbd8faf42,0 | c37c04794ffc893c872cc116a402aaf4 | 25e306b149e5a0f574b81521a7ad6951 | b4f787b3e722e69252df90e4c710b85d
-0.1.0.43[2] | 3.2.3.1   | no     | deep sleep [\[1\]](#fwfootnote1) | 24 | 9565,dfbd8faf42,0 | 19d3adcf6583a76f4d10a32a8276b022 | 25e306b149e5a0f574b81521a7ad6951 | b4f787b3e722e69252df90e4c710b85d
+0.1.0.43[2] | 3.2.3.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 24 | 9565,dfbd8faf42,0 | 19d3adcf6583a76f4d10a32a8276b022 | 25e306b149e5a0f574b81521a7ad6951 | b4f787b3e722e69252df90e4c710b85d
+0.1.0.45[2] | 3.2.5.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 24 | 9567,8b05506,0,0, | 9c1e36695cae0d8711a2aa9f4990aea9 | 25e306b149e5a0f574b81521a7ad6951 | c426b761147dd871e22fb887a8de630f
 
 <a name="fwfootnote1">[1]</a>: deep sleep detection does not work properly with Gadgetbridge, see https://github.com/Freeyourgadget/Gadgetbridge/issues/686#issuecomment-343773224
 

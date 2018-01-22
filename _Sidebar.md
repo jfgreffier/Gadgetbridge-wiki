@@ -28,3 +28,4 @@
 **FAQ**
  - [[Log Files]]
  - [[Multiple devices]]
+ - [[When will a new release appear on f droid]]

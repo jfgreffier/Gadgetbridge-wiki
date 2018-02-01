@@ -1,4 +1,5 @@
 - [[Mi Band 2 Firmware Update]]
+- [[Mi Band 2 (HMZK) Font Format]]
 
 ## Fonts
 

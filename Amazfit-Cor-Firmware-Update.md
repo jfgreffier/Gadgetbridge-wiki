@@ -65,7 +65,10 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 
 fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5 
 ---------|-----------|--------|-------------------|---------|--------|---------
-1.0.7.03 | 3.1.7.2 | no | ? | 53 | 692e63855d91e1eb531cc66f28094edf | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.03 | 3.2.7.2 | no | ? | 53 | 692e63855d91e1eb531cc66f28094edf | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.08 | 3.2.7   | no | ? | 53 | fb77aad4c1078b6b9045cbe4af4a8700 | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.23 | 3.2.8.1 | no | ? | 53 | 039d3d758a5562c72e8d43bddead8132 | 074a12cb87acb7b83ec70af603f1e9c3
+
 
 [1]: flash tested on lg g5 and worked correctly GB:???
 [2]: flash tested on lg g5 and worked correctly GB:0.2.2.4 

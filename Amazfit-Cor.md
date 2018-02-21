@@ -5,7 +5,7 @@ This device acts almost like the [[Amazfit Bip]], but no one of the core team ow
 ### Amazfit Cor menu options
 Upon tapping on the lower side of the screen, it will light and show the default watch face. Sliding down will show all available menu options:
 * Status
-    Shows the Steps, BPM, Distance (km), Burned Cal, Sedentariness (time)
+        Shows the Steps, BPM, Distance (km), Burned Cal, Sedentariness (time)
 * Notice
     Displayes mobile app notifications
 * Weather

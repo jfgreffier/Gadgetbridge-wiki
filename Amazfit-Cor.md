@@ -10,7 +10,7 @@ This device acts almost like the [[Amazfit Bip]], but no one of the core team ow
 * Power: 5V 300mAh
 * Battery capacity: 170mAh
 
-### Amazfit Cor menu options
+### Amazfit Cor menu options (for firmware version V1.0.6.65)
 Upon tapping on the lower side of the screen, it will light and show the default watch face. Sliding up will show all available menu options (in order of appearance):
 
 * Status
@@ -34,7 +34,7 @@ Upon tapping on the lower side of the screen, it will light and show the default
     * Brightness
     * Restart
     * About
-        * Shows Firmware version (default V1.0.6.65) and Bluetooth address
+        * Shows Firmware version and Bluetooth address
     * Reset
 
 ### Amazfit Cor firmware

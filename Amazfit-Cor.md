@@ -11,7 +11,7 @@ This device acts almost like the [[Amazfit Bip]], but no one of the core team ow
 * Battery capacity: 170mAh
 
 ### Amazfit Cor menu options
-Upon tapping on the lower side of the screen, it will light and show the default watch face. Sliding down will show all available menu options (in order of appearance):
+Upon tapping on the lower side of the screen, it will light and show the default watch face. Sliding up will show all available menu options (in order of appearance):
 
 * Status
     * Shows Steps, BPM, Distance (KM), Burned Cal, Sedentariness (time)

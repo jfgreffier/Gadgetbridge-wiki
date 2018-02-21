@@ -2,8 +2,16 @@
 
 This device acts almost like the [[Amazfit Bip]], but no one of the core team own the device, and it has no maintainer. We rely on external reports. 
 
+### Amazfit Cor Tech Specs
+* Product name: Amazfit Cor
+* Model name: A1702
+* Water resistance rating: 5 ATM / 50 m / 164 ft
+* Wireless connection: Bluetooth 4.0 BLE
+* Power: 5V 300mAh
+* Battery capacity: 170mAh
+
 ### Amazfit Cor menu options
-Upon tapping on the lower side of the screen, it will light and show the default watch face. Sliding down will show all available menu options:
+Upon tapping on the lower side of the screen, it will light and show the default watch face. Sliding down will show all available menu options (in order of appearance):
 
 * Status
     * Shows Steps, BPM, Distance (KM), Burned Cal, Sedentariness (time)
@@ -18,10 +26,11 @@ Upon tapping on the lower side of the screen, it will light and show the default
     * Countdown
 * Settings
     * Watchface
-        * choose 5 watch faces
+        * 5 watch faces to choose from. 2 of them with gradient colors.
     * Lock screen
-        Off by default. Two taps and swipe to unlock
+        Off by default. When enabled, two taps and swipe to unlock
     * Find phone
+        * When Amazift Cor and mobile phone are paired, tapping on Find phone will play loud tone in mobile. Remember to pair Amazfit Cor and mobile from Gadgetbridge.
     * Brightness
     * Restart
     * About

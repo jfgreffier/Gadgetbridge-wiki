@@ -24,8 +24,10 @@ Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English menus. 
 
 ## Known firmware Versions
 
-Original Firmware Version: 0.0.7.90 (Tested, pre-installed with watches manufactured July 2017)
+Original Firmware Versions: 
 
+- 0.0.7.90 (Tested, pre-installed with Chinese watches manufactured July 2017)
+- 0.0.8.95 (pre-installed with the "English Version" manufactured December 2017)
 
 **0.0.8 series**
 

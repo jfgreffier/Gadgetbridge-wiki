@@ -11,7 +11,7 @@ You can find them on many places. The official source for watchfaces is the corr
 
 1. Open the [Pebble Store][1]
 1. Find the app / watchface you want to install, and open its detail page
-1. In the browser's address bar, add `&dev_settings=true` to the page's URL, so it looks e.g. like this: [`https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true`](https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true), and load this page.
+1. In the browser's address bar, add `?section=watchfaces&dev_settings=true` to the page's URL, so it looks e.g. like this: [`https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true`](https://apps.getpebble.com/en_US/application/57caac70be5ad0a9cf000167?section=watchfaces&dev_settings=true), and load this page.
 1. Scroll to the end of the page. There you should find an additional link now, labeled "DOWNLOAD PBW". Use this to download the app/watchface.  
 [![DownloadPbw][2]][3]
 

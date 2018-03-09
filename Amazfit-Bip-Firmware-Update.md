@@ -74,6 +74,7 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 
 0.1.0.86    | 3.2.9     | yes    | deep sleep [\[1\]](#fwfootnote1) | 28 | 9567,8b05506,0,0, | 787d8bb255bd7515a75bd194bbdf432c | f759680274f023d057d8f529b27fb0f7 | c426b761147dd871e22fb887a8de630f
 0.1.0.87[2] | 3.3.0.1   | no     | deep sleep [\[1\]](#fwfootnote1) | 28 | 9567,8b05506,0,0, | 73a121307977235f4cb3f4a21e866421 | f759680274f023d057d8f529b27fb0f7 | c426b761147dd871e22fb887a8de630f
 0.1.0.89[2] | 3.3.0.2   | no     | deep sleep [\[1\]](#fwfootnote1) | 28 | 9567,8b05506,0,0, | 503fe62959df4ccc1755e7b5147d59c7 | f759680274f023d057d8f529b27fb0f7 | c426b761147dd871e22fb887a8de630f
+0.1.0.99[2] | 3.3.2.1   | no     | deep sleep [\[1\]](#fwfootnote1) | 29 | 9567,8b05506,0,0, | d00c5dbe4c1cff2de0904e9f66fd752b | bfe0e5550f3e6628c2ea11e3c08978d5 | c426b761147dd871e22fb887a8de630f
 
 <a name="fwfootnote1">[1]</a>: deep sleep detection does not work properly with Gadgetbridge, see https://github.com/Freeyourgadget/Gadgetbridge/issues/686#issuecomment-343773224
 

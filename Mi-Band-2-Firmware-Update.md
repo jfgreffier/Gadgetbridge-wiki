@@ -65,7 +65,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.1.59 | 3.1.5     | no  | ? | c3b771a7279fd6d8d361aecb7a91f051
 1.0.1.67 | 3.1.9     | no  | ? | ddf32cd76409828bc15216b8f5eed3e2
 1.0.1.69 | 3.2.1     | yes | ? | 8652a310283ed3fb52b4f44bc3d387e8
-
+1.0.1.81 | 3.2.2.2   | no  | ? | d17a4d0bc4f1a3df3c903366396c230f
 
 ## Mi Band 2 (tph) firmwares
 
@@ -80,7 +80,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.1.53 | 3.0.6     | yes | ? | 2aad5d32fa58b1d753139da6c88dc2d6
 1.0.1.67 | 3.1.9     | no | ? | 9a42733b1b053182ed2d9758d14d96c0
 1.0.1.69 | 3.2.1     | yes | ? | f290f8390bea7a1abd0af4018299b44c
-
+1.0.1.81 | 3.2.2.2   | no  | ? | 932b980b70a90ecb97b29c7fbfe8438a
 
 ## Mi Band 2 (tph_as7000) firmwares
 
@@ -91,6 +91,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.1.52 | 3.0.5     | no | ? | 541d7fc6525a6cafa8c6ef224765f39e
 1.0.1.67 | 3.1.9     | no | ? | 5f4e939a32dc3cf50f3564a827c60100
 1.0.1.69 | 3.2.1     | no | ? | 3199c3c3eaf14316ec7a9b35eb0baa74
+1.0.1.81 | 3.2.2.2   | no  | ? | 70174d598811ed28de818358515418f3
 
 ## Mi Band 2 (tph_indian) firmwares
 
@@ -102,6 +103,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.1.61 | 3.0.2     | no | ? | 19cfc77a37ae235052bfbc1be792e174
 1.0.1.69 | 3.0.4     | no | ? | abd38ca3231aa2eb61ef574f7f2c60ff
 1.0.1.70 | 3.2.2.3   | no | ? | e08b3632fa0ace7fbfad4fc43b425df6
+1.0.1.81 | 3.2.2.2   | no  | ? | aeea9e3e8997922b1cea843838be7987
 
 ## Mi Band HRX firmwares
 

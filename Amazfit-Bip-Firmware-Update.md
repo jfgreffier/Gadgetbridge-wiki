@@ -76,6 +76,13 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 
 0.1.0.89[2] | 3.3.0.2   | no     | deep sleep [\[1\]](#fwfootnote1) | 28 | 9567,8b05506,0,0, | 503fe62959df4ccc1755e7b5147d59c7 | f759680274f023d057d8f529b27fb0f7 | c426b761147dd871e22fb887a8de630f
 0.1.0.99[2] | 3.3.2.1   | no     | deep sleep [\[1\]](#fwfootnote1) | 29 | 9567,8b05506,0,0, | d00c5dbe4c1cff2de0904e9f66fd752b | bfe0e5550f3e6628c2ea11e3c08978d5 | c426b761147dd871e22fb887a8de630f
 
+
+**0.1.1 series**
+
+ fw ver  | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 | res-md5 | gps-md5
+---------|-----------|--------|-------------------|---------|---------|--------|---------|--------
+0.1.1.05[2] | 3.3.2.2   | no     | deep sleep [\[1\]](#fwfootnote1) | 30 | 9567,8b05506,0,0, | 7e4e4163f6bcb965f336f9f81d644b44 | 4648ed16f3f06ba4af189f5d2f9a2e15 | c426b761147dd871e22fb887a8de630f
+
 <a name="fwfootnote1">[1]</a>: deep sleep detection does not work properly with Gadgetbridge, see https://github.com/Freeyourgadget/Gadgetbridge/issues/686#issuecomment-343773224
 
 [2] Beta Firmware (never appeared in a regular Mi Fit release)

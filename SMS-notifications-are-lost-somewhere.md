@@ -1,4 +1,5 @@
 **Problem**: 
+You are using alternative SMS app (like Silence or Signal). Stock one is present and not disabled, but the alternative one is set up to be default.
 All notifications but SMS are shown. Log says that *Gadgetbridge* is `Ignoring notification, is a system event`
 
 **Solution**:

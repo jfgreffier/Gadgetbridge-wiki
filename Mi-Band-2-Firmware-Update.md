@@ -25,7 +25,7 @@ Starting with Firmware version 1.0.1.28 the Mi Band 2 supports text and special 
 
 **Note 2:** Text and special icon support is still under development and has currently limited functionality.
 
-**Note 3:** After flashing some firmware versions the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again. Do this if you have problems connecting after a firmware update, you wont loose any data. 
+**Note 3:** After flashing some firmware versions the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again. Do this if you have problems connecting after a firmware update, you wont lose any data. 
 
 ## Mi Band 2 (original version) firmwares
 

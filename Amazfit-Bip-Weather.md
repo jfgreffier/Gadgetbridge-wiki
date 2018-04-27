@@ -9,4 +9,4 @@ Look for "Weather notification" in F-droid or [download it from F-droid website]
 Now, enjoy the weather on your Bip!
 
 ## Other weather providers for Android
-Meteo function should work without additional app  on LineageOS/Cyanogenmod that provide system with weather provider.
+Meteo function should work without additional app on LineageOS/Cyanogenmod that implement a system weather provider.

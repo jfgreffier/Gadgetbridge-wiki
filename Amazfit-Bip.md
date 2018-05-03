@@ -7,7 +7,7 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 * Rejecting phone calls
 * [Weather forecast](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Amazfit-Bip-Weather)
 * Full text notifications with icons
-* Export of GPS and HR data of activities
+* [Export of activities with GPS and HR data](https://github.com/Freeyourgadget/Gadgetbridge/wiki/Amazfit-Bip-export-of-activities)
 * Flash new watchfaces (with the firmware update tool, see below)
 
 ### Amazfit Bip Firmware

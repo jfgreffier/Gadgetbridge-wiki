@@ -16,7 +16,7 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 * Weather forecast
 * Full text notifications with icons
 * Export of activities with GPS and HR data
-* Flash new watchfaces (with the firmware update tool, see below)
+* Flash new watchfaces (with the firmware update tool)
 
 ### TODO
 

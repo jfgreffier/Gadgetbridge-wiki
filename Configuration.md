@@ -1,7 +1,7 @@
 ### Contents
 * [General settings](#general-settings)
 * [Pebble specific settings](#pebble-specific-settings)
-* [Mi Band specific settings](#mi-band-specific-settings)
+* [Mi Band / Amazfit specific settings](#mi-band--amazfit-specific-settings)
 
 Tapping the overflow menu in the upper-right of the Gadgetbridge main screen, you get the option to enter configuration:
 
@@ -30,7 +30,7 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   * **Pebble Messages:** again similar to SMS, but for Pebble companion apps.
   * **Generic notification support:** tapping that lets you tell the Android system to allow Gadgetbridge accessing notifications (so it can forward them to your Gadget at all) or not. An additional checkbox allows you to define whether those "other notifications" should also be sent to your Gadget when the Android device's screen is on.
   * **Blacklist Apps:** this opens a picker where you can exclude apps from having their notifications forwarded to your Gadget.
-  * **About You:** Details on your person. These are sent to the Mi Band and Pebble Health to magically adjust their algorithms. We just know they have to be sent but we do not really know what happens on the device because firmware is not open source.
+  * **About You:** Details on your person. These are sent to the Mi Band/Amazfit and Pebble Health to magically adjust their algorithms. We just know they have to be sent but we do not really know what happens on the device because firmware is not open source.
 * **Device specific settings**  
   Here you can configure things specific to the device you're using (see below).
 * **Developer Options**
@@ -60,15 +60,15 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   * **Emulator Port:**
 
 
-### Mi Band specific settings
+### Mi Band / Amazfit specific settings
 [![MiBandSettings (1)](https://i.imgur.com/NJA87grm.png)](https://i.imgur.com/NJA87gr.png) [![MiBandSettings (2)](https://i.imgur.com/TzW42fTm.png)](https://i.imgur.com/TzW42fT.png)  
 <sup>Mi Band specific settings (click images for larger variants)</sup>
 
 * **About you**
-  * **Name/Alias:** This is the name you want to give to your Mi Band, can be anything.
-  * **Wearing left or right?:** Set which arm you are going to wear your Mi Band on.
+  * **Name/Alias:** This is the name you want to give to your Mi Band/Amazfit, can be anything.
+  * **Wearing left or right?:** Set which arm you are going to wear your Mi Band/Amazfiton.
   * **Target steps for each day:** The goal of steps you want to reach, can be any number you want.
-  * **Alarms to reserve for upcoming events:** Mi Bands have a limit of three alarms that can be configured. They will alert you even when the band is not connected to your mobile, e.g. in order to wake you up. Long-press the Mi Band items in the main screen to configure alarms. This setting tells Gadgetbridge how many alarms shall be reserved for reminders of calendar events. These will not be user configurable then.
+  * **Alarms to reserve for upcoming events:** Mi Band/Amazfit have a limit of three alarms that can be configured. They will alert you even when the band is not connected to your mobile, e.g. in order to wake you up. Press the Mi Band/Amazfit items in the main screen to configure alarms. This setting tells Gadgetbridge how many alarms shall be reserved for reminders of calendar events. These will not be user configurable then.
   * **Use Heartrate Sensor to improve sleep:** Only for Mi Band 1S at the moment. When this is selected Gadgetbridge will make use of the Heartrate sensor to better detect when you are sleeping. 
   * **Device time offset in hours (for detecting sleep of shift workers):** The Mi Band device currently records sleep only if it happens after 10pm and before 7am. The offset is used to trick the device to record sleep in non-standard hours. If you usually sleep, say, from 6am to 2pm, set the shift to -8, so at 6am the device thinks it's still 10pm of the day before.
 * **Vibration settings**

@@ -66,7 +66,7 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
 
 * **About you**
   * **Name/Alias:** This is the name you want to give to your Mi Band/Amazfit, can be anything.
-  * **Wearing left or right?:** Set which arm you are going to wear your Mi Band/Amazfiton.
+  * **Wearing left or right?:** Set which arm you are going to wear your Mi Band/Amazfit on.
   * **Target steps for each day:** The goal of steps you want to reach, can be any number you want.
   * **Alarms to reserve for upcoming events:** Mi Band/Amazfit have a limit of three alarms that can be configured. They will alert you even when the band is not connected to your mobile, e.g. in order to wake you up. Press the Mi Band/Amazfit items in the main screen to configure alarms. This setting tells Gadgetbridge how many alarms shall be reserved for reminders of calendar events. These will not be user configurable then.
   * **Use Heartrate Sensor to improve sleep:** Only for Mi Band 1S at the moment. When this is selected Gadgetbridge will make use of the Heartrate sensor to better detect when you are sleeping. 

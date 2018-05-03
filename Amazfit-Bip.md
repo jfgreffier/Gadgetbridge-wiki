@@ -2,7 +2,7 @@
 In this section you find pages relevant to end-users:
 
 - [[Amazfit Bip Getting Started]]: first steps with your Amazfit Bip and Gadgetbridge
-- [[Amazfit Bip Firmware Update]]: firmware update and installation instructions for Amazfit Bip devices
+- [[Amazfit Bip Firmware Update]]: firmware installation and update instructions for Amazfit Bip
 - [[Amazfit Bip Weather]]: how to setup weather data on the Bip
 - [[Amazfit Bip export of activities]]: view and export data of activities recorded on the Amazfit Bip
 

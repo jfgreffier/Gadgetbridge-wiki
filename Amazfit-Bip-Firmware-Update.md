@@ -12,11 +12,11 @@ Copy the desired Amazfit Bip firmware and ressource files as a `*.gps`, `*.res` 
 ### Recommended flashing order:
 1. Mili_chaohu.fw
 2. Mili_chaohu.res (The Bip will tell you when needed)
-3. Mili_chaohu.gps (This rarely changes, there has been one single update so far, see table below)
+3. Mili_chaohu.gps (This rarely changes, check the table below, if you should update)
 
 Flashing the `*.fw` triggers a reboot and will show a screen which will ask you to flash the .res if your version is outdated.
 
-**Note 1:** Both upgrade and downgrade of firmware versions is possible.
+**Note 1:** Both upgrade and downgrade of firmware versions is possible but untested, we do not encourage do do it.
 
 Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English menus. In order to get it working you need to have Gadgetbridge version >=0.22.2. If the desired language is not shown  automatically, you can select it in at Settings->Amazfit Bip Settings->Language after installing the corresponding firmware file.
 

@@ -65,16 +65,23 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 
 fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5 
 ---------|-----------|--------|-------------------|---------|--------|---------
-1.0.7.03 | 3.2.7.2 | no | ? | 53 | 692e63855d91e1eb531cc66f28094edf | 074a12cb87acb7b83ec70af603f1e9c3
-1.0.7.08 | 3.2.7   | no | ? | 53 | fb77aad4c1078b6b9045cbe4af4a8700 | 074a12cb87acb7b83ec70af603f1e9c3
-1.0.7.23 | 3.2.8.1 | no | ? | 53 | 039d3d758a5562c72e8d43bddead8132 | 074a12cb87acb7b83ec70af603f1e9c3
-1.0.7.25 | 3.3.0.1 | no | ? | 53 | 8f43b6bb13ccef887ea3ad65aac434ca | 074a12cb87acb7b83ec70af603f1e9c3
-1.0.7.29 | 3.3.0.2 | no | ? | 53 | 4bcbffbdf8e20886e6c9a9cb51c6a388 | 074a12cb87acb7b83ec70af603f1e9c3
-1.0.7.35 | 3.3.2.1 | no | ? | 53 | ebc94645be170c41ebbc93d8859c9d05 | 074a12cb87acb7b83ec70af603f1e9c3
-1.0.7.43 | 3.3.2.2 | no | ? | 54 | cc1ea0a7dbf9bc2bc78ac74ceee33663 | 5d164d87fc84de462669fe5d98e43896
-1.0.7.52 | 3.3.1   | no | ? | 55 | 661fa80295611a49e6bf7e1038bce0d1 | aea4c56d1ec22565ffad1383828128c6
-1.0.7.53 | 3.3.4.1 | no | ? | 55 | b8623a3937c14b1b00f285498b6f0950 | aea4c56d1ec22565ffad1383828128c6
-1.0.7.57 | 3.3.4.6 | no | ? | 55 | 9ddf349968d3bd9199aef88fecf91636 | aea4c56d1ec22565ffad1383828128c6
+1.0.7.03 | 3.2.7.2  | no | ? | 53 | 692e63855d91e1eb531cc66f28094edf | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.08 | 3.2.7    | no | ? | 53 | fb77aad4c1078b6b9045cbe4af4a8700 | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.23 | 3.2.8.1  | no | ? | 53 | 039d3d758a5562c72e8d43bddead8132 | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.25 | 3.3.0.1  | no | ? | 53 | 8f43b6bb13ccef887ea3ad65aac434ca | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.29 | 3.3.0.2  | no | ? | 53 | 4bcbffbdf8e20886e6c9a9cb51c6a388 | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.35 | 3.3.2.1  | no | ? | 53 | ebc94645be170c41ebbc93d8859c9d05 | 074a12cb87acb7b83ec70af603f1e9c3
+1.0.7.43 | 3.3.2.2  | no | ? | 54 | cc1ea0a7dbf9bc2bc78ac74ceee33663 | 5d164d87fc84de462669fe5d98e43896
+1.0.7.52 | 3.3.1    | no | ? | 55 | 661fa80295611a49e6bf7e1038bce0d1 | aea4c56d1ec22565ffad1383828128c6
+1.0.7.53 | 3.3.4.1  | no | ? | 55 | b8623a3937c14b1b00f285498b6f0950 | aea4c56d1ec22565ffad1383828128c6
+1.0.7.57 | 3.3.4.6  | no | ? | 55 | 9ddf349968d3bd9199aef88fecf91636 | aea4c56d1ec22565ffad1383828128c6
+1.0.7.71 | 3.3.4.9  | no | ? | 55 | 932c5c8224542d9f431156e3956550f4 | aea4c56d1ec22565ffad1383828128c6
+1.0.7.77 | 3.3.4.10 | no | ? | 56 | d3e632c1f4e05db9550b78abf7d86072 | 46349cac19c06e5848f88c041c84f5a0
+1.0.7.81 | 3.3.4.11 | no | ? | 56 | 6fef26395a92b6803ed932c1b5ba1f81 | 46349cac19c06e5848f88c041c84f5a0
+1.0.7.88 | 3.3.2    | no | ? | 56 | 23a06a60446572f6870e585fd303e4d2 | 46349cac19c06e5848f88c041c84f5a0
+
+
+
 
 [1]: flash tested on lg g5 and worked correctly GB:???
 [2]: flash tested on lg g5 and worked correctly GB:0.2.2.4 

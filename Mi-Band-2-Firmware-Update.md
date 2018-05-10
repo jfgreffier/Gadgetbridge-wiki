@@ -66,6 +66,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | fw-md5
 1.0.1.67 | 3.1.9     | no  | ? | ddf32cd76409828bc15216b8f5eed3e2
 1.0.1.69 | 3.2.1     | yes | ? | 8652a310283ed3fb52b4f44bc3d387e8
 1.0.1.81 | 3.2.2.2   | no  | ? | d17a4d0bc4f1a3df3c903366396c230f
+1.0.1.81 | 3.3.2     | yes | ? | d17a4d0bc4f1a3df3c903366396c230f
 
 ## Mi Band 2 (tph) firmwares
 

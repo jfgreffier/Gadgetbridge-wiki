@@ -8,6 +8,7 @@ In this section you find pages relevant to end-users:
 - [[Pebble System Apps]]: pre-installed system apps supported via Gadgetbridge
 - interacting with [[Calls and SMS]]
 - [[PebbleKit Android App Compatibility]]: other Pebble companion apps with the known state of their compatibility with Gadgetbridge
+- [[Pebble-2-(BTLE)-specifics]]
 - [[Pebble Links]]: useful links related to your Pebble
 
 ### Technical docs

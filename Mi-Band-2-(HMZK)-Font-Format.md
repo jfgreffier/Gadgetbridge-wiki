@@ -14,7 +14,7 @@ The HMZK Format has three sections:
 The file starts with a 16 byte header:
 `484d 5a4b 01ff ffff ffff ffff ffff 7438`
 
-The first two bytes (`484d 5a4b`) are the "magic number" and spell out "HMZK" in ascii (It is not known what this stands for)
+The first two bytes (`484d 5a4b`) are the "magic number" and spell out "HMZK" in ascii (possible means HuaMi ZiKu, HuaMi character library)
 
 The next five bytes (`01ff ffff ffff ffff ffff`) are of an unknown purpose, likely just padding.
 

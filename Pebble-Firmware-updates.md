@@ -55,6 +55,16 @@ https://pebblefw.s3.amazonaws.com/pebble/v2_0/release-v3.8/pbz/Pebble-3.12.3-v2_
 ### Pebble Time
 https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.3-snowy_dvt.pbz
 
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.2-snowy_dvt.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.1-snowy_dvt.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.0.2-snowy_dvt.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.0.1-snowy_dvt.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/snowy_dvt/release-v3.8/pbz/Pebble-4.0-snowy_dvt.pbz
+
 ### Pebble Time Steel
 https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.3-snowy_s3.pbz
 
@@ -71,5 +81,25 @@ https://pebblefw.s3.amazonaws.com/pebble/snowy_s3/release-v3.8/pbz/Pebble-4.0-sn
 ### Pebble Time Round
 https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.3-spalding.pbz
 
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.2-spalding.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.1-spalding.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.0.2-spalding.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.0.1-spalding.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/spalding/release-v3.8/pbz/Pebble-4.0-spalding.pbz
+
 ### Pebble 2
 https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.3-silk.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.2-silk.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.1-silk.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.0.2-silk.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.0.1-silk.pbz
+
+https://pebblefw.s3.amazonaws.com/pebble/silk/release-v3.8/pbz/Pebble-4.0-silk.pbz

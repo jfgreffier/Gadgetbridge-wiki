@@ -1,5 +1,20 @@
+## CAUTION
+This feature **has the potential to brick your Mi Band 3**! We never tested it personally but according to at least one tester it works in the master branch (not yet released) **you're doing this at your own risk**.
 
-## Mi Band 2 (original version) firmwares
+## Getting the firmware
+Since we may not distribute the firmware, you have to do a little work. You need to find and download a Mi Fit APK file. There is an APK Mirror Web site that might help you find Mi Fit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.
+
+## Choosing the right firmware version for your Model
+
+Device Name | HW Revisions | needed files
+------------|--------------|------------
+Mi Band 3   | V0.18.3.4    | Mili_wuhan.fw, Mili_wuhan.res
+
+## Installing the firmware
+Copy the desired Mi Band 3 .fw and .res files to your Android device and open the .fw file from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process. Repeat with the .res file (you don't have to do this if the previous version you
+flashed had exactly the same .res version)
+
+## Known Firmware Versions
 
 ### 0.0.0 series (Alpha, not recommened to try)
 

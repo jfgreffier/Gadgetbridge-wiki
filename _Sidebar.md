@@ -10,6 +10,7 @@
  - [[Pebble]]
  - [[Mi Band]]
  - [[Mi Band 2]]
+ - [[Mi Band 3]]
  - [[Amazfit Bip]]
  - [[Amazfit Cor]]
  - [[HPlus]]

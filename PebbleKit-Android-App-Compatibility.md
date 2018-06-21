@@ -1,7 +1,7 @@
 ### [Canvas for Pebble](https://play.google.com/store/apps/details?id=com.pennas.pebblecanvas)
 Does not work. Complains about `Pebble not connected`. [#130](../issues/130) One can manually install the pbw from `/sdcard0/Android/data/com.pennas.pebblecanvas/files/`. Might work with Gadgetbridge > 0.7.2
 ## [Dashboard](https://play.google.com/store/apps/details?id=com.wordpress.ninedof.dashboard)
-Works. Version 4.12 of Android app (with Pebble app version 4.8)
+Works. Version 4.12 of Android app (with Pebble app version 4.8). Tested with Gadgetbridge 0.26.5
 ### [Meerun](https://play.google.com/store/apps/details?id=com.bwa.meerun)
 Works, no known issues
 ### Pebble Dialer

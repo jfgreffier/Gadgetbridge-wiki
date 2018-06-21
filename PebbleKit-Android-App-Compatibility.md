@@ -1,3 +1,5 @@
+## [Dashboard](https://play.google.com/store/apps/details?id=com.wordpress.ninedof.dashboard)
+Works. Version 4.12 of Android app (with Pebble app version 4.8)
 ### [Meerun](https://play.google.com/store/apps/details?id=com.bwa.meerun)
 Works, no known issues
 ### Pebble Dialer

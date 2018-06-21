@@ -8,3 +8,4 @@ Steps to follow:
 * Start Gadgetbridge and tap on your Pebble until it says initialized
 * Flash a firmware as noted in [[this wiki article|Pebble Firmware updates]]
 * Install a language pack as noted in [[this wiki article|Pebble-Language-Packs]]
+* Optionally enable Health if device supports it, see [[Pebble System Apps#health-not-for-pebble-classic-and-steel]]

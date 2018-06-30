@@ -45,8 +45,9 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.0.1.17 | 3.3.2     | no | ? | 28 | 959a3938131558c31e2ce5706e6c8fa5 | 03c9edeb32186c775464bf25aa06aea6
 1.0.1.50 | 3.3.6     | no | ? | 29 | 92a3541414faf7338bc2b119e6c655f8 | fd7e7236d1cd4380b433876802a23f37
 
-### 1.1.0 series (adds a lot of languages)
+### >1.1.0 series 
 
 fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5 
 ---------|-----------|--------|-------------------|---------|--------|---------
 1.1.0.14 | 3.4.1     | no | ? | 33 | 95cacbb55b73cba072be60da649b8964 | 57d2724c4d9b7af6f52ba07007c36251
+1.2.0.8  | 3.4.4.1   | no | ? | 34 | d5fdd509d40c0a3a65bb2b01efdb9475 | 0787aede985e4c3b3a08f30f41c4da89

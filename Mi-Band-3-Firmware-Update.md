@@ -6,9 +6,10 @@ Since we may not distribute the firmware, you have to do a little work. You need
 
 ## Choosing the right firmware version for your Model
 
-Device Name | HW Revisions | needed files
-------------|--------------|------------
-Mi Band 3   | V0.18.3.4    | Mili_wuhan.fw, Mili_wuhan.res
+Device Name           | HW Revisions | needed files
+----------------------|--------------|------------
+Mi Band 3             | V0.18.3.4    | Mili_wuhan.fw, Mili_wuhan.res
+Mi Band 3 (with NFC)  | V?.??.?.?    | Mili_chongqing.fw Mili_chongqing.res
 
 ## Installing the firmware
 Copy the desired Mi Band 3 .fw and .res files to your Android device and open the .fw file from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process. Repeat with the .res file (you don't have to do this if the previous version you

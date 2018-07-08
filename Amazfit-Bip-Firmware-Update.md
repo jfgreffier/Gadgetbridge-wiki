@@ -99,6 +99,7 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 
 ---------|-----------|--------|-------------------|---------|---------|--------|---------|--------
 1.0.1.00 | 3.4.2     | no     | deep sleep [\[1\]](#fwfootnote1) | 39 | 9567,8b05506,0,0, | 2e4d0a04b7c6a58bcebdb6643a164a5c | de29d2348bef88ce81fa307b2b5adddb | c426b761147dd871e22fb887a8de630f
 1.0.2.00 | 3.4.4.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 40 | 9567,8b05506,0,0, | 37ed4544d7b67ae9af2359d6f4583ae0 | 1bd4015d3e4beccd6f20e67404e0799d | c426b761147dd871e22fb887a8de630f
+1.1.1.00 | 3.4.4.2   | yes    | deep sleep [\[1\]](#fwfootnote1), weather-notification | 40 | 9567,8b05506,0,0, | 020d5b055cc32aa1f374641b10388661 | 1bd4015d3e4beccd6f20e67404e0799d | c426b761147dd871e22fb887a8de630f
 
 
 <a name="fwfootnote1">[1]</a>: deep sleep detection does not work properly with Gadgetbridge, see https://github.com/Freeyourgadget/Gadgetbridge/issues/686#issuecomment-343773224

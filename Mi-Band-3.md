@@ -1,3 +1,3 @@
-# Support for Mi Band 3 is work in Progress and not working yet!
+# Support for Mi Band 3 is available since Gadgetbridge 0.28.0
 
 - [[Mi Band 3 Firmware Update]]

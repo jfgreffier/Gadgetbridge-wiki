@@ -18,9 +18,11 @@ Flashing the `*.fw` triggers a reboot and will show a screen which will ask you 
 
 **Note 1:** Both upgrade and downgrade of firmware versions is possible but untested, we do not encourage do do it.
 
-Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English menus. In order to get it working you need to have Gadgetbridge version >=0.22.2. If the desired language is not shown  automatically, you can select it in at Settings->Amazfit Bip Settings->Language after installing the corresponding firmware file.
-
 **Note 2:** After flashing to a 0.0.9.x release the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again.
+
+**Note 3:** Starting with Firmware version 0.0.9.14 the Amazfit Bip supports English menus. If the desired language is not shown  automatically, you can select it in at Settings->Amazfit Bip Settings->Language after installing the corresponding firmware file.
+
+**Note 4:** Recent firmwares come in two version ("Normal" and Latin), While "Normal" seems to support English and Chinese (Spanish support introduced and later dropped), the Latin version seems to support Spanish and Russian. If you flash the Latin version you also need to flash the Latin font (which does not contain CJK Characters).
 
 ## Known firmware Versions
 

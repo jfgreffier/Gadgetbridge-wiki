@@ -29,7 +29,7 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   * **K9-Mail:** similar to SMS but for mails if you use the great *K9-Mail* client.
   * **Pebble Messages:** again similar to SMS, but for Pebble companion apps.
   * **Generic notification support:** tapping that lets you tell the Android system to allow Gadgetbridge accessing notifications (so it can forward them to your Gadget at all) or not. An additional checkbox allows you to define whether those "other notifications" should also be sent to your Gadget when the Android device's screen is on.
-  * **Blacklist Apps:** this opens a picker where you can exclude apps from having their notifications forwarded to your Gadget.
+  * **Blacklist Apps:** this opens a picker where you can exclude apps from having their notifications forwarded to your Gadget. You have two options: ``NOTIF`` and ``PEBBLE``: the former will prevent android notification from reaching your gadget, the latter will block Pebble Messages. For instance OsmAnd is known to send many Pebble Messages when using the navigation functionality and you might want to block these.
   * **About You:** Details on your person. These are sent to the Mi Band/Amazfit and Pebble Health to magically adjust their algorithms. We just know they have to be sent but we do not really know what happens on the device because firmware is not open source.
 * **Device specific settings**  
   Here you can configure things specific to the device you're using (see below).

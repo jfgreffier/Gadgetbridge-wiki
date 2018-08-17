@@ -17,6 +17,9 @@ Note: After flashing some firmware versions the first time coming from prior ver
 Copy the desired Mi Band 3 .fw and .res files to your Android device and open the .fw file from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process. Repeat with the .res file (you don't have to do this if the previous version you
 flashed had exactly the same .res version)
 
+## About Languages and fonts
+There are two font files for the Mi Band 3, Mili_wuhan.ft (the normal, pre-installed one) and Mili_wuhan.ft.kj which is only for Japanese and Korean (So far ONLY supported in Firmware 1.3.0.8, not 1.4.0.6). The language set in Gadgetbridge has to match the font file (.ft.kj file for Japanese and Korean, .ft file for everything else) - else the menu text is blank and the Mi Band will ask you to update if you reconnect, which means you have to install the matching font file. Also language switching will change the available characters, even if they share the same font. For example switching to German will enable ä,ö,ü but disable all Chinese characters.
+
 ## Known Firmware Versions
 
 ### 0.0.0 series (Alpha, not recommened to try)
@@ -52,7 +55,8 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 
 fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5 
 ---------|-----------|--------|-------------------|---------|--------|---------
-1.1.0.14 | 3.4.1     | no | ? | 33 | 95cacbb55b73cba072be60da649b8964 | 57d2724c4d9b7af6f52ba07007c36251
-1.2.0.8  | 3.4.4.1   | no | ? | 34 | d5fdd509d40c0a3a65bb2b01efdb9475 | 0787aede985e4c3b3a08f30f41c4da89
-1.3.0.4  | 3.4.4     | no | ? | 35 | 28a5d5b8d858ed1fb9c2e982d6d451f1 | 108869297b7d33a7fcd4c9dc3bb7eae5
-1.3.0.8  | 3.4.6.8   | no | ? | 37 | bfb6f624ac30288b06fbfe1874b59bf6 | 6aff668df38678a4f99308a103f3d96c
+1.1.0.14 | 3.4.1     | no  | ? | 33 | 95cacbb55b73cba072be60da649b8964 | 57d2724c4d9b7af6f52ba07007c36251
+1.2.0.8  | 3.4.4.1   | no  | ? | 34 | d5fdd509d40c0a3a65bb2b01efdb9475 | 0787aede985e4c3b3a08f30f41c4da89
+1.3.0.4  | 3.4.4     | no  | ? | 35 | 28a5d5b8d858ed1fb9c2e982d6d451f1 | 108869297b7d33a7fcd4c9dc3bb7eae5
+1.3.0.8  | 3.4.6.8   | yes | ? | 37 | bfb6f624ac30288b06fbfe1874b59bf6 | 6aff668df38678a4f99308a103f3d96c
+1.4.0.6  | 3.4.5     | no  | ? | 37 | 185de410470ad4af118cbbe47fc99023 | 6aff668df38678a4f99308a103f3d96c

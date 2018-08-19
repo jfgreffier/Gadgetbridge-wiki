@@ -60,4 +60,4 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.3.0.4  | 3.4.4     | no  | ? | 35 | 28a5d5b8d858ed1fb9c2e982d6d451f1 | 108869297b7d33a7fcd4c9dc3bb7eae5
 1.3.0.8  | 3.4.6.8   | yes | ? | 37 | bfb6f624ac30288b06fbfe1874b59bf6 | 6aff668df38678a4f99308a103f3d96c
 1.4.0.6  | 3.4.5     | no  | ? | 37 | 185de410470ad4af118cbbe47fc99023 | 6aff668df38678a4f99308a103f3d96c
-1.5.0.2  | 3.4.6     | no  | gb > 0.29 required | 40 | d35b91d0e1c33edfbc128412b285159d | 36019608bbe73ba09acf15c4dc1d9a09
+1.5.0.2  | 3.4.6     | no  | gb > 0.29.0 required to flash res | 40 | d35b91d0e1c33edfbc128412b285159d | 36019608bbe73ba09acf15c4dc1d9a09

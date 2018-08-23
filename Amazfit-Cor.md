@@ -1,6 +1,6 @@
 ## Amazfit Cor status
 
-This device acts almost like the [[Amazfit Bip]], but no one of the core team own the device, and it has no maintainer. We rely on external reports. 
+This device uses the same SoC like the [[Amazfit Bip]], and the firmware acts almost identically.
 
 ### Amazfit Cor Tech Specs
 * Product name: Amazfit Cor

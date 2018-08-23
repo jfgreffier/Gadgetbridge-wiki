@@ -1,14 +1,14 @@
-# Log File Location
-
-If you enable Gadgetbridge's logging in the "Settings" screen (under "Developer Options"/"Write Log Files"), the log file will be stored on your external sdcard in `/sdcard/Android/data/nodomain.freeyourgadget.gadgetbridge/files/gadgetbridge.log`.
-
-**Note**: Up to version 0.9.4, you needed to quit and restart Gadgetbridge to make the log setting work.
-
 # Log File Contents
 
 Please keep in mind Gadgetbridge log files may contain **lots of personal information**, including but not limited to health data, unique identifiers (such as a device MAC address), music preferences, etc. Consider editing the file and removing this information before sending the file to a public issue report.
 
 When sharing a log file, please try to make it as short as possible. If you already had logging enabled, disable and reenable it before doing the things that you want to get logged. Disable logging when you're done with that. That way, we will not have to wade through huge log files looking for the actual relevant lines.
+
+# Log File Location
+
+If you enable Gadgetbridge's logging in the "Settings" screen (under "Developer Options"/"Write Log Files"), the log file will be stored on your external sdcard in `/sdcard/Android/data/nodomain.freeyourgadget.gadgetbridge/files/gadgetbridge.log`.
+
+**Note**: Up to version 0.9.4, you needed to quit and restart Gadgetbridge to make the log setting work.
 
 # Android's Bluetooth Logging (BT Snoop)
 

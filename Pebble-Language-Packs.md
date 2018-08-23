@@ -7,7 +7,7 @@ Only one language pack can be installed at a time and it is possible to switch b
 
 There are official language packs which can be downloaded here:
 
-https://lp.getpebble.com/v1/languages (choose a version that is closest to your firmware, choosing a wrong version will simply result in untranslated text)
+https://lp.rebble.io/v1/languages (choose a version that is closest to your firmware, choosing a wrong version will simply result in untranslated text)
 
 Also a bunch of unofficial language packs exist:
 

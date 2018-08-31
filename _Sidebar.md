@@ -14,6 +14,7 @@
  - [[Amazfit Bip]]
  - [[Amazfit Cor]]
  - [[HPlus]]
+ - [[MyKronoz ZeTime]]
  - [[Support for a new Device]]
 
 **Development**

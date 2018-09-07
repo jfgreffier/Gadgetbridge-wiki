@@ -56,3 +56,5 @@ Each Bitmap consists of 16 16bit big endian (!!!) values. Each 16bit value repre
 
 ## [Font Editor](https://github.com/CBiX/bitsnpicas-hmzk)
 [CBiX/bitsnpicas-hmzk](https://github.com/CBiX/bitsnpicas-hmzk); modified version of [kreativekorp/bitsnpicas](https://github.com/kreativekorp/bitsnpicas) to support importing and exporting HMZK fonts based on this specification. This can be used to either extend the original fonts with custom characters or convert existing bitmap fonts from the supported file formats for the Mi Band 2.
+
+If you want to use other (more powerful) bitmap font editors (e.g. FontForge), you could use .bdf as an exchange format. However, be careful to export it with as close to 16x16 as possible and with little to no ascent/descent, as HMZK is fixed to 16x16 and fonts might look odd or cut off otherwise. Also the amount of possible characters is limited. Not sure about the hard limit, but try to stay within the size of the original chinese font, which contains 7226 characters. This is also used as a hard limit for export in bitsnpicas-hmzk for security reasons. 

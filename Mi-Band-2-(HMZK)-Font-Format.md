@@ -55,4 +55,4 @@ Each Bitmap consists of 16 16bit big endian (!!!) values. Each 16bit value repre
 ```
 
 ## [Font Editor](https://github.com/CBiX/bitsnpicas-hmzk)
-Modified version of https://github.com/kreativekorp/bitsnpicas to support importing and exporting HMZK fonts based on this specification. This can be used to either extend the original fonts with custom characters or convert existing bitmap fonts from the supported file formats for the Mi Band 2.
+[CBiX/bitsnpicas-hmzk](https://github.com/CBiX/bitsnpicas-hmzk); modified version of [kreativekorp/bitsnpicas](https://github.com/kreativekorp/bitsnpicas) to support importing and exporting HMZK fonts based on this specification. This can be used to either extend the original fonts with custom characters or convert existing bitmap fonts from the supported file formats for the Mi Band 2.

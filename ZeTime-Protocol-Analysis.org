@@ -1,0 +1,233 @@
+#+BEGIN_EXAMPLE
+Write [message] to handle 0x0012 (UUID 0x6006-0x8001) then "0x03" @0x0016 (0x6006-0x8002) to validate
+The reply is sent by notification from @0x0016
+
+Watch to phone requests: [Message] sent by notification to handle 0x001e (UUID 0x6006-0x8004)
+Reply by writting to handle 0x001a (UID 0x6006-0x8003)
+---
+Messages composition: '6f' + "subject" + "type" + payload size (2 bytes) + payload + '8f'
+
+Message have to be splitted into 20 bytes chunks!
+============
+HEADER CODES: 2 bytes: "subject" + "type"
+subjects:
+01: general (used for "return codes")
+02: S/N
+03:
+04: time synchronization
+05:
+08:
+0a:
+0b: (idle??? again???!!)
+0c: (idle???)
+16:
+30: user info
+50: goals
+52: information availability
+53: (idle?? too??)
+54: activity
+55: delete sleep data
+56: sleep
+5a: (idle one more time?? Seriously?)
+61: heartbeat rate sensor
+63: delete blood pressure data
+64: get blood pressure data
+76: phone notifications
+77: weather
+90: switch setting
+93: bind start
+94: bind end
+98: calendar month view
+99: calendar day view
+d0: music
+d8: upload nfc
+---
+types:
+70: request
+71: notification
+80: response
+81: return code when in 01
+---
+return codes (0181):
+00: OK
+01: NOK???
+
+============
+S/N:
+(watch to phone)
+(request: 6f02700100008f)
+------------
+6f PREAMBLE
+0280 TYPE: TIME S/N RESPONSE
+payload size (2 bytes) (0c00)
+S/N, ASCII encoded (12 bytes)
+8f END
+============
+TIME SYNCHRONIZATION:
+(phone to watch)
+------------
+6f PREAMBLE
+0471 TYPE: TIME SYNCHRONIZATION NOTIFICATION
+payload size (2 bytes) (0c00)
+year (2 bytes)
+mont (1 byte)
+day (1 byte)
+hour (1 byte)
+minutes (1 byte)
+seconds (1 byte)
+"0000010100" (5 bytes) I don't know the utility of these bytes. Anyway, it works when they're set to this value.
+8f END
+============
+INFORMATION AVAILABILITY:
+(watch to phone)
+(request: 6f52700100008f)
+------------
+6f PREAMBLE
+5280 TYPE: INFORMATION AVAILABILITY ANSWER
+payload size (2 bytes)
+# activity info avail. (2 bytes)
+sleep (2 bytes)
+heart (2 bytes)
+?? (2 bytes)
+8f END
+============
+ACTIVITY REPORT:
+(watch to phone)
+(request: 6f5470020000008f)
+------------
+6f PREAMBLE
+5480 TYPE: ACTIVITY RESPONSE
+payload size (2 bytes)
+packet number (2 bytes)
+unix epoch (4 bytes)
+steps (4 bytes)
+calories burnt (4 bytes)
+meters walked (4 bytes)
+minutes of activity (4 bytes)
+8f END
+============
+SLEEP:
+(watch to phone)
+(request: 6f5670020000008f)
+------------
+6f PREAMBLE
+5680 TYPE: SLEEP RESPONSE
+payload size (2 bytes)
+packet number (2 bytes)
+unix epoch (4 bytes)
+01 sleep type
+8f END
+------------
+sleep types:
+10: begin
+11: end
+00: deep sleep
+01: light sleep
+02: awake
+03: awake (beginning)
+============
+HEARBEAT SENSOR
+(watch to phone)
+(request: 6f6170020000008f)
+------------
+6f PREAMBLE
+6180 TYPE: HEARBEAT RESPONSE
+payload size (2 bytes) (0700)
+packet number (2 bytes)
+unix epoch (4 bytes)
+heart rate measure (1 byte)
+8f END
+============
+PHONE NOTIFICATIONS:
+(phone to watch)
+------------
+6f PREAMBLE
+7671 TYPE: PHONE NOTIFICATION NOTIFICATION
+payload size (2 bytes)
+Notification type (1 byte)
+# notif same type (1 byte) //message count
+subject size (1 byte)
+text size (1 byte)
+subject (UTF-8 encoded)
+text (UTF-8 encoded)
+timestamp (YYYYMMDDTHHmmSS, ASCII encoded, 1 byte per character)
+8f END
+------------
+Notification types:
+00: missed call
+01: SMS
+02: Yellow buble (unknown notification)
+03: e-mail
+04: nothing
+05: incomming call
+06: stop incomming call (don't forget to send it, otherwise the watch doesn't stop ringing)
+07: Multi-users message (I think, from the icon)
+08: Viber
+09: Snapchat
+0a: Whatsapp
+0b: I don't know what this is
+0c: Facebook
+0d: Hangout
+0e: GMail
+0f: FB Messenger
+10: Instagram
+and others...
+============
+CALENDAR EVENT:
+(phone to watch)
+------------
+6f PREAMBLE
+9971 TYPE: CALENDAR EVENT NOTIFICATION
+payload size (2 bytes)
+event number (1 byte) (1-3 ?)
+year (2 bytes)
+month (1 byte)
+day (1 byte)
+hour (2 bytes)
+minutes (2 bytes)
+text size (1 byte)
+TEXT (UTF-8 encoded)
+8f END
+============
+WEATHER:
+(phone to watch)
+------------
+6f PREAMBLE
+7771 TYPE: WEATHER NOTIFICATION
+current weather (5 bytes)
+d+1 weather (5 bytes)
+d+2 weather (5 bytes)
+d+3 weather (5 bytes)
+Location name (UTF-8 encoded)
+8f END
+------------
+weather (5 bytes):
+"00" ? always 00 (unit: 0 = °C)
+current temperature
+min
+max
+"icon"
+------------
+icons:
+01: cloudy
+04: rainy
+06: stormy
+============
+MUSIC PROTOCOL:
+(both ways)
+------------
+Requests:
+	00: return simple status.
+Notifications:
+	00: play; reply with simple status
+	01: pause; reply with simple status
+	02: precedent song; reply with simple status
+	03: next song; reply with simple status
+	04 set volume to + arg; reply with volume status
+Replies:
+	simple status: status + title (UTF-8)
+		00: playing
+		01: paused
+	volume status: "02" + current volume (1 byte)
+============
+#+END_EXAMPLE

@@ -16,7 +16,7 @@ The file starts with a 16 byte header:
 
 The first two bytes (`484d 5a4b`) are the "magic number" and spell out "HMZK" in ascii (possibly means HuaMi ZiKu, HuaMi character library)
 
-The next five bytes (`01ff ffff ffff ffff ffff`) are of an unknown purpose, likely just padding.
+The next five bytes (`01ff ffff ffff ffff ffff` in the chinese font, `01ff ffff ff00 ffff ffff` in the english font) are of an unknown purpose, likely just padding.
 
 The last two bytes are a 16bit little-endian integer describing the offset of the bitmap section from the character section in bytes (to find the absolute location of the bitmap section, add 16 to this number). This value can also be interpreted as length of the character section in bytes.
 

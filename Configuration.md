@@ -17,16 +17,23 @@ As we want to configure Gadgetbridge, we obviously choose the first item – whi
 Most of the items here are pretty much self explaining. Nevertheless, I'll mention each of them with at least a short description:
 
 * **General Settings**
-  * **Connect when Bluetooth activated:** if checked, Gadgetbridge will try to automatically connect your Gadget as soon as Bluetooth gets toggled on.
+  * **Start automatically:** start GadgetBridge when the phone starts
+  * **Connect to GadgetBridge device when when Bluetooth is turned on:** if checked, Gadgetbridge will try to automatically connect your Gadget as soon as Bluetooth gets toggled on.
   * **Reconnect automatically:** check this if you want Gadgetbridge to automatically try reconnecting your Gadget in case the connection was lost.
   * **Preferred Audioplayer:** tapping this will open a popup listing audio players Gadgetbridge has found on your Android device, and lets you pick one. You can leave this on „Default“ or explicitly select your favorite player if you encounter issues with your Gadgets remote-controlling.
   * **Theme:** this is for the Gadgetbridge app itself, and lets you chose between a dark and a bright skin.
-  * **Language:** Gadgetbridge uses the system language by default. Here you can override this if you want.
+  * **Language and region settings:**
+    * **Language:** Gadgetbridge uses the system language by default. Here you can override this if you want.
+    * **Units:** Metric (eg. KM, Kg, cm.) or Imperial (eg. Miles, Lbs., in.)
+    * **Transliteration:** forces replacing special characters with Latin / ASCII only. Currently supports Arabic, French, Spanish, Bengali Farsi, Persian, Scandinavian, Lithuanian, Bengali, Arabic, Farsi, Ukrainian cyrillic characters, Greek, German, Hebrew.
+    * **Right to Left Support:** for devices that don't support right-to-left languages, enabling Contextual Arabic and setting the max. line length
+
+* **Date and time**
   * **Sync time:** Whether Gadgetbridge should synchronize date and time from your Android device with your Gadget (usually updating the latter). When checked, this is done each time the Gadget gets connected, and whenever you change date/time or timezone on your Android device.
+
 * **Notifications**
   * **Phone Calls:** chose whether incoming calls should be signalled to your Gadget.
   * **SMS:** chose when incoming SMS should cause notifications on your Gadget: always, only when your Android device's screen is off, never.
-  * **K9-Mail:** similar to SMS but for mails if you use the great *K9-Mail* client.
   * **Pebble Messages:** again similar to SMS, but for Pebble companion apps.
   * **Generic notification support:** tapping that lets you tell the Android system to allow Gadgetbridge accessing notifications (so it can forward them to your Gadget at all) or not. An additional checkbox allows you to define whether those "other notifications" should also be sent to your Gadget when the Android device's screen is on.
   * **Blacklist Apps:** this opens a picker where you can exclude apps from having their notifications forwarded to your Gadget. You have two options: ``NOTIF`` and ``PEBBLE``: the former will prevent android notification from reaching your gadget, the latter will block Pebble Messages. For instance OsmAnd is known to send many Pebble Messages when using the navigation functionality and you might want to block these.
@@ -35,7 +42,6 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   Here you can configure things specific to the device you're using (see below).
 * **Developer Options**
   * **Write Log Files:** Whether Gadgetbridge should create its own log. You won't need that normally, but might be asked to activate it for troubleshooting when you've opened an issue in [our issue tracker](/Freeyourgadget/Gadgetbridge/issues).
-
 
 ### Pebble specific settings
 [![PebbleSettings (1)](https://i.imgur.com/SRIEZYvm.png)](https://i.imgur.com/SRIEZYv.png) [![PebbleSettings (2)](https://i.imgur.com/eEJ5caxm.png)](https://i.imgur.com/eEJ5cax.png)  
@@ -58,7 +64,6 @@ Most of the items here are pretty much self explaining. Nevertheless, I'll menti
   * **Enable untested features:** checking this will make some additional features available which are either not yet tested thoroughly to be called "stable", or are otherwise primarily intended for developers and testers. What exactly is covered by that is subject to change between versions, so we won't document that here.
   * **Emulator IP:**
   * **Emulator Port:**
-
 
 ### Mi Band / Amazfit specific settings
 [![MiBandSettings (1)](https://i.imgur.com/NJA87grm.png)](https://i.imgur.com/NJA87gr.png) [![MiBandSettings (2)](https://i.imgur.com/TzW42fTm.png)](https://i.imgur.com/TzW42fT.png)  

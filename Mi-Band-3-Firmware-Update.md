@@ -8,7 +8,7 @@ Since we may not distribute the firmware, you have to do a little work. You need
 
 Device Name           | HW Revisions | needed files
 ----------------------|--------------|------------
-Mi Band 3             | V0.18.3.4 V0.18.3.6    | Mili_wuhan.fw, Mili_wuhan.res
+Mi Band 3             | V0.18.3.4 V0.18.3.6 V0.18.4.1    | Mili_wuhan.fw, Mili_wuhan.res
 Mi Band 3 (with NFC)  | V?.??.?.?    | Mili_chongqing.fw Mili_chongqing.res
 
 Note: After flashing some firmware versions the first time coming from prior versions you have to remove the pairing in Android Bluetooth settings, then press the + button in Gadgetbridge to pair again. Do this if you have problems connecting after a firmware update, you wont lose any data. After that continue with flashing the .res file.

@@ -15,7 +15,8 @@ Note: After flashing some firmware versions the first time coming from prior ver
 
 ## Installing the firmware
 Copy the desired Mi Band 3 .fw and .res files to your Android device and open the .fw file from any file manager on that device. The Gadgetbridge firmware update activity should then be started and guide you through the installation process. Repeat with the .res file (you don't have to do this if the previous version you
-flashed had exactly the same .res version)
+flashed had exactly the same .res version).   
+If you get the error "Element cannot be installed" or "The file format is not supported" try a different file manager. [Simple File Manager](https://f-droid.org/packages/com.simplemobiletools.filemanager/) should work.
 
 ## About Languages and fonts
 There are two font files for the Mi Band 3, Mili_wuhan.ft (the normal, pre-installed one) and Mili_wuhan.ft.kj which is only for Japanese and Korean (So far ONLY supported in Firmware 1.3.0.8, not 1.4.0.6). The language set in Gadgetbridge has to match the font file (.ft.kj file for Japanese and Korean, .ft file for everything else) - else the menu text is blank and the Mi Band will ask you to update if you reconnect, which means you have to install the matching font file. Also language switching will change the available characters, even if they share the same font. For example switching to German will enable ä,ö,ü but disable all Chinese characters.

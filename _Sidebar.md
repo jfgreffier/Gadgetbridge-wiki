@@ -8,9 +8,10 @@
 
 **Device Related**
  - [[Pebble]]
- - [[Mi Band]]
- - [[Mi Band 2]]
- - [[Mi Band 3]]
+ - [[Mi Band 1, 2, and 3]]
+     - [[Mi Band]]
+     - [[Mi Band 2]]
+     - [[Mi Band 3]]
  - [[Amazfit Bip]]
  - [[Amazfit Cor]]
  - [[HPlus]]

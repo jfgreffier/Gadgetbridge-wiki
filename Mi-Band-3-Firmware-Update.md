@@ -62,7 +62,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.3.0.8  | 3.4.6.8   | yes | ? | 37 | bfb6f624ac30288b06fbfe1874b59bf6 | 6aff668df38678a4f99308a103f3d96c
 1.4.0.6  | 3.4.5     | no  | ? | 37 | 185de410470ad4af118cbbe47fc99023 | 6aff668df38678a4f99308a103f3d96c
 1.4.0.12 | 3.4.6.6   | no  | ? | 40 | b88a78645b6ceba7f352c70471018e67 | 36019608bbe73ba09acf15c4dc1d9a09
-1.5.0.2  | 3.4.6     | no  | ? | 40 | d35b91d0e1c33edfbc128412b285159d | 36019608bbe73ba09acf15c4dc1d9a09
+1.5.0.2  | 3.4.6     | yes  | ? | 40 | d35b91d0e1c33edfbc128412b285159d | 36019608bbe73ba09acf15c4dc1d9a09
 1.5.0.7  | 3.4.7.10  | no  | ? | 40 | e25aa35f47df6a5d256e158c1fd5e7e1 | 36019608bbe73ba09acf15c4dc1d9a09
 1.5.0.11 | 3.4.7.27  | no  | ? | 40 | 4013ff5318f2f5be99a64a71f00acb4c | 36019608bbe73ba09acf15c4dc1d9a09
 1.6.0.16 | 3.4.7     | no  | ? | 40 | efa49a6d1e0e48add3099d4e819874b6 | 36019608bbe73ba09acf15c4dc1d9a09

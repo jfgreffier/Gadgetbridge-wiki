@@ -1,5 +1,5 @@
 ## CAUTION
-This feature **has the potential to brick your Amazfit Bip**! That said, this has never happened to any of the developers through flashing, but remember **you're doing this at your own risk**. However we had one brick caused by a faulty beta firmware[\[3\]](#fwfootnote3).
+This feature **has the potential to brick your Amazfit Bip**! That said, this has never happened to any of the developers through flashing, but remember **you're doing this at your own risk**. However we had one brick caused by the faulty beta firmware 0.1.0.51 [\[3\]](#fwfootnote3).
 
 ## Getting the firmware
 Since we may not distribute the firmware, you have to do a little work. You need to find and download a Mi Fit APK file. There is an APK Mirror Web site that might help you find Mi Fit. Extract the downloaded .apk file with "unzip", and you will find an `assets/` directory containing `*.fw` files, among others.

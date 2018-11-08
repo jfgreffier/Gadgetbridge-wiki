@@ -103,12 +103,10 @@ fw ver    | MiFit ver | tested | known&nbsp;issues | res ver | gps ver | fw-md5 
 1.0.2.00[2] | 3.4.4.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 40 | 9567,8b05506,0,0, | 37ed4544d7b67ae9af2359d6f4583ae0 | 1bd4015d3e4beccd6f20e67404e0799d | c426b761147dd871e22fb887a8de630f
 1.1.1.00[2] | 3.4.4.2   | yes    | deep sleep [\[1\]](#fwfootnote1), slowed a bit | 40 | 9567,8b05506,0,0, | 020d5b055cc32aa1f374641b10388661 | 1bd4015d3e4beccd6f20e67404e0799d | c426b761147dd871e22fb887a8de630f
 1.1.2.05    | 3.4.4     | yes    | deep sleep [\[1\]](#fwfootnote1) | 41 | 9567,8b05506,0,0, | 21edab6ad18108817409107bc5425e36 | c49e723e02f8ba27682641bc473b3519 | c426b761147dd871e22fb887a8de630f
-1.1.5.02[2] | 3.5.3.1   | yes    | deep sleep [\[1\]](#fwfootnote1) | 42 | 15974,e61dd16,126[4] | 42ded708876938608d0496eac96dc96e | 01e1408f4cc42e6c428b12d586675463 | decbf6ac1bd747a9c78dbe00d77e9652
+1.1.5.02    | 3.5.3     | yes    | deep sleep [\[1\]](#fwfootnote1) | 42 | 15974,e61dd16,126 | 42ded708876938608d0496eac96dc96e | 01e1408f4cc42e6c428b12d586675463 | decbf6ac1bd747a9c78dbe00d77e9652
 
 <a name="fwfootnote1">[1]</a>: deep sleep detection does not work properly with Gadgetbridge, see https://github.com/Freeyourgadget/Gadgetbridge/issues/686#issuecomment-343773224
 
 [2] Beta Firmware (never appeared in a regular Mi Fit release)
 
 <a name="fwfootnote3">[3]</a>: **We had a brick on this firmware, a bootloop occurred without any way to fix it.** This has also been confirmed here https://4pda.ru/forum/index.php?s=&showtopic=835724&view=findpost&p=63329141
-
-[4] Flashing this needs Gadgetbridge master from git

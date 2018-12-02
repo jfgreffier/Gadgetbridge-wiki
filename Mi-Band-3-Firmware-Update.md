@@ -21,7 +21,7 @@ If you get the error "Element cannot be installed" or "The file format is not su
 ## About Languages and fonts
 There are two font files for the Mi Band 3, Mili_wuhan.ft (the normal, pre-installed one) and Mili_wuhan.ft.kj which is only for Japanese and Korean (So far ONLY supported in Firmware 1.3.0.8, not 1.4.0.6). The language set in Gadgetbridge has to match the font file (.ft.kj file for Japanese and Korean, .ft file for everything else) - else the menu text is blank and the Mi Band will ask you to update if you reconnect, which means you have to install the matching font file. Also language switching will change the available characters, even if they share the same font. For example switching to German will enable ä,ö,ü but disable all Chinese characters.
 
-## Known Firmware Versions
+## Known Firmware Versions (Mi Band 3 without NFC)
 
 ### 0.0.0 series (Alpha, not recommened to try)
 
@@ -69,3 +69,31 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.8.0.0  | 3.5.2     | yes  | ? | 42 | 7dd4b563f47584d923729e07165ecba2 | 8b6394b18f81c25ad9c5b5c10a027b01
 2.0.0.4  | 3.5.3     | yes  | ? | 44 | d3c210c3fde4f02da8a012bd78875756 | 0dfb4d6a39c7d3651c7a5c26dd45846c
 2.2.0.12 | 3.5.5.3   | no  | ? | 46 | c0e8a785f58b31b83d8b9dd9686ef73a | 36639114613677305ccc935234d09ea8
+
+
+## Known Firmware Versions (Mi Band 3 with NFC)
+
+### 0.0.0 series (Alpha, not recommened to try)
+
+fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5 
+---------|-----------|--------|-------------------|---------|--------|---------
+0.0.0.31 | 3.4.0.1   | no | ? | 32 | ef39594666b06badee7889e956b872fd | fcd43383c85180380ee7bcd908cfd574
+0.0.0.47 | 3.4.2     | no | ? | 33 | 04dbb9ecba849cbb4a2690c5497745f7 | 57d2724c4d9b7af6f52ba07007c36251
+
+### >1.0.0 series
+fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5 
+---------|-----------|--------|-------------------|---------|--------|---------
+1.0.0.3  | 3.4.4.1   | no | ? | 34 | 22c116ed6112ccc0360dbe693da7c6a2 | 0787aede985e4c3b3a08f30f41c4da89
+1.1.0.20 | 3.4.6.8   | no | ? | 37 | c6a8a78e9a71e3fe184ad6e032ea060d | 6aff668df38678a4f99308a103f3d96c
+1.1.0.4  | 3.4.3     | no | ? | 34 | a6073b0e3806191f033997a2231bcb1f | 0787aede985e4c3b3a08f30f41c4da89
+1.2.0.0  | 3.4.6.6   | no | ? | 40 | 0a4b4a2167713605666842ca6a0e959e | 36019608bbe73ba09acf15c4dc1d9a09
+1.2.0.2  | 3.4.7.2   | no | ? | 40 | 017d8c919ca6fc31da55e3e09196d091 | 36019608bbe73ba09acf15c4dc1d9a09
+1.2.0.26 | 3.4.7     | no | ? | 40 | 9c44dc42acaac35f882e08d35d57702d | 36019608bbe73ba09acf15c4dc1d9a09
+1.2.0.30 | 3.5.0     | no | ? | 40 | 28ae6347c526d9ce07f404427d34b7b7 | 36019608bbe73ba09acf15c4dc1d9a09
+1.2.0.8  | 3.4.7.58  | no | ? | 40 | 0e285b28cb6abde8bfc24c800c7171e2 | 36019608bbe73ba09acf15c4dc1d9a09
+1.3.0.0  | 3.5.2     | no | ? | 42 | 69567576eec1338584d469830c8e8a28 | 8b6394b18f81c25ad9c5b5c10a027b01
+1.3.0.3  | 3.5.2.2   | no | ? | 43 | 5e8d086cd35de2e26d2629485c20cb47 | 8e471c4a0610788cc4bce9c9bb1825a3
+1.4.0.2  | 3.5.3.1   | no | ? | 44 | 857ea0786a76a1c44c962fc418d35bfa | 0dfb4d6a39c7d3651c7a5c26dd45846c
+1.4.0.4  | 3.5.3     | no | ? | 44 | b79dc37bc482a3c292ff05a9dcca68d3 | 0dfb4d6a39c7d3651c7a5c26dd45846c
+1.5.0.2  | 3.5.4     | no | ? | 44 | 950c505a783824ae921ff95cc8114543 | 0dfb4d6a39c7d3651c7a5c26dd45846c
+1.6.0.6  | 3.5.5.3   | no | ? | 46 | 2849fd65e08c02a57d11fa4971162cc9 | 36639114613677305ccc935234d09ea8

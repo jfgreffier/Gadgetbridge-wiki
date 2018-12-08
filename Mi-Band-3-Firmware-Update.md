@@ -68,7 +68,7 @@ fw ver   | MiFit ver | tested | known&nbsp;issues | res ver | fw-md5 | res-md5
 1.6.0.16 | 3.4.7     | no  | ? | 40 | efa49a6d1e0e48add3099d4e819874b6 | 36019608bbe73ba09acf15c4dc1d9a09
 1.8.0.0  | 3.5.2     | yes  | ? | 42 | 7dd4b563f47584d923729e07165ecba2 | 8b6394b18f81c25ad9c5b5c10a027b01
 2.0.0.4  | 3.5.3     | yes  | ? | 44 | d3c210c3fde4f02da8a012bd78875756 | 0dfb4d6a39c7d3651c7a5c26dd45846c
-2.2.0.12 | 3.5.5.3   | no  | ? | 46 | c0e8a785f58b31b83d8b9dd9686ef73a | 36639114613677305ccc935234d09ea8
+2.2.0.12 | 3.5.5.3 & 3.5.5.4   | yes  | ? | 46 | c0e8a785f58b31b83d8b9dd9686ef73a | 36639114613677305ccc935234d09ea8
 
 
 ## Known Firmware Versions (Mi Band 3 with NFC)

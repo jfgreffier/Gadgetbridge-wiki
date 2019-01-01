@@ -5,6 +5,7 @@ This page is about apps running on your Pebble, also called „Watchfaces“.
 * [How do I install them to my Pebble?](#how-do-i-install-them-to-my-pebble)
 * [How do I manage installed watchfaces?](#how-do-i-manage-installed-watchfaces)
 * [Why do some watchfaces not work fully?](#why-do-some-watchfaces-not-work-fully)
+* [How to get control of orphaned apps?](#how-to-get-control-of-orphaned-apps)
 
 ### Where can I find Watchfaces?
 You can find them on many places. The official source for watchfaces is the corresponding section in the [Rebble store][1]: [Watchfaces](https://apps.rebble.io/en_US/watchfaces?dev_settings=true). There you can browse through a large collection of watchfaces and, following the button on the end of each watchface page, download them via the „Download PBW“ button:
@@ -51,6 +52,8 @@ There are some restrictions to consider. Remember for example that Gadgetbridge 
 
 That's by design – and before you ask: No, Gadgetbridge won't get the Internet permission added. For your own sake (and so you can trust us not to send your data somewhere into the cloud). There *might* be an [Internet-enabled companion app](https://github.com/Freeyourgadget/Gadgetbridge/issues/302) (or addon) one day, though. To work around that, you could use watchfaces that have another Android companion app which comes with the Internet permission. Unfortunately, there are [security implications](https://github.com/Freeyourgadget/Gadgetbridge/issues/302#issuecomment-219211974) with all of them: don't blame the devs for that, they're innocents. Put into simple terms: as the watchfaces are installed on your Pebble (and not on the Android device), Android cannot assing them specific permissions – and thus they need to use less secure means of communication. Details behind the link.
 
+### How to get control of orphaned apps?
+Maybe you have started to use Gadgetbridge while there were apps already installed on your Pebble? Because Gadgetbridge only can take control of apps which were installed via Gadgetbridge the only way to remove apps or to configure them by Gadgetbridge is to download them again on your Android Device and to install them again via Gadgetbridge. 
 
 [1]: https://apps.rebble.io/ "Rebble Store"
 [2]: https://i.imgur.com/CVw5FhOm.png

@@ -1,11 +1,5 @@
 This page collects some useful links around your Pebble watch:
 
-* official Pebble sources
-    * [Pebble official blog](https://blog.getpebble.com/) (with firmware update changelogs etc.)
-    * [Pebble official blog](https://blog.getpebble.com/) (with firmware update changelogs etc.)
-    * [Watchfaces](https://apps.getpebble.com/en_US/watchfaces?dev_settings=true)
-    * [Pebble help](https://help.getpebble.com/customer/portal/articles/1722567-introduction-to-pebble)
-    * [Using Pebble Time](http://help.getpebble.com/customer/en/portal/topics/767707-using-pebble-time/articles?b_id=8309)
 * third party wikis and manuals
     * [Pebble Time Steel, Pebblet Time Round und Pebble Time – Anleitung und Handbuch](http://www.appdated.de/2016/03/pebble-time-steel-pebblet-time-round-und-pebble-time-anleitung-und-handbuch/) (German)
     * [Reddit Pebble Wiki](https://www.reddit.com/r/pebble/wiki/index)

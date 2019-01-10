@@ -16,6 +16,7 @@
  - [[Amazfit Cor]]
  - [[HPlus]]
  - [[MyKronoz ZeTime]]
+ - [[Casio]]
  - [[Support for a new Device]]
 
 **Development**

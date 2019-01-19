@@ -22,9 +22,9 @@ This device acts almost like the Mi Band 2, and almost all features that work on
 
 * Ignoring calls
 
-### Known issues that work on Mi Band 2:
+### Features that work on Mi Band 2 but not on the Bip:
 
-* Reboot does not work (debug menu)
+* Reboot (debug menu)
 
 ## references to other resources
 https://github.com/amazfitbip/
